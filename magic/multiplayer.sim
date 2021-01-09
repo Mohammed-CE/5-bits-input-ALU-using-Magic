@@ -1,0 +1,2704 @@
+| units: 100 tech: scmos format: MIT
+n adder2_0/or_0/m1_44_48# gnd m1_2828_n1524# 2 4 3721 -1326
+p adder2_0/or_0/m1_44_48# vdd m1_2828_n1524# 2 4 3721 -1397
+n adder2_0/a_512_128# gnd adder2_0/or_0/m1_44_48# 2 4 3673 -1326
+n adder2_0/a_528_88# adder2_0/or_0/m1_44_48# gnd 2 4 3689 -1326
+p adder2_0/a_528_88# adder2_0/or_0/nor1_0/a_19_32# adder2_0/or_0/m1_44_48# 2 4 3689 -1397
+p adder2_0/a_512_128# vdd adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 -1397
+p m1_3024_n1460# vdd adder2_0/xor3_0/a_n8_44# 2 4 3178 -1428
+n m1_3024_n1460# gnd adder2_0/xor3_0/a_n8_44# 2 4 3178 -1491
+p m1_2872_n1304# vdd adder2_0/xor3_0/a_32_44# 2 4 3334 -1428
+n m1_2872_n1304# gnd adder2_0/xor3_0/a_32_44# 2 4 3334 -1491
+p adder2_0/xor3_0/a_32_44# vdd adder2_0/xor3_0/a_35_76# 2 4 3269 -1428
+p adder2_0/xor3_0/a_n8_44# adder2_0/m1_76_8# adder2_0/xor3_0/a_n5_76# 2 4 3230 -1428
+p m1_2872_n1304# adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 -1428
+n m1_3024_n1460# gnd adder2_0/xor3_0/a_n20_12# 2 4 3285 -1492
+n adder2_0/xor3_0/a_32_44# adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 -1492
+n adder2_0/xor3_0/a_n8_44# adder2_0/xor3_0/a_n20_12# adder2_0/m1_76_8# 2 4 3230 -1492
+n m1_2872_n1304# adder2_0/m1_76_8# adder2_0/xor3_0/a_n20_12# 2 4 3245 -1492
+p m1_3024_n1460# adder2_0/xor3_0/a_35_76# adder2_0/m1_76_8# 2 4 3285 -1428
+p adder2_0/m1_76_8# vdd adder2_0/xor3_1/a_n8_44# 2 4 3422 -1428
+n adder2_0/m1_76_8# gnd adder2_0/xor3_1/a_n8_44# 2 4 3422 -1491
+p gnd vdd adder2_0/xor3_1/a_32_44# 2 4 3578 -1428
+n gnd gnd adder2_0/xor3_1/a_32_44# 2 4 3578 -1491
+p adder2_0/xor3_1/a_32_44# vdd adder2_0/xor3_1/a_35_76# 2 4 3513 -1428
+p adder2_0/xor3_1/a_n8_44# p5 adder2_0/xor3_1/a_n5_76# 2 4 3474 -1428
+p gnd adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 -1428
+n adder2_0/m1_76_8# gnd adder2_0/xor3_1/a_n20_12# 2 4 3529 -1492
+n adder2_0/xor3_1/a_32_44# adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 -1492
+n adder2_0/xor3_1/a_n8_44# adder2_0/xor3_1/a_n20_12# p5 2 4 3474 -1492
+n gnd p5 adder2_0/xor3_1/a_n20_12# 2 4 3489 -1492
+p adder2_0/m1_76_8# adder2_0/xor3_1/a_35_76# p5 2 4 3529 -1428
+n adder2_0/and_0/a_48_48# gnd adder2_0/a_512_128# 2 4 3381 -1326
+p adder2_0/and_0/a_48_48# vdd adder2_0/a_512_128# 2 4 3381 -1397
+p m1_2872_n1304# vdd adder2_0/and_0/a_48_48# 2 4 3337 -1397
+n m1_2872_n1304# gnd adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 -1326
+n m1_3024_n1460# adder2_0/and_0/nand_0/a_7_n40# adder2_0/and_0/a_48_48# 2 4 3353 -1326
+p m1_3024_n1460# adder2_0/and_0/a_48_48# vdd 2 4 3353 -1397
+n adder2_0/and_1/a_48_48# gnd adder2_0/a_528_88# 2 4 3625 -1326
+p adder2_0/and_1/a_48_48# vdd adder2_0/a_528_88# 2 4 3625 -1397
+p gnd vdd adder2_0/and_1/a_48_48# 2 4 3581 -1397
+n gnd gnd adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 -1326
+n adder2_0/m1_76_8# adder2_0/and_1/nand_0/a_7_n40# adder2_0/and_1/a_48_48# 2 4 3597 -1326
+p adder2_0/m1_76_8# adder2_0/and_1/a_48_48# vdd 2 4 3597 -1397
+n adder2_2/or_0/m1_44_48# gnd m1_1276_n1584# 2 4 1965 -1302
+p adder2_2/or_0/m1_44_48# vdd m1_1276_n1584# 2 4 1965 -1373
+n adder2_2/a_512_128# gnd adder2_2/or_0/m1_44_48# 2 4 1917 -1302
+n adder2_2/a_528_88# adder2_2/or_0/m1_44_48# gnd 2 4 1933 -1302
+p adder2_2/a_528_88# adder2_2/or_0/nor1_0/a_19_32# adder2_2/or_0/m1_44_48# 2 4 1933 -1373
+p adder2_2/a_512_128# vdd adder2_2/or_0/nor1_0/a_19_32# 2 4 1917 -1373
+p m1_1356_n1436# vdd adder2_2/xor3_0/a_n8_44# 2 4 1422 -1404
+n m1_1356_n1436# gnd adder2_2/xor3_0/a_n8_44# 2 4 1422 -1467
+p m1_1528_n1340# vdd adder2_2/xor3_0/a_32_44# 2 4 1578 -1404
+n m1_1528_n1340# gnd adder2_2/xor3_0/a_32_44# 2 4 1578 -1467
+p adder2_2/xor3_0/a_32_44# vdd adder2_2/xor3_0/a_35_76# 2 4 1513 -1404
+p adder2_2/xor3_0/a_n8_44# adder2_2/m1_76_8# adder2_2/xor3_0/a_n5_76# 2 4 1474 -1404
+p m1_1528_n1340# adder2_2/xor3_0/a_n5_76# vdd 2 4 1489 -1404
+n m1_1356_n1436# gnd adder2_2/xor3_0/a_n20_12# 2 4 1529 -1468
+n adder2_2/xor3_0/a_32_44# adder2_2/xor3_0/a_n20_12# gnd 2 4 1513 -1468
+n adder2_2/xor3_0/a_n8_44# adder2_2/xor3_0/a_n20_12# adder2_2/m1_76_8# 2 4 1474 -1468
+n m1_1528_n1340# adder2_2/m1_76_8# adder2_2/xor3_0/a_n20_12# 2 4 1489 -1468
+p m1_1356_n1436# adder2_2/xor3_0/a_35_76# adder2_2/m1_76_8# 2 4 1529 -1404
+p adder2_2/m1_76_8# vdd adder2_2/xor3_1/a_n8_44# 2 4 1666 -1404
+n adder2_2/m1_76_8# gnd adder2_2/xor3_1/a_n8_44# 2 4 1666 -1467
+p m1_2024_n1544# vdd adder2_2/xor3_1/a_32_44# 2 4 1822 -1404
+n m1_2024_n1544# gnd adder2_2/xor3_1/a_32_44# 2 4 1822 -1467
+p adder2_2/xor3_1/a_32_44# vdd adder2_2/xor3_1/a_35_76# 2 4 1757 -1404
+p adder2_2/xor3_1/a_n8_44# p7 adder2_2/xor3_1/a_n5_76# 2 4 1718 -1404
+p m1_2024_n1544# adder2_2/xor3_1/a_n5_76# vdd 2 4 1733 -1404
+n adder2_2/m1_76_8# gnd adder2_2/xor3_1/a_n20_12# 2 4 1773 -1468
+n adder2_2/xor3_1/a_32_44# adder2_2/xor3_1/a_n20_12# gnd 2 4 1757 -1468
+n adder2_2/xor3_1/a_n8_44# adder2_2/xor3_1/a_n20_12# p7 2 4 1718 -1468
+n m1_2024_n1544# p7 adder2_2/xor3_1/a_n20_12# 2 4 1733 -1468
+p adder2_2/m1_76_8# adder2_2/xor3_1/a_35_76# p7 2 4 1773 -1404
+n adder2_2/and_0/a_48_48# gnd adder2_2/a_512_128# 2 4 1625 -1302
+p adder2_2/and_0/a_48_48# vdd adder2_2/a_512_128# 2 4 1625 -1373
+p m1_1528_n1340# vdd adder2_2/and_0/a_48_48# 2 4 1581 -1373
+n m1_1528_n1340# gnd adder2_2/and_0/nand_0/a_7_n40# 2 4 1581 -1302
+n m1_1356_n1436# adder2_2/and_0/nand_0/a_7_n40# adder2_2/and_0/a_48_48# 2 4 1597 -1302
+p m1_1356_n1436# adder2_2/and_0/a_48_48# vdd 2 4 1597 -1373
+n adder2_2/and_1/a_48_48# gnd adder2_2/a_528_88# 2 4 1869 -1302
+p adder2_2/and_1/a_48_48# vdd adder2_2/a_528_88# 2 4 1869 -1373
+p m1_2024_n1544# vdd adder2_2/and_1/a_48_48# 2 4 1825 -1373
+n m1_2024_n1544# gnd adder2_2/and_1/nand_0/a_7_n40# 2 4 1825 -1302
+n adder2_2/m1_76_8# adder2_2/and_1/nand_0/a_7_n40# adder2_2/and_1/a_48_48# 2 4 1841 -1302
+p adder2_2/m1_76_8# adder2_2/and_1/a_48_48# vdd 2 4 1841 -1373
+n adder2_1/or_0/m1_44_48# gnd m1_2024_n1544# 2 4 2769 -1314
+p adder2_1/or_0/m1_44_48# vdd m1_2024_n1544# 2 4 2769 -1385
+n adder2_1/a_512_128# gnd adder2_1/or_0/m1_44_48# 2 4 2721 -1314
+n adder2_1/a_528_88# adder2_1/or_0/m1_44_48# gnd 2 4 2737 -1314
+p adder2_1/a_528_88# adder2_1/or_0/nor1_0/a_19_32# adder2_1/or_0/m1_44_48# 2 4 2737 -1385
+p adder2_1/a_512_128# vdd adder2_1/or_0/nor1_0/a_19_32# 2 4 2721 -1385
+p m1_2116_n1448# vdd adder2_1/xor3_0/a_n8_44# 2 4 2226 -1416
+n m1_2116_n1448# gnd adder2_1/xor3_0/a_n8_44# 2 4 2226 -1479
+p m1_2316_n1328# vdd adder2_1/xor3_0/a_32_44# 2 4 2382 -1416
+n m1_2316_n1328# gnd adder2_1/xor3_0/a_32_44# 2 4 2382 -1479
+p adder2_1/xor3_0/a_32_44# vdd adder2_1/xor3_0/a_35_76# 2 4 2317 -1416
+p adder2_1/xor3_0/a_n8_44# adder2_1/m1_76_8# adder2_1/xor3_0/a_n5_76# 2 4 2278 -1416
+p m1_2316_n1328# adder2_1/xor3_0/a_n5_76# vdd 2 4 2293 -1416
+n m1_2116_n1448# gnd adder2_1/xor3_0/a_n20_12# 2 4 2333 -1480
+n adder2_1/xor3_0/a_32_44# adder2_1/xor3_0/a_n20_12# gnd 2 4 2317 -1480
+n adder2_1/xor3_0/a_n8_44# adder2_1/xor3_0/a_n20_12# adder2_1/m1_76_8# 2 4 2278 -1480
+n m1_2316_n1328# adder2_1/m1_76_8# adder2_1/xor3_0/a_n20_12# 2 4 2293 -1480
+p m1_2116_n1448# adder2_1/xor3_0/a_35_76# adder2_1/m1_76_8# 2 4 2333 -1416
+p adder2_1/m1_76_8# vdd adder2_1/xor3_1/a_n8_44# 2 4 2470 -1416
+n adder2_1/m1_76_8# gnd adder2_1/xor3_1/a_n8_44# 2 4 2470 -1479
+p m1_2828_n1524# vdd adder2_1/xor3_1/a_32_44# 2 4 2626 -1416
+n m1_2828_n1524# gnd adder2_1/xor3_1/a_32_44# 2 4 2626 -1479
+p adder2_1/xor3_1/a_32_44# vdd adder2_1/xor3_1/a_35_76# 2 4 2561 -1416
+p adder2_1/xor3_1/a_n8_44# p6 adder2_1/xor3_1/a_n5_76# 2 4 2522 -1416
+p m1_2828_n1524# adder2_1/xor3_1/a_n5_76# vdd 2 4 2537 -1416
+n adder2_1/m1_76_8# gnd adder2_1/xor3_1/a_n20_12# 2 4 2577 -1480
+n adder2_1/xor3_1/a_32_44# adder2_1/xor3_1/a_n20_12# gnd 2 4 2561 -1480
+n adder2_1/xor3_1/a_n8_44# adder2_1/xor3_1/a_n20_12# p6 2 4 2522 -1480
+n m1_2828_n1524# p6 adder2_1/xor3_1/a_n20_12# 2 4 2537 -1480
+p adder2_1/m1_76_8# adder2_1/xor3_1/a_35_76# p6 2 4 2577 -1416
+n adder2_1/and_0/a_48_48# gnd adder2_1/a_512_128# 2 4 2429 -1314
+p adder2_1/and_0/a_48_48# vdd adder2_1/a_512_128# 2 4 2429 -1385
+p m1_2316_n1328# vdd adder2_1/and_0/a_48_48# 2 4 2385 -1385
+n m1_2316_n1328# gnd adder2_1/and_0/nand_0/a_7_n40# 2 4 2385 -1314
+n m1_2116_n1448# adder2_1/and_0/nand_0/a_7_n40# adder2_1/and_0/a_48_48# 2 4 2401 -1314
+p m1_2116_n1448# adder2_1/and_0/a_48_48# vdd 2 4 2401 -1385
+n adder2_1/and_1/a_48_48# gnd adder2_1/a_528_88# 2 4 2673 -1314
+p adder2_1/and_1/a_48_48# vdd adder2_1/a_528_88# 2 4 2673 -1385
+p m1_2828_n1524# vdd adder2_1/and_1/a_48_48# 2 4 2629 -1385
+n m1_2828_n1524# gnd adder2_1/and_1/nand_0/a_7_n40# 2 4 2629 -1314
+n adder2_1/m1_76_8# adder2_1/and_1/nand_0/a_7_n40# adder2_1/and_1/a_48_48# 2 4 2645 -1314
+p adder2_1/m1_76_8# adder2_1/and_1/a_48_48# vdd 2 4 2645 -1385
+n adder2_3/or_0/m1_44_48# gnd m1_552_n1532# 2 4 1217 -1314
+p adder2_3/or_0/m1_44_48# vdd m1_552_n1532# 2 4 1217 -1385
+n adder2_3/a_512_128# gnd adder2_3/or_0/m1_44_48# 2 4 1169 -1314
+n adder2_3/a_528_88# adder2_3/or_0/m1_44_48# gnd 2 4 1185 -1314
+p adder2_3/a_528_88# adder2_3/or_0/nor1_0/a_19_32# adder2_3/or_0/m1_44_48# 2 4 1185 -1385
+p adder2_3/a_512_128# vdd adder2_3/or_0/nor1_0/a_19_32# 2 4 1169 -1385
+p m1_596_n1260# vdd adder2_3/xor3_0/a_n8_44# 2 4 674 -1416
+n m1_596_n1260# gnd adder2_3/xor3_0/a_n8_44# 2 4 674 -1479
+p m1_764_n1327# vdd adder2_3/xor3_0/a_32_44# 2 4 830 -1416
+n m1_764_n1327# gnd adder2_3/xor3_0/a_32_44# 2 4 830 -1479
+p adder2_3/xor3_0/a_32_44# vdd adder2_3/xor3_0/a_35_76# 2 4 765 -1416
+p adder2_3/xor3_0/a_n8_44# adder2_3/m1_76_8# adder2_3/xor3_0/a_n5_76# 2 4 726 -1416
+p m1_764_n1327# adder2_3/xor3_0/a_n5_76# vdd 2 4 741 -1416
+n m1_596_n1260# gnd adder2_3/xor3_0/a_n20_12# 2 4 781 -1480
+n adder2_3/xor3_0/a_32_44# adder2_3/xor3_0/a_n20_12# gnd 2 4 765 -1480
+n adder2_3/xor3_0/a_n8_44# adder2_3/xor3_0/a_n20_12# adder2_3/m1_76_8# 2 4 726 -1480
+n m1_764_n1327# adder2_3/m1_76_8# adder2_3/xor3_0/a_n20_12# 2 4 741 -1480
+p m1_596_n1260# adder2_3/xor3_0/a_35_76# adder2_3/m1_76_8# 2 4 781 -1416
+p adder2_3/m1_76_8# vdd adder2_3/xor3_1/a_n8_44# 2 4 918 -1416
+n adder2_3/m1_76_8# gnd adder2_3/xor3_1/a_n8_44# 2 4 918 -1479
+p m1_1276_n1584# vdd adder2_3/xor3_1/a_32_44# 2 4 1074 -1416
+n m1_1276_n1584# gnd adder2_3/xor3_1/a_32_44# 2 4 1074 -1479
+p adder2_3/xor3_1/a_32_44# vdd adder2_3/xor3_1/a_35_76# 2 4 1009 -1416
+p adder2_3/xor3_1/a_n8_44# p8 adder2_3/xor3_1/a_n5_76# 2 4 970 -1416
+p m1_1276_n1584# adder2_3/xor3_1/a_n5_76# vdd 2 4 985 -1416
+n adder2_3/m1_76_8# gnd adder2_3/xor3_1/a_n20_12# 2 4 1025 -1480
+n adder2_3/xor3_1/a_32_44# adder2_3/xor3_1/a_n20_12# gnd 2 4 1009 -1480
+n adder2_3/xor3_1/a_n8_44# adder2_3/xor3_1/a_n20_12# p8 2 4 970 -1480
+n m1_1276_n1584# p8 adder2_3/xor3_1/a_n20_12# 2 4 985 -1480
+p adder2_3/m1_76_8# adder2_3/xor3_1/a_35_76# p8 2 4 1025 -1416
+n adder2_3/and_0/a_48_48# gnd adder2_3/a_512_128# 2 4 877 -1314
+p adder2_3/and_0/a_48_48# vdd adder2_3/a_512_128# 2 4 877 -1385
+p m1_764_n1327# vdd adder2_3/and_0/a_48_48# 2 4 833 -1385
+n m1_764_n1327# gnd adder2_3/and_0/nand_0/a_7_n40# 2 4 833 -1314
+n m1_596_n1260# adder2_3/and_0/nand_0/a_7_n40# adder2_3/and_0/a_48_48# 2 4 849 -1314
+p m1_596_n1260# adder2_3/and_0/a_48_48# vdd 2 4 849 -1385
+n adder2_3/and_1/a_48_48# gnd adder2_3/a_528_88# 2 4 1121 -1314
+p adder2_3/and_1/a_48_48# vdd adder2_3/a_528_88# 2 4 1121 -1385
+p m1_1276_n1584# vdd adder2_3/and_1/a_48_48# 2 4 1077 -1385
+n m1_1276_n1584# gnd adder2_3/and_1/nand_0/a_7_n40# 2 4 1077 -1314
+n adder2_3/m1_76_8# adder2_3/and_1/nand_0/a_7_n40# adder2_3/and_1/a_48_48# 2 4 1093 -1314
+p adder2_3/m1_76_8# adder2_3/and_1/a_48_48# vdd 2 4 1093 -1385
+n adder2_4/or_0/m1_44_48# gnd adder2_4/m2_576_112# 2 4 493 -1302
+p adder2_4/or_0/m1_44_48# vdd adder2_4/m2_576_112# 2 4 493 -1373
+n adder2_4/a_512_128# gnd adder2_4/or_0/m1_44_48# 2 4 445 -1302
+n adder2_4/a_528_88# adder2_4/or_0/m1_44_48# gnd 2 4 461 -1302
+p adder2_4/a_528_88# adder2_4/or_0/nor1_0/a_19_32# adder2_4/or_0/m1_44_48# 2 4 461 -1373
+p adder2_4/a_512_128# vdd adder2_4/or_0/nor1_0/a_19_32# 2 4 445 -1373
+p gnd vdd adder2_4/xor3_0/a_n8_44# 2 4 -50 -1404
+n gnd gnd adder2_4/xor3_0/a_n8_44# 2 4 -50 -1467
+p m1_40_n1315# vdd adder2_4/xor3_0/a_32_44# 2 4 106 -1404
+n m1_40_n1315# gnd adder2_4/xor3_0/a_32_44# 2 4 106 -1467
+p adder2_4/xor3_0/a_32_44# vdd adder2_4/xor3_0/a_35_76# 2 4 41 -1404
+p adder2_4/xor3_0/a_n8_44# adder2_4/m1_76_8# adder2_4/xor3_0/a_n5_76# 2 4 2 -1404
+p m1_40_n1315# adder2_4/xor3_0/a_n5_76# vdd 2 4 17 -1404
+n gnd gnd adder2_4/xor3_0/a_n20_12# 2 4 57 -1468
+n adder2_4/xor3_0/a_32_44# adder2_4/xor3_0/a_n20_12# gnd 2 4 41 -1468
+n adder2_4/xor3_0/a_n8_44# adder2_4/xor3_0/a_n20_12# adder2_4/m1_76_8# 2 4 2 -1468
+n m1_40_n1315# adder2_4/m1_76_8# adder2_4/xor3_0/a_n20_12# 2 4 17 -1468
+p gnd adder2_4/xor3_0/a_35_76# adder2_4/m1_76_8# 2 4 57 -1404
+p adder2_4/m1_76_8# vdd adder2_4/xor3_1/a_n8_44# 2 4 194 -1404
+n adder2_4/m1_76_8# gnd adder2_4/xor3_1/a_n8_44# 2 4 194 -1467
+p m1_552_n1532# vdd adder2_4/xor3_1/a_32_44# 2 4 350 -1404
+n m1_552_n1532# gnd adder2_4/xor3_1/a_32_44# 2 4 350 -1467
+p adder2_4/xor3_1/a_32_44# vdd adder2_4/xor3_1/a_35_76# 2 4 285 -1404
+p adder2_4/xor3_1/a_n8_44# p9 adder2_4/xor3_1/a_n5_76# 2 4 246 -1404
+p m1_552_n1532# adder2_4/xor3_1/a_n5_76# vdd 2 4 261 -1404
+n adder2_4/m1_76_8# gnd adder2_4/xor3_1/a_n20_12# 2 4 301 -1468
+n adder2_4/xor3_1/a_32_44# adder2_4/xor3_1/a_n20_12# gnd 2 4 285 -1468
+n adder2_4/xor3_1/a_n8_44# adder2_4/xor3_1/a_n20_12# p9 2 4 246 -1468
+n m1_552_n1532# p9 adder2_4/xor3_1/a_n20_12# 2 4 261 -1468
+p adder2_4/m1_76_8# adder2_4/xor3_1/a_35_76# p9 2 4 301 -1404
+n adder2_4/and_0/a_48_48# gnd adder2_4/a_512_128# 2 4 153 -1302
+p adder2_4/and_0/a_48_48# vdd adder2_4/a_512_128# 2 4 153 -1373
+p m1_40_n1315# vdd adder2_4/and_0/a_48_48# 2 4 109 -1373
+n m1_40_n1315# gnd adder2_4/and_0/nand_0/a_7_n40# 2 4 109 -1302
+n gnd adder2_4/and_0/nand_0/a_7_n40# adder2_4/and_0/a_48_48# 2 4 125 -1302
+p gnd adder2_4/and_0/a_48_48# vdd 2 4 125 -1373
+n adder2_4/and_1/a_48_48# gnd adder2_4/a_528_88# 2 4 397 -1302
+p adder2_4/and_1/a_48_48# vdd adder2_4/a_528_88# 2 4 397 -1373
+p m1_552_n1532# vdd adder2_4/and_1/a_48_48# 2 4 353 -1373
+n m1_552_n1532# gnd adder2_4/and_1/nand_0/a_7_n40# 2 4 353 -1302
+n adder2_4/m1_76_8# adder2_4/and_1/nand_0/a_7_n40# adder2_4/and_1/a_48_48# 2 4 369 -1302
+p adder2_4/m1_76_8# adder2_4/and_1/a_48_48# vdd 2 4 369 -1373
+n multi_0/addbox_4/adder2_0/or_0/m1_44_48# gnd multi_1/cin 2 4 3721 242
+p multi_0/addbox_4/adder2_0/or_0/m1_44_48# vdd multi_1/cin 2 4 3721 171
+n multi_0/addbox_4/adder2_0/a_512_128# gnd multi_0/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3673 242
+n multi_0/addbox_4/adder2_0/a_528_88# multi_0/addbox_4/adder2_0/or_0/m1_44_48# gnd 2 4 3689 242
+p multi_0/addbox_4/adder2_0/a_528_88# multi_0/addbox_4/adder2_0/or_0/nor1_0/a_19_32# multi_0/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3689 171
+p multi_0/addbox_4/adder2_0/a_512_128# vdd multi_0/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 171
+p multi_0/addbox_4/m1_n12_92# vdd multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 140
+n multi_0/addbox_4/m1_n12_92# gnd multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 77
+p gnd vdd multi_0/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 140
+n gnd gnd multi_0/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 77
+p multi_0/addbox_4/adder2_0/xor3_0/a_32_44# vdd multi_0/addbox_4/adder2_0/xor3_0/a_35_76# 2 4 3269 140
+p multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# multi_0/addbox_4/adder2_0/m1_76_8# multi_0/addbox_4/adder2_0/xor3_0/a_n5_76# 2 4 3230 140
+p gnd multi_0/addbox_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 140
+n multi_0/addbox_4/m1_n12_92# gnd multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3285 76
+n multi_0/addbox_4/adder2_0/xor3_0/a_32_44# multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 76
+n multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# multi_0/addbox_4/adder2_0/m1_76_8# 2 4 3230 76
+n gnd multi_0/addbox_4/adder2_0/m1_76_8# multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3245 76
+p multi_0/addbox_4/m1_n12_92# multi_0/addbox_4/adder2_0/xor3_0/a_35_76# multi_0/addbox_4/adder2_0/m1_76_8# 2 4 3285 140
+p multi_0/addbox_4/adder2_0/m1_76_8# vdd multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 140
+n multi_0/addbox_4/adder2_0/m1_76_8# gnd multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 77
+p gnd vdd multi_0/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 140
+n gnd gnd multi_0/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 77
+p multi_0/addbox_4/adder2_0/xor3_1/a_32_44# vdd multi_0/addbox_4/adder2_0/xor3_1/a_35_76# 2 4 3513 140
+p multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# p0 multi_0/addbox_4/adder2_0/xor3_1/a_n5_76# 2 4 3474 140
+p gnd multi_0/addbox_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 140
+n multi_0/addbox_4/adder2_0/m1_76_8# gnd multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3529 76
+n multi_0/addbox_4/adder2_0/xor3_1/a_32_44# multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 76
+n multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# p0 2 4 3474 76
+n gnd p0 multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3489 76
+p multi_0/addbox_4/adder2_0/m1_76_8# multi_0/addbox_4/adder2_0/xor3_1/a_35_76# p0 2 4 3529 140
+n multi_0/addbox_4/adder2_0/and_0/a_48_48# gnd multi_0/addbox_4/adder2_0/a_512_128# 2 4 3381 242
+p multi_0/addbox_4/adder2_0/and_0/a_48_48# vdd multi_0/addbox_4/adder2_0/a_512_128# 2 4 3381 171
+p gnd vdd multi_0/addbox_4/adder2_0/and_0/a_48_48# 2 4 3337 171
+n gnd gnd multi_0/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 242
+n multi_0/addbox_4/m1_n12_92# multi_0/addbox_4/adder2_0/and_0/nand_0/a_7_n40# multi_0/addbox_4/adder2_0/and_0/a_48_48# 2 4 3353 242
+p multi_0/addbox_4/m1_n12_92# multi_0/addbox_4/adder2_0/and_0/a_48_48# vdd 2 4 3353 171
+n multi_0/addbox_4/adder2_0/and_1/a_48_48# gnd multi_0/addbox_4/adder2_0/a_528_88# 2 4 3625 242
+p multi_0/addbox_4/adder2_0/and_1/a_48_48# vdd multi_0/addbox_4/adder2_0/a_528_88# 2 4 3625 171
+p gnd vdd multi_0/addbox_4/adder2_0/and_1/a_48_48# 2 4 3581 171
+n gnd gnd multi_0/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 242
+n multi_0/addbox_4/adder2_0/m1_76_8# multi_0/addbox_4/adder2_0/and_1/nand_0/a_7_n40# multi_0/addbox_4/adder2_0/and_1/a_48_48# 2 4 3597 242
+p multi_0/addbox_4/adder2_0/m1_76_8# multi_0/addbox_4/adder2_0/and_1/a_48_48# vdd 2 4 3597 171
+n multi_0/addbox_4/and_0/a_48_48# gnd multi_0/addbox_4/m1_n12_92# 2 4 3109 73
+p multi_0/addbox_4/and_0/a_48_48# vdd multi_0/addbox_4/m1_n12_92# 2 4 3109 144
+p a0 vdd multi_0/addbox_4/and_0/a_48_48# 2 4 3065 144
+n a0 gnd multi_0/addbox_4/and_0/nand_0/a_7_n40# 2 4 3065 73
+n b0 multi_0/addbox_4/and_0/nand_0/a_7_n40# multi_0/addbox_4/and_0/a_48_48# 2 4 3081 73
+p b0 multi_0/addbox_4/and_0/a_48_48# vdd 2 4 3081 144
+n multi_0/addbox_0/adder2_0/or_0/m1_44_48# gnd m1_748_n32# 2 4 689 242
+p multi_0/addbox_0/adder2_0/or_0/m1_44_48# vdd m1_748_n32# 2 4 689 171
+n multi_0/addbox_0/adder2_0/a_512_128# gnd multi_0/addbox_0/adder2_0/or_0/m1_44_48# 2 4 641 242
+n multi_0/addbox_0/adder2_0/a_528_88# multi_0/addbox_0/adder2_0/or_0/m1_44_48# gnd 2 4 657 242
+p multi_0/addbox_0/adder2_0/a_528_88# multi_0/addbox_0/adder2_0/or_0/nor1_0/a_19_32# multi_0/addbox_0/adder2_0/or_0/m1_44_48# 2 4 657 171
+p multi_0/addbox_0/adder2_0/a_512_128# vdd multi_0/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 641 171
+p multi_0/addbox_0/m1_n12_92# vdd multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 140
+n multi_0/addbox_0/m1_n12_92# gnd multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 77
+p gnd vdd multi_0/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 140
+n gnd gnd multi_0/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 77
+p multi_0/addbox_0/adder2_0/xor3_0/a_32_44# vdd multi_0/addbox_0/adder2_0/xor3_0/a_35_76# 2 4 237 140
+p multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# multi_0/addbox_0/adder2_0/m1_76_8# multi_0/addbox_0/adder2_0/xor3_0/a_n5_76# 2 4 198 140
+p gnd multi_0/addbox_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 213 140
+n multi_0/addbox_0/m1_n12_92# gnd multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 253 76
+n multi_0/addbox_0/adder2_0/xor3_0/a_32_44# multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 237 76
+n multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# multi_0/addbox_0/adder2_0/m1_76_8# 2 4 198 76
+n gnd multi_0/addbox_0/adder2_0/m1_76_8# multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 213 76
+p multi_0/addbox_0/m1_n12_92# multi_0/addbox_0/adder2_0/xor3_0/a_35_76# multi_0/addbox_0/adder2_0/m1_76_8# 2 4 253 140
+p multi_0/addbox_0/adder2_0/m1_76_8# vdd multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 140
+n multi_0/addbox_0/adder2_0/m1_76_8# gnd multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 77
+p gnd vdd multi_0/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 140
+n gnd gnd multi_0/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 77
+p multi_0/addbox_0/adder2_0/xor3_1/a_32_44# vdd multi_0/addbox_0/adder2_0/xor3_1/a_35_76# 2 4 481 140
+p multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# m1_596_n16# multi_0/addbox_0/adder2_0/xor3_1/a_n5_76# 2 4 442 140
+p gnd multi_0/addbox_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 457 140
+n multi_0/addbox_0/adder2_0/m1_76_8# gnd multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 497 76
+n multi_0/addbox_0/adder2_0/xor3_1/a_32_44# multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 481 76
+n multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# m1_596_n16# 2 4 442 76
+n gnd m1_596_n16# multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 457 76
+p multi_0/addbox_0/adder2_0/m1_76_8# multi_0/addbox_0/adder2_0/xor3_1/a_35_76# m1_596_n16# 2 4 497 140
+n multi_0/addbox_0/adder2_0/and_0/a_48_48# gnd multi_0/addbox_0/adder2_0/a_512_128# 2 4 349 242
+p multi_0/addbox_0/adder2_0/and_0/a_48_48# vdd multi_0/addbox_0/adder2_0/a_512_128# 2 4 349 171
+p gnd vdd multi_0/addbox_0/adder2_0/and_0/a_48_48# 2 4 305 171
+n gnd gnd multi_0/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 305 242
+n multi_0/addbox_0/m1_n12_92# multi_0/addbox_0/adder2_0/and_0/nand_0/a_7_n40# multi_0/addbox_0/adder2_0/and_0/a_48_48# 2 4 321 242
+p multi_0/addbox_0/m1_n12_92# multi_0/addbox_0/adder2_0/and_0/a_48_48# vdd 2 4 321 171
+n multi_0/addbox_0/adder2_0/and_1/a_48_48# gnd multi_0/addbox_0/adder2_0/a_528_88# 2 4 593 242
+p multi_0/addbox_0/adder2_0/and_1/a_48_48# vdd multi_0/addbox_0/adder2_0/a_528_88# 2 4 593 171
+p gnd vdd multi_0/addbox_0/adder2_0/and_1/a_48_48# 2 4 549 171
+n gnd gnd multi_0/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 549 242
+n multi_0/addbox_0/adder2_0/m1_76_8# multi_0/addbox_0/adder2_0/and_1/nand_0/a_7_n40# multi_0/addbox_0/adder2_0/and_1/a_48_48# 2 4 565 242
+p multi_0/addbox_0/adder2_0/m1_76_8# multi_0/addbox_0/adder2_0/and_1/a_48_48# vdd 2 4 565 171
+n multi_0/addbox_0/and_0/a_48_48# gnd multi_0/addbox_0/m1_n12_92# 2 4 77 73
+p multi_0/addbox_0/and_0/a_48_48# vdd multi_0/addbox_0/m1_n12_92# 2 4 77 144
+p a4 vdd multi_0/addbox_0/and_0/a_48_48# 2 4 33 144
+n a4 gnd multi_0/addbox_0/and_0/nand_0/a_7_n40# 2 4 33 73
+n b0 multi_0/addbox_0/and_0/nand_0/a_7_n40# multi_0/addbox_0/and_0/a_48_48# 2 4 49 73
+p b0 multi_0/addbox_0/and_0/a_48_48# vdd 2 4 49 144
+n multi_0/addbox_1/adder2_0/or_0/m1_44_48# gnd m1_1508_n32# 2 4 1449 242
+p multi_0/addbox_1/adder2_0/or_0/m1_44_48# vdd m1_1508_n32# 2 4 1449 171
+n multi_0/addbox_1/adder2_0/a_512_128# gnd multi_0/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1401 242
+n multi_0/addbox_1/adder2_0/a_528_88# multi_0/addbox_1/adder2_0/or_0/m1_44_48# gnd 2 4 1417 242
+p multi_0/addbox_1/adder2_0/a_528_88# multi_0/addbox_1/adder2_0/or_0/nor1_0/a_19_32# multi_0/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1417 171
+p multi_0/addbox_1/adder2_0/a_512_128# vdd multi_0/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1401 171
+p multi_0/addbox_1/m1_n12_92# vdd multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 140
+n multi_0/addbox_1/m1_n12_92# gnd multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 77
+p gnd vdd multi_0/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 140
+n gnd gnd multi_0/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 77
+p multi_0/addbox_1/adder2_0/xor3_0/a_32_44# vdd multi_0/addbox_1/adder2_0/xor3_0/a_35_76# 2 4 997 140
+p multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# multi_0/addbox_1/adder2_0/m1_76_8# multi_0/addbox_1/adder2_0/xor3_0/a_n5_76# 2 4 958 140
+p gnd multi_0/addbox_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 973 140
+n multi_0/addbox_1/m1_n12_92# gnd multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 1013 76
+n multi_0/addbox_1/adder2_0/xor3_0/a_32_44# multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 997 76
+n multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# multi_0/addbox_1/adder2_0/m1_76_8# 2 4 958 76
+n gnd multi_0/addbox_1/adder2_0/m1_76_8# multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 973 76
+p multi_0/addbox_1/m1_n12_92# multi_0/addbox_1/adder2_0/xor3_0/a_35_76# multi_0/addbox_1/adder2_0/m1_76_8# 2 4 1013 140
+p multi_0/addbox_1/adder2_0/m1_76_8# vdd multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 140
+n multi_0/addbox_1/adder2_0/m1_76_8# gnd multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 77
+p gnd vdd multi_0/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 140
+n gnd gnd multi_0/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 77
+p multi_0/addbox_1/adder2_0/xor3_1/a_32_44# vdd multi_0/addbox_1/adder2_0/xor3_1/a_35_76# 2 4 1241 140
+p multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# m1_1356_n16# multi_0/addbox_1/adder2_0/xor3_1/a_n5_76# 2 4 1202 140
+p gnd multi_0/addbox_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 1217 140
+n multi_0/addbox_1/adder2_0/m1_76_8# gnd multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1257 76
+n multi_0/addbox_1/adder2_0/xor3_1/a_32_44# multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 1241 76
+n multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# m1_1356_n16# 2 4 1202 76
+n gnd m1_1356_n16# multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1217 76
+p multi_0/addbox_1/adder2_0/m1_76_8# multi_0/addbox_1/adder2_0/xor3_1/a_35_76# m1_1356_n16# 2 4 1257 140
+n multi_0/addbox_1/adder2_0/and_0/a_48_48# gnd multi_0/addbox_1/adder2_0/a_512_128# 2 4 1109 242
+p multi_0/addbox_1/adder2_0/and_0/a_48_48# vdd multi_0/addbox_1/adder2_0/a_512_128# 2 4 1109 171
+p gnd vdd multi_0/addbox_1/adder2_0/and_0/a_48_48# 2 4 1065 171
+n gnd gnd multi_0/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 1065 242
+n multi_0/addbox_1/m1_n12_92# multi_0/addbox_1/adder2_0/and_0/nand_0/a_7_n40# multi_0/addbox_1/adder2_0/and_0/a_48_48# 2 4 1081 242
+p multi_0/addbox_1/m1_n12_92# multi_0/addbox_1/adder2_0/and_0/a_48_48# vdd 2 4 1081 171
+n multi_0/addbox_1/adder2_0/and_1/a_48_48# gnd multi_0/addbox_1/adder2_0/a_528_88# 2 4 1353 242
+p multi_0/addbox_1/adder2_0/and_1/a_48_48# vdd multi_0/addbox_1/adder2_0/a_528_88# 2 4 1353 171
+p gnd vdd multi_0/addbox_1/adder2_0/and_1/a_48_48# 2 4 1309 171
+n gnd gnd multi_0/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1309 242
+n multi_0/addbox_1/adder2_0/m1_76_8# multi_0/addbox_1/adder2_0/and_1/nand_0/a_7_n40# multi_0/addbox_1/adder2_0/and_1/a_48_48# 2 4 1325 242
+p multi_0/addbox_1/adder2_0/m1_76_8# multi_0/addbox_1/adder2_0/and_1/a_48_48# vdd 2 4 1325 171
+n multi_0/addbox_1/and_0/a_48_48# gnd multi_0/addbox_1/m1_n12_92# 2 4 837 73
+p multi_0/addbox_1/and_0/a_48_48# vdd multi_0/addbox_1/m1_n12_92# 2 4 837 144
+p a3 vdd multi_0/addbox_1/and_0/a_48_48# 2 4 793 144
+n a3 gnd multi_0/addbox_1/and_0/nand_0/a_7_n40# 2 4 793 73
+n b0 multi_0/addbox_1/and_0/nand_0/a_7_n40# multi_0/addbox_1/and_0/a_48_48# 2 4 809 73
+p b0 multi_0/addbox_1/and_0/a_48_48# vdd 2 4 809 144
+n multi_0/addbox_2/adder2_0/or_0/m1_44_48# gnd m1_2268_n32# 2 4 2209 242
+p multi_0/addbox_2/adder2_0/or_0/m1_44_48# vdd m1_2268_n32# 2 4 2209 171
+n multi_0/addbox_2/adder2_0/a_512_128# gnd multi_0/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2161 242
+n multi_0/addbox_2/adder2_0/a_528_88# multi_0/addbox_2/adder2_0/or_0/m1_44_48# gnd 2 4 2177 242
+p multi_0/addbox_2/adder2_0/a_528_88# multi_0/addbox_2/adder2_0/or_0/nor1_0/a_19_32# multi_0/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2177 171
+p multi_0/addbox_2/adder2_0/a_512_128# vdd multi_0/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 2161 171
+p multi_0/addbox_2/m1_n12_92# vdd multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 140
+n multi_0/addbox_2/m1_n12_92# gnd multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 77
+p gnd vdd multi_0/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 140
+n gnd gnd multi_0/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 77
+p multi_0/addbox_2/adder2_0/xor3_0/a_32_44# vdd multi_0/addbox_2/adder2_0/xor3_0/a_35_76# 2 4 1757 140
+p multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# multi_0/addbox_2/adder2_0/m1_76_8# multi_0/addbox_2/adder2_0/xor3_0/a_n5_76# 2 4 1718 140
+p gnd multi_0/addbox_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 1733 140
+n multi_0/addbox_2/m1_n12_92# gnd multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1773 76
+n multi_0/addbox_2/adder2_0/xor3_0/a_32_44# multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 1757 76
+n multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# multi_0/addbox_2/adder2_0/m1_76_8# 2 4 1718 76
+n gnd multi_0/addbox_2/adder2_0/m1_76_8# multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1733 76
+p multi_0/addbox_2/m1_n12_92# multi_0/addbox_2/adder2_0/xor3_0/a_35_76# multi_0/addbox_2/adder2_0/m1_76_8# 2 4 1773 140
+p multi_0/addbox_2/adder2_0/m1_76_8# vdd multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 140
+n multi_0/addbox_2/adder2_0/m1_76_8# gnd multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 77
+p gnd vdd multi_0/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 140
+n gnd gnd multi_0/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 77
+p multi_0/addbox_2/adder2_0/xor3_1/a_32_44# vdd multi_0/addbox_2/adder2_0/xor3_1/a_35_76# 2 4 2001 140
+p multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# m1_2116_n16# multi_0/addbox_2/adder2_0/xor3_1/a_n5_76# 2 4 1962 140
+p gnd multi_0/addbox_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 1977 140
+n multi_0/addbox_2/adder2_0/m1_76_8# gnd multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 2017 76
+n multi_0/addbox_2/adder2_0/xor3_1/a_32_44# multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 2001 76
+n multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# m1_2116_n16# 2 4 1962 76
+n gnd m1_2116_n16# multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 1977 76
+p multi_0/addbox_2/adder2_0/m1_76_8# multi_0/addbox_2/adder2_0/xor3_1/a_35_76# m1_2116_n16# 2 4 2017 140
+n multi_0/addbox_2/adder2_0/and_0/a_48_48# gnd multi_0/addbox_2/adder2_0/a_512_128# 2 4 1869 242
+p multi_0/addbox_2/adder2_0/and_0/a_48_48# vdd multi_0/addbox_2/adder2_0/a_512_128# 2 4 1869 171
+p gnd vdd multi_0/addbox_2/adder2_0/and_0/a_48_48# 2 4 1825 171
+n gnd gnd multi_0/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 1825 242
+n multi_0/addbox_2/m1_n12_92# multi_0/addbox_2/adder2_0/and_0/nand_0/a_7_n40# multi_0/addbox_2/adder2_0/and_0/a_48_48# 2 4 1841 242
+p multi_0/addbox_2/m1_n12_92# multi_0/addbox_2/adder2_0/and_0/a_48_48# vdd 2 4 1841 171
+n multi_0/addbox_2/adder2_0/and_1/a_48_48# gnd multi_0/addbox_2/adder2_0/a_528_88# 2 4 2113 242
+p multi_0/addbox_2/adder2_0/and_1/a_48_48# vdd multi_0/addbox_2/adder2_0/a_528_88# 2 4 2113 171
+p gnd vdd multi_0/addbox_2/adder2_0/and_1/a_48_48# 2 4 2069 171
+n gnd gnd multi_0/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 2069 242
+n multi_0/addbox_2/adder2_0/m1_76_8# multi_0/addbox_2/adder2_0/and_1/nand_0/a_7_n40# multi_0/addbox_2/adder2_0/and_1/a_48_48# 2 4 2085 242
+p multi_0/addbox_2/adder2_0/m1_76_8# multi_0/addbox_2/adder2_0/and_1/a_48_48# vdd 2 4 2085 171
+n multi_0/addbox_2/and_0/a_48_48# gnd multi_0/addbox_2/m1_n12_92# 2 4 1597 73
+p multi_0/addbox_2/and_0/a_48_48# vdd multi_0/addbox_2/m1_n12_92# 2 4 1597 144
+p a2 vdd multi_0/addbox_2/and_0/a_48_48# 2 4 1553 144
+n a2 gnd multi_0/addbox_2/and_0/nand_0/a_7_n40# 2 4 1553 73
+n b0 multi_0/addbox_2/and_0/nand_0/a_7_n40# multi_0/addbox_2/and_0/a_48_48# 2 4 1569 73
+p b0 multi_0/addbox_2/and_0/a_48_48# vdd 2 4 1569 144
+n multi_0/addbox_3/adder2_0/or_0/m1_44_48# gnd m1_3024_n32# 2 4 2965 242
+p multi_0/addbox_3/adder2_0/or_0/m1_44_48# vdd m1_3024_n32# 2 4 2965 171
+n multi_0/addbox_3/adder2_0/a_512_128# gnd multi_0/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2917 242
+n multi_0/addbox_3/adder2_0/a_528_88# multi_0/addbox_3/adder2_0/or_0/m1_44_48# gnd 2 4 2933 242
+p multi_0/addbox_3/adder2_0/a_528_88# multi_0/addbox_3/adder2_0/or_0/nor1_0/a_19_32# multi_0/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2933 171
+p multi_0/addbox_3/adder2_0/a_512_128# vdd multi_0/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 2917 171
+p multi_0/addbox_3/m1_n12_92# vdd multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 140
+n multi_0/addbox_3/m1_n12_92# gnd multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 77
+p gnd vdd multi_0/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 140
+n gnd gnd multi_0/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 77
+p multi_0/addbox_3/adder2_0/xor3_0/a_32_44# vdd multi_0/addbox_3/adder2_0/xor3_0/a_35_76# 2 4 2513 140
+p multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# multi_0/addbox_3/adder2_0/m1_76_8# multi_0/addbox_3/adder2_0/xor3_0/a_n5_76# 2 4 2474 140
+p gnd multi_0/addbox_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 2489 140
+n multi_0/addbox_3/m1_n12_92# gnd multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2529 76
+n multi_0/addbox_3/adder2_0/xor3_0/a_32_44# multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 2513 76
+n multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# multi_0/addbox_3/adder2_0/m1_76_8# 2 4 2474 76
+n gnd multi_0/addbox_3/adder2_0/m1_76_8# multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2489 76
+p multi_0/addbox_3/m1_n12_92# multi_0/addbox_3/adder2_0/xor3_0/a_35_76# multi_0/addbox_3/adder2_0/m1_76_8# 2 4 2529 140
+p multi_0/addbox_3/adder2_0/m1_76_8# vdd multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 140
+n multi_0/addbox_3/adder2_0/m1_76_8# gnd multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 77
+p gnd vdd multi_0/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 140
+n gnd gnd multi_0/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 77
+p multi_0/addbox_3/adder2_0/xor3_1/a_32_44# vdd multi_0/addbox_3/adder2_0/xor3_1/a_35_76# 2 4 2757 140
+p multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# multi_1/sin1 multi_0/addbox_3/adder2_0/xor3_1/a_n5_76# 2 4 2718 140
+p gnd multi_0/addbox_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 2733 140
+n multi_0/addbox_3/adder2_0/m1_76_8# gnd multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2773 76
+n multi_0/addbox_3/adder2_0/xor3_1/a_32_44# multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 2757 76
+n multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# multi_1/sin1 2 4 2718 76
+n gnd multi_1/sin1 multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2733 76
+p multi_0/addbox_3/adder2_0/m1_76_8# multi_0/addbox_3/adder2_0/xor3_1/a_35_76# multi_1/sin1 2 4 2773 140
+n multi_0/addbox_3/adder2_0/and_0/a_48_48# gnd multi_0/addbox_3/adder2_0/a_512_128# 2 4 2625 242
+p multi_0/addbox_3/adder2_0/and_0/a_48_48# vdd multi_0/addbox_3/adder2_0/a_512_128# 2 4 2625 171
+p gnd vdd multi_0/addbox_3/adder2_0/and_0/a_48_48# 2 4 2581 171
+n gnd gnd multi_0/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 2581 242
+n multi_0/addbox_3/m1_n12_92# multi_0/addbox_3/adder2_0/and_0/nand_0/a_7_n40# multi_0/addbox_3/adder2_0/and_0/a_48_48# 2 4 2597 242
+p multi_0/addbox_3/m1_n12_92# multi_0/addbox_3/adder2_0/and_0/a_48_48# vdd 2 4 2597 171
+n multi_0/addbox_3/adder2_0/and_1/a_48_48# gnd multi_0/addbox_3/adder2_0/a_528_88# 2 4 2869 242
+p multi_0/addbox_3/adder2_0/and_1/a_48_48# vdd multi_0/addbox_3/adder2_0/a_528_88# 2 4 2869 171
+p gnd vdd multi_0/addbox_3/adder2_0/and_1/a_48_48# 2 4 2825 171
+n gnd gnd multi_0/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 2825 242
+n multi_0/addbox_3/adder2_0/m1_76_8# multi_0/addbox_3/adder2_0/and_1/nand_0/a_7_n40# multi_0/addbox_3/adder2_0/and_1/a_48_48# 2 4 2841 242
+p multi_0/addbox_3/adder2_0/m1_76_8# multi_0/addbox_3/adder2_0/and_1/a_48_48# vdd 2 4 2841 171
+n multi_0/addbox_3/and_0/a_48_48# gnd multi_0/addbox_3/m1_n12_92# 2 4 2353 73
+p multi_0/addbox_3/and_0/a_48_48# vdd multi_0/addbox_3/m1_n12_92# 2 4 2353 144
+p a1 vdd multi_0/addbox_3/and_0/a_48_48# 2 4 2309 144
+n a1 gnd multi_0/addbox_3/and_0/nand_0/a_7_n40# 2 4 2309 73
+n b0 multi_0/addbox_3/and_0/nand_0/a_7_n40# multi_0/addbox_3/and_0/a_48_48# 2 4 2325 73
+p b0 multi_0/addbox_3/and_0/a_48_48# vdd 2 4 2325 144
+n multi_1/addbox_4/adder2_0/or_0/m1_44_48# gnd multi_2/cin 2 4 3721 -82
+p multi_1/addbox_4/adder2_0/or_0/m1_44_48# vdd multi_2/cin 2 4 3721 -153
+n multi_1/addbox_4/adder2_0/a_512_128# gnd multi_1/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3673 -82
+n multi_1/addbox_4/adder2_0/a_528_88# multi_1/addbox_4/adder2_0/or_0/m1_44_48# gnd 2 4 3689 -82
+p multi_1/addbox_4/adder2_0/a_528_88# multi_1/addbox_4/adder2_0/or_0/nor1_0/a_19_32# multi_1/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3689 -153
+p multi_1/addbox_4/adder2_0/a_512_128# vdd multi_1/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 -153
+p multi_1/addbox_4/m1_n12_92# vdd multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -184
+n multi_1/addbox_4/m1_n12_92# gnd multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -247
+p multi_1/sin1 vdd multi_1/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -184
+n multi_1/sin1 gnd multi_1/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -247
+p multi_1/addbox_4/adder2_0/xor3_0/a_32_44# vdd multi_1/addbox_4/adder2_0/xor3_0/a_35_76# 2 4 3269 -184
+p multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# multi_1/addbox_4/adder2_0/m1_76_8# multi_1/addbox_4/adder2_0/xor3_0/a_n5_76# 2 4 3230 -184
+p multi_1/sin1 multi_1/addbox_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 -184
+n multi_1/addbox_4/m1_n12_92# gnd multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3285 -248
+n multi_1/addbox_4/adder2_0/xor3_0/a_32_44# multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 -248
+n multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# multi_1/addbox_4/adder2_0/m1_76_8# 2 4 3230 -248
+n multi_1/sin1 multi_1/addbox_4/adder2_0/m1_76_8# multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3245 -248
+p multi_1/addbox_4/m1_n12_92# multi_1/addbox_4/adder2_0/xor3_0/a_35_76# multi_1/addbox_4/adder2_0/m1_76_8# 2 4 3285 -184
+p multi_1/addbox_4/adder2_0/m1_76_8# vdd multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -184
+n multi_1/addbox_4/adder2_0/m1_76_8# gnd multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -247
+p multi_1/cin vdd multi_1/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -184
+n multi_1/cin gnd multi_1/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -247
+p multi_1/addbox_4/adder2_0/xor3_1/a_32_44# vdd multi_1/addbox_4/adder2_0/xor3_1/a_35_76# 2 4 3513 -184
+p multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# p1 multi_1/addbox_4/adder2_0/xor3_1/a_n5_76# 2 4 3474 -184
+p multi_1/cin multi_1/addbox_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 -184
+n multi_1/addbox_4/adder2_0/m1_76_8# gnd multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3529 -248
+n multi_1/addbox_4/adder2_0/xor3_1/a_32_44# multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 -248
+n multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# p1 2 4 3474 -248
+n multi_1/cin p1 multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3489 -248
+p multi_1/addbox_4/adder2_0/m1_76_8# multi_1/addbox_4/adder2_0/xor3_1/a_35_76# p1 2 4 3529 -184
+n multi_1/addbox_4/adder2_0/and_0/a_48_48# gnd multi_1/addbox_4/adder2_0/a_512_128# 2 4 3381 -82
+p multi_1/addbox_4/adder2_0/and_0/a_48_48# vdd multi_1/addbox_4/adder2_0/a_512_128# 2 4 3381 -153
+p multi_1/sin1 vdd multi_1/addbox_4/adder2_0/and_0/a_48_48# 2 4 3337 -153
+n multi_1/sin1 gnd multi_1/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 -82
+n multi_1/addbox_4/m1_n12_92# multi_1/addbox_4/adder2_0/and_0/nand_0/a_7_n40# multi_1/addbox_4/adder2_0/and_0/a_48_48# 2 4 3353 -82
+p multi_1/addbox_4/m1_n12_92# multi_1/addbox_4/adder2_0/and_0/a_48_48# vdd 2 4 3353 -153
+n multi_1/addbox_4/adder2_0/and_1/a_48_48# gnd multi_1/addbox_4/adder2_0/a_528_88# 2 4 3625 -82
+p multi_1/addbox_4/adder2_0/and_1/a_48_48# vdd multi_1/addbox_4/adder2_0/a_528_88# 2 4 3625 -153
+p multi_1/cin vdd multi_1/addbox_4/adder2_0/and_1/a_48_48# 2 4 3581 -153
+n multi_1/cin gnd multi_1/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 -82
+n multi_1/addbox_4/adder2_0/m1_76_8# multi_1/addbox_4/adder2_0/and_1/nand_0/a_7_n40# multi_1/addbox_4/adder2_0/and_1/a_48_48# 2 4 3597 -82
+p multi_1/addbox_4/adder2_0/m1_76_8# multi_1/addbox_4/adder2_0/and_1/a_48_48# vdd 2 4 3597 -153
+n multi_1/addbox_4/and_0/a_48_48# gnd multi_1/addbox_4/m1_n12_92# 2 4 3109 -251
+p multi_1/addbox_4/and_0/a_48_48# vdd multi_1/addbox_4/m1_n12_92# 2 4 3109 -180
+p a0 vdd multi_1/addbox_4/and_0/a_48_48# 2 4 3065 -180
+n a0 gnd multi_1/addbox_4/and_0/nand_0/a_7_n40# 2 4 3065 -251
+n b1 multi_1/addbox_4/and_0/nand_0/a_7_n40# multi_1/addbox_4/and_0/a_48_48# 2 4 3081 -251
+p b1 multi_1/addbox_4/and_0/a_48_48# vdd 2 4 3081 -180
+n multi_1/addbox_0/adder2_0/or_0/m1_44_48# gnd m1_748_n356# 2 4 689 -82
+p multi_1/addbox_0/adder2_0/or_0/m1_44_48# vdd m1_748_n356# 2 4 689 -153
+n multi_1/addbox_0/adder2_0/a_512_128# gnd multi_1/addbox_0/adder2_0/or_0/m1_44_48# 2 4 641 -82
+n multi_1/addbox_0/adder2_0/a_528_88# multi_1/addbox_0/adder2_0/or_0/m1_44_48# gnd 2 4 657 -82
+p multi_1/addbox_0/adder2_0/a_528_88# multi_1/addbox_0/adder2_0/or_0/nor1_0/a_19_32# multi_1/addbox_0/adder2_0/or_0/m1_44_48# 2 4 657 -153
+p multi_1/addbox_0/adder2_0/a_512_128# vdd multi_1/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 641 -153
+p multi_1/addbox_0/m1_n12_92# vdd multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -184
+n multi_1/addbox_0/m1_n12_92# gnd multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -247
+p gnd vdd multi_1/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -184
+n gnd gnd multi_1/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -247
+p multi_1/addbox_0/adder2_0/xor3_0/a_32_44# vdd multi_1/addbox_0/adder2_0/xor3_0/a_35_76# 2 4 237 -184
+p multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# multi_1/addbox_0/adder2_0/m1_76_8# multi_1/addbox_0/adder2_0/xor3_0/a_n5_76# 2 4 198 -184
+p gnd multi_1/addbox_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 213 -184
+n multi_1/addbox_0/m1_n12_92# gnd multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 253 -248
+n multi_1/addbox_0/adder2_0/xor3_0/a_32_44# multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 237 -248
+n multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# multi_1/addbox_0/adder2_0/m1_76_8# 2 4 198 -248
+n gnd multi_1/addbox_0/adder2_0/m1_76_8# multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 213 -248
+p multi_1/addbox_0/m1_n12_92# multi_1/addbox_0/adder2_0/xor3_0/a_35_76# multi_1/addbox_0/adder2_0/m1_76_8# 2 4 253 -184
+p multi_1/addbox_0/adder2_0/m1_76_8# vdd multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -184
+n multi_1/addbox_0/adder2_0/m1_76_8# gnd multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -247
+p m1_748_n32# vdd multi_1/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -184
+n m1_748_n32# gnd multi_1/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -247
+p multi_1/addbox_0/adder2_0/xor3_1/a_32_44# vdd multi_1/addbox_0/adder2_0/xor3_1/a_35_76# 2 4 481 -184
+p multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# m1_596_n340# multi_1/addbox_0/adder2_0/xor3_1/a_n5_76# 2 4 442 -184
+p m1_748_n32# multi_1/addbox_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 457 -184
+n multi_1/addbox_0/adder2_0/m1_76_8# gnd multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 497 -248
+n multi_1/addbox_0/adder2_0/xor3_1/a_32_44# multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 481 -248
+n multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# m1_596_n340# 2 4 442 -248
+n m1_748_n32# m1_596_n340# multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 457 -248
+p multi_1/addbox_0/adder2_0/m1_76_8# multi_1/addbox_0/adder2_0/xor3_1/a_35_76# m1_596_n340# 2 4 497 -184
+n multi_1/addbox_0/adder2_0/and_0/a_48_48# gnd multi_1/addbox_0/adder2_0/a_512_128# 2 4 349 -82
+p multi_1/addbox_0/adder2_0/and_0/a_48_48# vdd multi_1/addbox_0/adder2_0/a_512_128# 2 4 349 -153
+p gnd vdd multi_1/addbox_0/adder2_0/and_0/a_48_48# 2 4 305 -153
+n gnd gnd multi_1/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 305 -82
+n multi_1/addbox_0/m1_n12_92# multi_1/addbox_0/adder2_0/and_0/nand_0/a_7_n40# multi_1/addbox_0/adder2_0/and_0/a_48_48# 2 4 321 -82
+p multi_1/addbox_0/m1_n12_92# multi_1/addbox_0/adder2_0/and_0/a_48_48# vdd 2 4 321 -153
+n multi_1/addbox_0/adder2_0/and_1/a_48_48# gnd multi_1/addbox_0/adder2_0/a_528_88# 2 4 593 -82
+p multi_1/addbox_0/adder2_0/and_1/a_48_48# vdd multi_1/addbox_0/adder2_0/a_528_88# 2 4 593 -153
+p m1_748_n32# vdd multi_1/addbox_0/adder2_0/and_1/a_48_48# 2 4 549 -153
+n m1_748_n32# gnd multi_1/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 549 -82
+n multi_1/addbox_0/adder2_0/m1_76_8# multi_1/addbox_0/adder2_0/and_1/nand_0/a_7_n40# multi_1/addbox_0/adder2_0/and_1/a_48_48# 2 4 565 -82
+p multi_1/addbox_0/adder2_0/m1_76_8# multi_1/addbox_0/adder2_0/and_1/a_48_48# vdd 2 4 565 -153
+n multi_1/addbox_0/and_0/a_48_48# gnd multi_1/addbox_0/m1_n12_92# 2 4 77 -251
+p multi_1/addbox_0/and_0/a_48_48# vdd multi_1/addbox_0/m1_n12_92# 2 4 77 -180
+p a4 vdd multi_1/addbox_0/and_0/a_48_48# 2 4 33 -180
+n a4 gnd multi_1/addbox_0/and_0/nand_0/a_7_n40# 2 4 33 -251
+n b1 multi_1/addbox_0/and_0/nand_0/a_7_n40# multi_1/addbox_0/and_0/a_48_48# 2 4 49 -251
+p b1 multi_1/addbox_0/and_0/a_48_48# vdd 2 4 49 -180
+n multi_1/addbox_1/adder2_0/or_0/m1_44_48# gnd m1_1508_n356# 2 4 1449 -82
+p multi_1/addbox_1/adder2_0/or_0/m1_44_48# vdd m1_1508_n356# 2 4 1449 -153
+n multi_1/addbox_1/adder2_0/a_512_128# gnd multi_1/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1401 -82
+n multi_1/addbox_1/adder2_0/a_528_88# multi_1/addbox_1/adder2_0/or_0/m1_44_48# gnd 2 4 1417 -82
+p multi_1/addbox_1/adder2_0/a_528_88# multi_1/addbox_1/adder2_0/or_0/nor1_0/a_19_32# multi_1/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1417 -153
+p multi_1/addbox_1/adder2_0/a_512_128# vdd multi_1/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1401 -153
+p multi_1/addbox_1/m1_n12_92# vdd multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -184
+n multi_1/addbox_1/m1_n12_92# gnd multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -247
+p m1_596_n16# vdd multi_1/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -184
+n m1_596_n16# gnd multi_1/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -247
+p multi_1/addbox_1/adder2_0/xor3_0/a_32_44# vdd multi_1/addbox_1/adder2_0/xor3_0/a_35_76# 2 4 997 -184
+p multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# multi_1/addbox_1/adder2_0/m1_76_8# multi_1/addbox_1/adder2_0/xor3_0/a_n5_76# 2 4 958 -184
+p m1_596_n16# multi_1/addbox_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 973 -184
+n multi_1/addbox_1/m1_n12_92# gnd multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 1013 -248
+n multi_1/addbox_1/adder2_0/xor3_0/a_32_44# multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 997 -248
+n multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# multi_1/addbox_1/adder2_0/m1_76_8# 2 4 958 -248
+n m1_596_n16# multi_1/addbox_1/adder2_0/m1_76_8# multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 973 -248
+p multi_1/addbox_1/m1_n12_92# multi_1/addbox_1/adder2_0/xor3_0/a_35_76# multi_1/addbox_1/adder2_0/m1_76_8# 2 4 1013 -184
+p multi_1/addbox_1/adder2_0/m1_76_8# vdd multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -184
+n multi_1/addbox_1/adder2_0/m1_76_8# gnd multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -247
+p m1_1508_n32# vdd multi_1/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -184
+n m1_1508_n32# gnd multi_1/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -247
+p multi_1/addbox_1/adder2_0/xor3_1/a_32_44# vdd multi_1/addbox_1/adder2_0/xor3_1/a_35_76# 2 4 1241 -184
+p multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# m1_1356_n340# multi_1/addbox_1/adder2_0/xor3_1/a_n5_76# 2 4 1202 -184
+p m1_1508_n32# multi_1/addbox_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 1217 -184
+n multi_1/addbox_1/adder2_0/m1_76_8# gnd multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1257 -248
+n multi_1/addbox_1/adder2_0/xor3_1/a_32_44# multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 1241 -248
+n multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# m1_1356_n340# 2 4 1202 -248
+n m1_1508_n32# m1_1356_n340# multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1217 -248
+p multi_1/addbox_1/adder2_0/m1_76_8# multi_1/addbox_1/adder2_0/xor3_1/a_35_76# m1_1356_n340# 2 4 1257 -184
+n multi_1/addbox_1/adder2_0/and_0/a_48_48# gnd multi_1/addbox_1/adder2_0/a_512_128# 2 4 1109 -82
+p multi_1/addbox_1/adder2_0/and_0/a_48_48# vdd multi_1/addbox_1/adder2_0/a_512_128# 2 4 1109 -153
+p m1_596_n16# vdd multi_1/addbox_1/adder2_0/and_0/a_48_48# 2 4 1065 -153
+n m1_596_n16# gnd multi_1/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 1065 -82
+n multi_1/addbox_1/m1_n12_92# multi_1/addbox_1/adder2_0/and_0/nand_0/a_7_n40# multi_1/addbox_1/adder2_0/and_0/a_48_48# 2 4 1081 -82
+p multi_1/addbox_1/m1_n12_92# multi_1/addbox_1/adder2_0/and_0/a_48_48# vdd 2 4 1081 -153
+n multi_1/addbox_1/adder2_0/and_1/a_48_48# gnd multi_1/addbox_1/adder2_0/a_528_88# 2 4 1353 -82
+p multi_1/addbox_1/adder2_0/and_1/a_48_48# vdd multi_1/addbox_1/adder2_0/a_528_88# 2 4 1353 -153
+p m1_1508_n32# vdd multi_1/addbox_1/adder2_0/and_1/a_48_48# 2 4 1309 -153
+n m1_1508_n32# gnd multi_1/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1309 -82
+n multi_1/addbox_1/adder2_0/m1_76_8# multi_1/addbox_1/adder2_0/and_1/nand_0/a_7_n40# multi_1/addbox_1/adder2_0/and_1/a_48_48# 2 4 1325 -82
+p multi_1/addbox_1/adder2_0/m1_76_8# multi_1/addbox_1/adder2_0/and_1/a_48_48# vdd 2 4 1325 -153
+n multi_1/addbox_1/and_0/a_48_48# gnd multi_1/addbox_1/m1_n12_92# 2 4 837 -251
+p multi_1/addbox_1/and_0/a_48_48# vdd multi_1/addbox_1/m1_n12_92# 2 4 837 -180
+p a3 vdd multi_1/addbox_1/and_0/a_48_48# 2 4 793 -180
+n a3 gnd multi_1/addbox_1/and_0/nand_0/a_7_n40# 2 4 793 -251
+n b1 multi_1/addbox_1/and_0/nand_0/a_7_n40# multi_1/addbox_1/and_0/a_48_48# 2 4 809 -251
+p b1 multi_1/addbox_1/and_0/a_48_48# vdd 2 4 809 -180
+n multi_1/addbox_2/adder2_0/or_0/m1_44_48# gnd m1_2268_n356# 2 4 2209 -82
+p multi_1/addbox_2/adder2_0/or_0/m1_44_48# vdd m1_2268_n356# 2 4 2209 -153
+n multi_1/addbox_2/adder2_0/a_512_128# gnd multi_1/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2161 -82
+n multi_1/addbox_2/adder2_0/a_528_88# multi_1/addbox_2/adder2_0/or_0/m1_44_48# gnd 2 4 2177 -82
+p multi_1/addbox_2/adder2_0/a_528_88# multi_1/addbox_2/adder2_0/or_0/nor1_0/a_19_32# multi_1/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2177 -153
+p multi_1/addbox_2/adder2_0/a_512_128# vdd multi_1/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 2161 -153
+p multi_1/addbox_2/m1_n12_92# vdd multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -184
+n multi_1/addbox_2/m1_n12_92# gnd multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -247
+p m1_1356_n16# vdd multi_1/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -184
+n m1_1356_n16# gnd multi_1/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -247
+p multi_1/addbox_2/adder2_0/xor3_0/a_32_44# vdd multi_1/addbox_2/adder2_0/xor3_0/a_35_76# 2 4 1757 -184
+p multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# multi_1/addbox_2/adder2_0/m1_76_8# multi_1/addbox_2/adder2_0/xor3_0/a_n5_76# 2 4 1718 -184
+p m1_1356_n16# multi_1/addbox_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 1733 -184
+n multi_1/addbox_2/m1_n12_92# gnd multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1773 -248
+n multi_1/addbox_2/adder2_0/xor3_0/a_32_44# multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 1757 -248
+n multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# multi_1/addbox_2/adder2_0/m1_76_8# 2 4 1718 -248
+n m1_1356_n16# multi_1/addbox_2/adder2_0/m1_76_8# multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1733 -248
+p multi_1/addbox_2/m1_n12_92# multi_1/addbox_2/adder2_0/xor3_0/a_35_76# multi_1/addbox_2/adder2_0/m1_76_8# 2 4 1773 -184
+p multi_1/addbox_2/adder2_0/m1_76_8# vdd multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -184
+n multi_1/addbox_2/adder2_0/m1_76_8# gnd multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -247
+p m1_2268_n32# vdd multi_1/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -184
+n m1_2268_n32# gnd multi_1/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -247
+p multi_1/addbox_2/adder2_0/xor3_1/a_32_44# vdd multi_1/addbox_2/adder2_0/xor3_1/a_35_76# 2 4 2001 -184
+p multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# m1_2116_n340# multi_1/addbox_2/adder2_0/xor3_1/a_n5_76# 2 4 1962 -184
+p m1_2268_n32# multi_1/addbox_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 1977 -184
+n multi_1/addbox_2/adder2_0/m1_76_8# gnd multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 2017 -248
+n multi_1/addbox_2/adder2_0/xor3_1/a_32_44# multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 2001 -248
+n multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# m1_2116_n340# 2 4 1962 -248
+n m1_2268_n32# m1_2116_n340# multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 1977 -248
+p multi_1/addbox_2/adder2_0/m1_76_8# multi_1/addbox_2/adder2_0/xor3_1/a_35_76# m1_2116_n340# 2 4 2017 -184
+n multi_1/addbox_2/adder2_0/and_0/a_48_48# gnd multi_1/addbox_2/adder2_0/a_512_128# 2 4 1869 -82
+p multi_1/addbox_2/adder2_0/and_0/a_48_48# vdd multi_1/addbox_2/adder2_0/a_512_128# 2 4 1869 -153
+p m1_1356_n16# vdd multi_1/addbox_2/adder2_0/and_0/a_48_48# 2 4 1825 -153
+n m1_1356_n16# gnd multi_1/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 1825 -82
+n multi_1/addbox_2/m1_n12_92# multi_1/addbox_2/adder2_0/and_0/nand_0/a_7_n40# multi_1/addbox_2/adder2_0/and_0/a_48_48# 2 4 1841 -82
+p multi_1/addbox_2/m1_n12_92# multi_1/addbox_2/adder2_0/and_0/a_48_48# vdd 2 4 1841 -153
+n multi_1/addbox_2/adder2_0/and_1/a_48_48# gnd multi_1/addbox_2/adder2_0/a_528_88# 2 4 2113 -82
+p multi_1/addbox_2/adder2_0/and_1/a_48_48# vdd multi_1/addbox_2/adder2_0/a_528_88# 2 4 2113 -153
+p m1_2268_n32# vdd multi_1/addbox_2/adder2_0/and_1/a_48_48# 2 4 2069 -153
+n m1_2268_n32# gnd multi_1/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 2069 -82
+n multi_1/addbox_2/adder2_0/m1_76_8# multi_1/addbox_2/adder2_0/and_1/nand_0/a_7_n40# multi_1/addbox_2/adder2_0/and_1/a_48_48# 2 4 2085 -82
+p multi_1/addbox_2/adder2_0/m1_76_8# multi_1/addbox_2/adder2_0/and_1/a_48_48# vdd 2 4 2085 -153
+n multi_1/addbox_2/and_0/a_48_48# gnd multi_1/addbox_2/m1_n12_92# 2 4 1597 -251
+p multi_1/addbox_2/and_0/a_48_48# vdd multi_1/addbox_2/m1_n12_92# 2 4 1597 -180
+p a2 vdd multi_1/addbox_2/and_0/a_48_48# 2 4 1553 -180
+n a2 gnd multi_1/addbox_2/and_0/nand_0/a_7_n40# 2 4 1553 -251
+n b1 multi_1/addbox_2/and_0/nand_0/a_7_n40# multi_1/addbox_2/and_0/a_48_48# 2 4 1569 -251
+p b1 multi_1/addbox_2/and_0/a_48_48# vdd 2 4 1569 -180
+n multi_1/addbox_3/adder2_0/or_0/m1_44_48# gnd m1_3024_n356# 2 4 2965 -82
+p multi_1/addbox_3/adder2_0/or_0/m1_44_48# vdd m1_3024_n356# 2 4 2965 -153
+n multi_1/addbox_3/adder2_0/a_512_128# gnd multi_1/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2917 -82
+n multi_1/addbox_3/adder2_0/a_528_88# multi_1/addbox_3/adder2_0/or_0/m1_44_48# gnd 2 4 2933 -82
+p multi_1/addbox_3/adder2_0/a_528_88# multi_1/addbox_3/adder2_0/or_0/nor1_0/a_19_32# multi_1/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2933 -153
+p multi_1/addbox_3/adder2_0/a_512_128# vdd multi_1/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 2917 -153
+p multi_1/addbox_3/m1_n12_92# vdd multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -184
+n multi_1/addbox_3/m1_n12_92# gnd multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -247
+p m1_2116_n16# vdd multi_1/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -184
+n m1_2116_n16# gnd multi_1/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -247
+p multi_1/addbox_3/adder2_0/xor3_0/a_32_44# vdd multi_1/addbox_3/adder2_0/xor3_0/a_35_76# 2 4 2513 -184
+p multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# multi_1/addbox_3/adder2_0/m1_76_8# multi_1/addbox_3/adder2_0/xor3_0/a_n5_76# 2 4 2474 -184
+p m1_2116_n16# multi_1/addbox_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 2489 -184
+n multi_1/addbox_3/m1_n12_92# gnd multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2529 -248
+n multi_1/addbox_3/adder2_0/xor3_0/a_32_44# multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 2513 -248
+n multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# multi_1/addbox_3/adder2_0/m1_76_8# 2 4 2474 -248
+n m1_2116_n16# multi_1/addbox_3/adder2_0/m1_76_8# multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2489 -248
+p multi_1/addbox_3/m1_n12_92# multi_1/addbox_3/adder2_0/xor3_0/a_35_76# multi_1/addbox_3/adder2_0/m1_76_8# 2 4 2529 -184
+p multi_1/addbox_3/adder2_0/m1_76_8# vdd multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -184
+n multi_1/addbox_3/adder2_0/m1_76_8# gnd multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -247
+p m1_3024_n32# vdd multi_1/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -184
+n m1_3024_n32# gnd multi_1/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -247
+p multi_1/addbox_3/adder2_0/xor3_1/a_32_44# vdd multi_1/addbox_3/adder2_0/xor3_1/a_35_76# 2 4 2757 -184
+p multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# multi_2/sin1 multi_1/addbox_3/adder2_0/xor3_1/a_n5_76# 2 4 2718 -184
+p m1_3024_n32# multi_1/addbox_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 2733 -184
+n multi_1/addbox_3/adder2_0/m1_76_8# gnd multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2773 -248
+n multi_1/addbox_3/adder2_0/xor3_1/a_32_44# multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 2757 -248
+n multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# multi_2/sin1 2 4 2718 -248
+n m1_3024_n32# multi_2/sin1 multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2733 -248
+p multi_1/addbox_3/adder2_0/m1_76_8# multi_1/addbox_3/adder2_0/xor3_1/a_35_76# multi_2/sin1 2 4 2773 -184
+n multi_1/addbox_3/adder2_0/and_0/a_48_48# gnd multi_1/addbox_3/adder2_0/a_512_128# 2 4 2625 -82
+p multi_1/addbox_3/adder2_0/and_0/a_48_48# vdd multi_1/addbox_3/adder2_0/a_512_128# 2 4 2625 -153
+p m1_2116_n16# vdd multi_1/addbox_3/adder2_0/and_0/a_48_48# 2 4 2581 -153
+n m1_2116_n16# gnd multi_1/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 2581 -82
+n multi_1/addbox_3/m1_n12_92# multi_1/addbox_3/adder2_0/and_0/nand_0/a_7_n40# multi_1/addbox_3/adder2_0/and_0/a_48_48# 2 4 2597 -82
+p multi_1/addbox_3/m1_n12_92# multi_1/addbox_3/adder2_0/and_0/a_48_48# vdd 2 4 2597 -153
+n multi_1/addbox_3/adder2_0/and_1/a_48_48# gnd multi_1/addbox_3/adder2_0/a_528_88# 2 4 2869 -82
+p multi_1/addbox_3/adder2_0/and_1/a_48_48# vdd multi_1/addbox_3/adder2_0/a_528_88# 2 4 2869 -153
+p m1_3024_n32# vdd multi_1/addbox_3/adder2_0/and_1/a_48_48# 2 4 2825 -153
+n m1_3024_n32# gnd multi_1/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 2825 -82
+n multi_1/addbox_3/adder2_0/m1_76_8# multi_1/addbox_3/adder2_0/and_1/nand_0/a_7_n40# multi_1/addbox_3/adder2_0/and_1/a_48_48# 2 4 2841 -82
+p multi_1/addbox_3/adder2_0/m1_76_8# multi_1/addbox_3/adder2_0/and_1/a_48_48# vdd 2 4 2841 -153
+n multi_1/addbox_3/and_0/a_48_48# gnd multi_1/addbox_3/m1_n12_92# 2 4 2353 -251
+p multi_1/addbox_3/and_0/a_48_48# vdd multi_1/addbox_3/m1_n12_92# 2 4 2353 -180
+p a1 vdd multi_1/addbox_3/and_0/a_48_48# 2 4 2309 -180
+n a1 gnd multi_1/addbox_3/and_0/nand_0/a_7_n40# 2 4 2309 -251
+n b1 multi_1/addbox_3/and_0/nand_0/a_7_n40# multi_1/addbox_3/and_0/a_48_48# 2 4 2325 -251
+p b1 multi_1/addbox_3/and_0/a_48_48# vdd 2 4 2325 -180
+n multi_2/addbox_4/adder2_0/or_0/m1_44_48# gnd multi_3/cin 2 4 3721 -406
+p multi_2/addbox_4/adder2_0/or_0/m1_44_48# vdd multi_3/cin 2 4 3721 -477
+n multi_2/addbox_4/adder2_0/a_512_128# gnd multi_2/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3673 -406
+n multi_2/addbox_4/adder2_0/a_528_88# multi_2/addbox_4/adder2_0/or_0/m1_44_48# gnd 2 4 3689 -406
+p multi_2/addbox_4/adder2_0/a_528_88# multi_2/addbox_4/adder2_0/or_0/nor1_0/a_19_32# multi_2/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3689 -477
+p multi_2/addbox_4/adder2_0/a_512_128# vdd multi_2/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 -477
+p multi_2/addbox_4/m1_n12_92# vdd multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -508
+n multi_2/addbox_4/m1_n12_92# gnd multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -571
+p multi_2/sin1 vdd multi_2/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -508
+n multi_2/sin1 gnd multi_2/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -571
+p multi_2/addbox_4/adder2_0/xor3_0/a_32_44# vdd multi_2/addbox_4/adder2_0/xor3_0/a_35_76# 2 4 3269 -508
+p multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# multi_2/addbox_4/adder2_0/m1_76_8# multi_2/addbox_4/adder2_0/xor3_0/a_n5_76# 2 4 3230 -508
+p multi_2/sin1 multi_2/addbox_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 -508
+n multi_2/addbox_4/m1_n12_92# gnd multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3285 -572
+n multi_2/addbox_4/adder2_0/xor3_0/a_32_44# multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 -572
+n multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# multi_2/addbox_4/adder2_0/m1_76_8# 2 4 3230 -572
+n multi_2/sin1 multi_2/addbox_4/adder2_0/m1_76_8# multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3245 -572
+p multi_2/addbox_4/m1_n12_92# multi_2/addbox_4/adder2_0/xor3_0/a_35_76# multi_2/addbox_4/adder2_0/m1_76_8# 2 4 3285 -508
+p multi_2/addbox_4/adder2_0/m1_76_8# vdd multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -508
+n multi_2/addbox_4/adder2_0/m1_76_8# gnd multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -571
+p multi_2/cin vdd multi_2/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -508
+n multi_2/cin gnd multi_2/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -571
+p multi_2/addbox_4/adder2_0/xor3_1/a_32_44# vdd multi_2/addbox_4/adder2_0/xor3_1/a_35_76# 2 4 3513 -508
+p multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# p2 multi_2/addbox_4/adder2_0/xor3_1/a_n5_76# 2 4 3474 -508
+p multi_2/cin multi_2/addbox_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 -508
+n multi_2/addbox_4/adder2_0/m1_76_8# gnd multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3529 -572
+n multi_2/addbox_4/adder2_0/xor3_1/a_32_44# multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 -572
+n multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# p2 2 4 3474 -572
+n multi_2/cin p2 multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3489 -572
+p multi_2/addbox_4/adder2_0/m1_76_8# multi_2/addbox_4/adder2_0/xor3_1/a_35_76# p2 2 4 3529 -508
+n multi_2/addbox_4/adder2_0/and_0/a_48_48# gnd multi_2/addbox_4/adder2_0/a_512_128# 2 4 3381 -406
+p multi_2/addbox_4/adder2_0/and_0/a_48_48# vdd multi_2/addbox_4/adder2_0/a_512_128# 2 4 3381 -477
+p multi_2/sin1 vdd multi_2/addbox_4/adder2_0/and_0/a_48_48# 2 4 3337 -477
+n multi_2/sin1 gnd multi_2/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 -406
+n multi_2/addbox_4/m1_n12_92# multi_2/addbox_4/adder2_0/and_0/nand_0/a_7_n40# multi_2/addbox_4/adder2_0/and_0/a_48_48# 2 4 3353 -406
+p multi_2/addbox_4/m1_n12_92# multi_2/addbox_4/adder2_0/and_0/a_48_48# vdd 2 4 3353 -477
+n multi_2/addbox_4/adder2_0/and_1/a_48_48# gnd multi_2/addbox_4/adder2_0/a_528_88# 2 4 3625 -406
+p multi_2/addbox_4/adder2_0/and_1/a_48_48# vdd multi_2/addbox_4/adder2_0/a_528_88# 2 4 3625 -477
+p multi_2/cin vdd multi_2/addbox_4/adder2_0/and_1/a_48_48# 2 4 3581 -477
+n multi_2/cin gnd multi_2/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 -406
+n multi_2/addbox_4/adder2_0/m1_76_8# multi_2/addbox_4/adder2_0/and_1/nand_0/a_7_n40# multi_2/addbox_4/adder2_0/and_1/a_48_48# 2 4 3597 -406
+p multi_2/addbox_4/adder2_0/m1_76_8# multi_2/addbox_4/adder2_0/and_1/a_48_48# vdd 2 4 3597 -477
+n multi_2/addbox_4/and_0/a_48_48# gnd multi_2/addbox_4/m1_n12_92# 2 4 3109 -575
+p multi_2/addbox_4/and_0/a_48_48# vdd multi_2/addbox_4/m1_n12_92# 2 4 3109 -504
+p a0 vdd multi_2/addbox_4/and_0/a_48_48# 2 4 3065 -504
+n a0 gnd multi_2/addbox_4/and_0/nand_0/a_7_n40# 2 4 3065 -575
+n b2 multi_2/addbox_4/and_0/nand_0/a_7_n40# multi_2/addbox_4/and_0/a_48_48# 2 4 3081 -575
+p b2 multi_2/addbox_4/and_0/a_48_48# vdd 2 4 3081 -504
+n multi_2/addbox_0/adder2_0/or_0/m1_44_48# gnd m1_748_n680# 2 4 689 -406
+p multi_2/addbox_0/adder2_0/or_0/m1_44_48# vdd m1_748_n680# 2 4 689 -477
+n multi_2/addbox_0/adder2_0/a_512_128# gnd multi_2/addbox_0/adder2_0/or_0/m1_44_48# 2 4 641 -406
+n multi_2/addbox_0/adder2_0/a_528_88# multi_2/addbox_0/adder2_0/or_0/m1_44_48# gnd 2 4 657 -406
+p multi_2/addbox_0/adder2_0/a_528_88# multi_2/addbox_0/adder2_0/or_0/nor1_0/a_19_32# multi_2/addbox_0/adder2_0/or_0/m1_44_48# 2 4 657 -477
+p multi_2/addbox_0/adder2_0/a_512_128# vdd multi_2/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 641 -477
+p multi_2/addbox_0/m1_n12_92# vdd multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -508
+n multi_2/addbox_0/m1_n12_92# gnd multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -571
+p gnd vdd multi_2/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -508
+n gnd gnd multi_2/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -571
+p multi_2/addbox_0/adder2_0/xor3_0/a_32_44# vdd multi_2/addbox_0/adder2_0/xor3_0/a_35_76# 2 4 237 -508
+p multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# multi_2/addbox_0/adder2_0/m1_76_8# multi_2/addbox_0/adder2_0/xor3_0/a_n5_76# 2 4 198 -508
+p gnd multi_2/addbox_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 213 -508
+n multi_2/addbox_0/m1_n12_92# gnd multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 253 -572
+n multi_2/addbox_0/adder2_0/xor3_0/a_32_44# multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 237 -572
+n multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# multi_2/addbox_0/adder2_0/m1_76_8# 2 4 198 -572
+n gnd multi_2/addbox_0/adder2_0/m1_76_8# multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 213 -572
+p multi_2/addbox_0/m1_n12_92# multi_2/addbox_0/adder2_0/xor3_0/a_35_76# multi_2/addbox_0/adder2_0/m1_76_8# 2 4 253 -508
+p multi_2/addbox_0/adder2_0/m1_76_8# vdd multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -508
+n multi_2/addbox_0/adder2_0/m1_76_8# gnd multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -571
+p m1_748_n356# vdd multi_2/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -508
+n m1_748_n356# gnd multi_2/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -571
+p multi_2/addbox_0/adder2_0/xor3_1/a_32_44# vdd multi_2/addbox_0/adder2_0/xor3_1/a_35_76# 2 4 481 -508
+p multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# m1_596_n664# multi_2/addbox_0/adder2_0/xor3_1/a_n5_76# 2 4 442 -508
+p m1_748_n356# multi_2/addbox_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 457 -508
+n multi_2/addbox_0/adder2_0/m1_76_8# gnd multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 497 -572
+n multi_2/addbox_0/adder2_0/xor3_1/a_32_44# multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 481 -572
+n multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# m1_596_n664# 2 4 442 -572
+n m1_748_n356# m1_596_n664# multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 457 -572
+p multi_2/addbox_0/adder2_0/m1_76_8# multi_2/addbox_0/adder2_0/xor3_1/a_35_76# m1_596_n664# 2 4 497 -508
+n multi_2/addbox_0/adder2_0/and_0/a_48_48# gnd multi_2/addbox_0/adder2_0/a_512_128# 2 4 349 -406
+p multi_2/addbox_0/adder2_0/and_0/a_48_48# vdd multi_2/addbox_0/adder2_0/a_512_128# 2 4 349 -477
+p gnd vdd multi_2/addbox_0/adder2_0/and_0/a_48_48# 2 4 305 -477
+n gnd gnd multi_2/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 305 -406
+n multi_2/addbox_0/m1_n12_92# multi_2/addbox_0/adder2_0/and_0/nand_0/a_7_n40# multi_2/addbox_0/adder2_0/and_0/a_48_48# 2 4 321 -406
+p multi_2/addbox_0/m1_n12_92# multi_2/addbox_0/adder2_0/and_0/a_48_48# vdd 2 4 321 -477
+n multi_2/addbox_0/adder2_0/and_1/a_48_48# gnd multi_2/addbox_0/adder2_0/a_528_88# 2 4 593 -406
+p multi_2/addbox_0/adder2_0/and_1/a_48_48# vdd multi_2/addbox_0/adder2_0/a_528_88# 2 4 593 -477
+p m1_748_n356# vdd multi_2/addbox_0/adder2_0/and_1/a_48_48# 2 4 549 -477
+n m1_748_n356# gnd multi_2/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 549 -406
+n multi_2/addbox_0/adder2_0/m1_76_8# multi_2/addbox_0/adder2_0/and_1/nand_0/a_7_n40# multi_2/addbox_0/adder2_0/and_1/a_48_48# 2 4 565 -406
+p multi_2/addbox_0/adder2_0/m1_76_8# multi_2/addbox_0/adder2_0/and_1/a_48_48# vdd 2 4 565 -477
+n multi_2/addbox_0/and_0/a_48_48# gnd multi_2/addbox_0/m1_n12_92# 2 4 77 -575
+p multi_2/addbox_0/and_0/a_48_48# vdd multi_2/addbox_0/m1_n12_92# 2 4 77 -504
+p a4 vdd multi_2/addbox_0/and_0/a_48_48# 2 4 33 -504
+n a4 gnd multi_2/addbox_0/and_0/nand_0/a_7_n40# 2 4 33 -575
+n b2 multi_2/addbox_0/and_0/nand_0/a_7_n40# multi_2/addbox_0/and_0/a_48_48# 2 4 49 -575
+p b2 multi_2/addbox_0/and_0/a_48_48# vdd 2 4 49 -504
+n multi_2/addbox_1/adder2_0/or_0/m1_44_48# gnd m1_1508_n676# 2 4 1449 -406
+p multi_2/addbox_1/adder2_0/or_0/m1_44_48# vdd m1_1508_n676# 2 4 1449 -477
+n multi_2/addbox_1/adder2_0/a_512_128# gnd multi_2/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1401 -406
+n multi_2/addbox_1/adder2_0/a_528_88# multi_2/addbox_1/adder2_0/or_0/m1_44_48# gnd 2 4 1417 -406
+p multi_2/addbox_1/adder2_0/a_528_88# multi_2/addbox_1/adder2_0/or_0/nor1_0/a_19_32# multi_2/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1417 -477
+p multi_2/addbox_1/adder2_0/a_512_128# vdd multi_2/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1401 -477
+p multi_2/addbox_1/m1_n12_92# vdd multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -508
+n multi_2/addbox_1/m1_n12_92# gnd multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -571
+p m1_596_n340# vdd multi_2/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -508
+n m1_596_n340# gnd multi_2/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -571
+p multi_2/addbox_1/adder2_0/xor3_0/a_32_44# vdd multi_2/addbox_1/adder2_0/xor3_0/a_35_76# 2 4 997 -508
+p multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# multi_2/addbox_1/adder2_0/m1_76_8# multi_2/addbox_1/adder2_0/xor3_0/a_n5_76# 2 4 958 -508
+p m1_596_n340# multi_2/addbox_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 973 -508
+n multi_2/addbox_1/m1_n12_92# gnd multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 1013 -572
+n multi_2/addbox_1/adder2_0/xor3_0/a_32_44# multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 997 -572
+n multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# multi_2/addbox_1/adder2_0/m1_76_8# 2 4 958 -572
+n m1_596_n340# multi_2/addbox_1/adder2_0/m1_76_8# multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 973 -572
+p multi_2/addbox_1/m1_n12_92# multi_2/addbox_1/adder2_0/xor3_0/a_35_76# multi_2/addbox_1/adder2_0/m1_76_8# 2 4 1013 -508
+p multi_2/addbox_1/adder2_0/m1_76_8# vdd multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -508
+n multi_2/addbox_1/adder2_0/m1_76_8# gnd multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -571
+p m1_1508_n356# vdd multi_2/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -508
+n m1_1508_n356# gnd multi_2/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -571
+p multi_2/addbox_1/adder2_0/xor3_1/a_32_44# vdd multi_2/addbox_1/adder2_0/xor3_1/a_35_76# 2 4 1241 -508
+p multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# m1_1356_n664# multi_2/addbox_1/adder2_0/xor3_1/a_n5_76# 2 4 1202 -508
+p m1_1508_n356# multi_2/addbox_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 1217 -508
+n multi_2/addbox_1/adder2_0/m1_76_8# gnd multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1257 -572
+n multi_2/addbox_1/adder2_0/xor3_1/a_32_44# multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 1241 -572
+n multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# m1_1356_n664# 2 4 1202 -572
+n m1_1508_n356# m1_1356_n664# multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1217 -572
+p multi_2/addbox_1/adder2_0/m1_76_8# multi_2/addbox_1/adder2_0/xor3_1/a_35_76# m1_1356_n664# 2 4 1257 -508
+n multi_2/addbox_1/adder2_0/and_0/a_48_48# gnd multi_2/addbox_1/adder2_0/a_512_128# 2 4 1109 -406
+p multi_2/addbox_1/adder2_0/and_0/a_48_48# vdd multi_2/addbox_1/adder2_0/a_512_128# 2 4 1109 -477
+p m1_596_n340# vdd multi_2/addbox_1/adder2_0/and_0/a_48_48# 2 4 1065 -477
+n m1_596_n340# gnd multi_2/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 1065 -406
+n multi_2/addbox_1/m1_n12_92# multi_2/addbox_1/adder2_0/and_0/nand_0/a_7_n40# multi_2/addbox_1/adder2_0/and_0/a_48_48# 2 4 1081 -406
+p multi_2/addbox_1/m1_n12_92# multi_2/addbox_1/adder2_0/and_0/a_48_48# vdd 2 4 1081 -477
+n multi_2/addbox_1/adder2_0/and_1/a_48_48# gnd multi_2/addbox_1/adder2_0/a_528_88# 2 4 1353 -406
+p multi_2/addbox_1/adder2_0/and_1/a_48_48# vdd multi_2/addbox_1/adder2_0/a_528_88# 2 4 1353 -477
+p m1_1508_n356# vdd multi_2/addbox_1/adder2_0/and_1/a_48_48# 2 4 1309 -477
+n m1_1508_n356# gnd multi_2/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1309 -406
+n multi_2/addbox_1/adder2_0/m1_76_8# multi_2/addbox_1/adder2_0/and_1/nand_0/a_7_n40# multi_2/addbox_1/adder2_0/and_1/a_48_48# 2 4 1325 -406
+p multi_2/addbox_1/adder2_0/m1_76_8# multi_2/addbox_1/adder2_0/and_1/a_48_48# vdd 2 4 1325 -477
+n multi_2/addbox_1/and_0/a_48_48# gnd multi_2/addbox_1/m1_n12_92# 2 4 837 -575
+p multi_2/addbox_1/and_0/a_48_48# vdd multi_2/addbox_1/m1_n12_92# 2 4 837 -504
+p a3 vdd multi_2/addbox_1/and_0/a_48_48# 2 4 793 -504
+n a3 gnd multi_2/addbox_1/and_0/nand_0/a_7_n40# 2 4 793 -575
+n b2 multi_2/addbox_1/and_0/nand_0/a_7_n40# multi_2/addbox_1/and_0/a_48_48# 2 4 809 -575
+p b2 multi_2/addbox_1/and_0/a_48_48# vdd 2 4 809 -504
+n multi_2/addbox_2/adder2_0/or_0/m1_44_48# gnd m1_2268_n676# 2 4 2209 -406
+p multi_2/addbox_2/adder2_0/or_0/m1_44_48# vdd m1_2268_n676# 2 4 2209 -477
+n multi_2/addbox_2/adder2_0/a_512_128# gnd multi_2/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2161 -406
+n multi_2/addbox_2/adder2_0/a_528_88# multi_2/addbox_2/adder2_0/or_0/m1_44_48# gnd 2 4 2177 -406
+p multi_2/addbox_2/adder2_0/a_528_88# multi_2/addbox_2/adder2_0/or_0/nor1_0/a_19_32# multi_2/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2177 -477
+p multi_2/addbox_2/adder2_0/a_512_128# vdd multi_2/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 2161 -477
+p multi_2/addbox_2/m1_n12_92# vdd multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -508
+n multi_2/addbox_2/m1_n12_92# gnd multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -571
+p m1_1356_n340# vdd multi_2/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -508
+n m1_1356_n340# gnd multi_2/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -571
+p multi_2/addbox_2/adder2_0/xor3_0/a_32_44# vdd multi_2/addbox_2/adder2_0/xor3_0/a_35_76# 2 4 1757 -508
+p multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# multi_2/addbox_2/adder2_0/m1_76_8# multi_2/addbox_2/adder2_0/xor3_0/a_n5_76# 2 4 1718 -508
+p m1_1356_n340# multi_2/addbox_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 1733 -508
+n multi_2/addbox_2/m1_n12_92# gnd multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1773 -572
+n multi_2/addbox_2/adder2_0/xor3_0/a_32_44# multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 1757 -572
+n multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# multi_2/addbox_2/adder2_0/m1_76_8# 2 4 1718 -572
+n m1_1356_n340# multi_2/addbox_2/adder2_0/m1_76_8# multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1733 -572
+p multi_2/addbox_2/m1_n12_92# multi_2/addbox_2/adder2_0/xor3_0/a_35_76# multi_2/addbox_2/adder2_0/m1_76_8# 2 4 1773 -508
+p multi_2/addbox_2/adder2_0/m1_76_8# vdd multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -508
+n multi_2/addbox_2/adder2_0/m1_76_8# gnd multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -571
+p m1_2268_n356# vdd multi_2/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -508
+n m1_2268_n356# gnd multi_2/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -571
+p multi_2/addbox_2/adder2_0/xor3_1/a_32_44# vdd multi_2/addbox_2/adder2_0/xor3_1/a_35_76# 2 4 2001 -508
+p multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# m1_2116_n664# multi_2/addbox_2/adder2_0/xor3_1/a_n5_76# 2 4 1962 -508
+p m1_2268_n356# multi_2/addbox_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 1977 -508
+n multi_2/addbox_2/adder2_0/m1_76_8# gnd multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 2017 -572
+n multi_2/addbox_2/adder2_0/xor3_1/a_32_44# multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 2001 -572
+n multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# m1_2116_n664# 2 4 1962 -572
+n m1_2268_n356# m1_2116_n664# multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 1977 -572
+p multi_2/addbox_2/adder2_0/m1_76_8# multi_2/addbox_2/adder2_0/xor3_1/a_35_76# m1_2116_n664# 2 4 2017 -508
+n multi_2/addbox_2/adder2_0/and_0/a_48_48# gnd multi_2/addbox_2/adder2_0/a_512_128# 2 4 1869 -406
+p multi_2/addbox_2/adder2_0/and_0/a_48_48# vdd multi_2/addbox_2/adder2_0/a_512_128# 2 4 1869 -477
+p m1_1356_n340# vdd multi_2/addbox_2/adder2_0/and_0/a_48_48# 2 4 1825 -477
+n m1_1356_n340# gnd multi_2/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 1825 -406
+n multi_2/addbox_2/m1_n12_92# multi_2/addbox_2/adder2_0/and_0/nand_0/a_7_n40# multi_2/addbox_2/adder2_0/and_0/a_48_48# 2 4 1841 -406
+p multi_2/addbox_2/m1_n12_92# multi_2/addbox_2/adder2_0/and_0/a_48_48# vdd 2 4 1841 -477
+n multi_2/addbox_2/adder2_0/and_1/a_48_48# gnd multi_2/addbox_2/adder2_0/a_528_88# 2 4 2113 -406
+p multi_2/addbox_2/adder2_0/and_1/a_48_48# vdd multi_2/addbox_2/adder2_0/a_528_88# 2 4 2113 -477
+p m1_2268_n356# vdd multi_2/addbox_2/adder2_0/and_1/a_48_48# 2 4 2069 -477
+n m1_2268_n356# gnd multi_2/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 2069 -406
+n multi_2/addbox_2/adder2_0/m1_76_8# multi_2/addbox_2/adder2_0/and_1/nand_0/a_7_n40# multi_2/addbox_2/adder2_0/and_1/a_48_48# 2 4 2085 -406
+p multi_2/addbox_2/adder2_0/m1_76_8# multi_2/addbox_2/adder2_0/and_1/a_48_48# vdd 2 4 2085 -477
+n multi_2/addbox_2/and_0/a_48_48# gnd multi_2/addbox_2/m1_n12_92# 2 4 1597 -575
+p multi_2/addbox_2/and_0/a_48_48# vdd multi_2/addbox_2/m1_n12_92# 2 4 1597 -504
+p a2 vdd multi_2/addbox_2/and_0/a_48_48# 2 4 1553 -504
+n a2 gnd multi_2/addbox_2/and_0/nand_0/a_7_n40# 2 4 1553 -575
+n b2 multi_2/addbox_2/and_0/nand_0/a_7_n40# multi_2/addbox_2/and_0/a_48_48# 2 4 1569 -575
+p b2 multi_2/addbox_2/and_0/a_48_48# vdd 2 4 1569 -504
+n multi_2/addbox_3/adder2_0/or_0/m1_44_48# gnd m1_3024_n676# 2 4 2965 -406
+p multi_2/addbox_3/adder2_0/or_0/m1_44_48# vdd m1_3024_n676# 2 4 2965 -477
+n multi_2/addbox_3/adder2_0/a_512_128# gnd multi_2/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2917 -406
+n multi_2/addbox_3/adder2_0/a_528_88# multi_2/addbox_3/adder2_0/or_0/m1_44_48# gnd 2 4 2933 -406
+p multi_2/addbox_3/adder2_0/a_528_88# multi_2/addbox_3/adder2_0/or_0/nor1_0/a_19_32# multi_2/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2933 -477
+p multi_2/addbox_3/adder2_0/a_512_128# vdd multi_2/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 2917 -477
+p multi_2/addbox_3/m1_n12_92# vdd multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -508
+n multi_2/addbox_3/m1_n12_92# gnd multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -571
+p m1_2116_n340# vdd multi_2/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -508
+n m1_2116_n340# gnd multi_2/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -571
+p multi_2/addbox_3/adder2_0/xor3_0/a_32_44# vdd multi_2/addbox_3/adder2_0/xor3_0/a_35_76# 2 4 2513 -508
+p multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# multi_2/addbox_3/adder2_0/m1_76_8# multi_2/addbox_3/adder2_0/xor3_0/a_n5_76# 2 4 2474 -508
+p m1_2116_n340# multi_2/addbox_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 2489 -508
+n multi_2/addbox_3/m1_n12_92# gnd multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2529 -572
+n multi_2/addbox_3/adder2_0/xor3_0/a_32_44# multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 2513 -572
+n multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# multi_2/addbox_3/adder2_0/m1_76_8# 2 4 2474 -572
+n m1_2116_n340# multi_2/addbox_3/adder2_0/m1_76_8# multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2489 -572
+p multi_2/addbox_3/m1_n12_92# multi_2/addbox_3/adder2_0/xor3_0/a_35_76# multi_2/addbox_3/adder2_0/m1_76_8# 2 4 2529 -508
+p multi_2/addbox_3/adder2_0/m1_76_8# vdd multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -508
+n multi_2/addbox_3/adder2_0/m1_76_8# gnd multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -571
+p m1_3024_n356# vdd multi_2/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -508
+n m1_3024_n356# gnd multi_2/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -571
+p multi_2/addbox_3/adder2_0/xor3_1/a_32_44# vdd multi_2/addbox_3/adder2_0/xor3_1/a_35_76# 2 4 2757 -508
+p multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# multi_3/sin1 multi_2/addbox_3/adder2_0/xor3_1/a_n5_76# 2 4 2718 -508
+p m1_3024_n356# multi_2/addbox_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 2733 -508
+n multi_2/addbox_3/adder2_0/m1_76_8# gnd multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2773 -572
+n multi_2/addbox_3/adder2_0/xor3_1/a_32_44# multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 2757 -572
+n multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# multi_3/sin1 2 4 2718 -572
+n m1_3024_n356# multi_3/sin1 multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2733 -572
+p multi_2/addbox_3/adder2_0/m1_76_8# multi_2/addbox_3/adder2_0/xor3_1/a_35_76# multi_3/sin1 2 4 2773 -508
+n multi_2/addbox_3/adder2_0/and_0/a_48_48# gnd multi_2/addbox_3/adder2_0/a_512_128# 2 4 2625 -406
+p multi_2/addbox_3/adder2_0/and_0/a_48_48# vdd multi_2/addbox_3/adder2_0/a_512_128# 2 4 2625 -477
+p m1_2116_n340# vdd multi_2/addbox_3/adder2_0/and_0/a_48_48# 2 4 2581 -477
+n m1_2116_n340# gnd multi_2/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 2581 -406
+n multi_2/addbox_3/m1_n12_92# multi_2/addbox_3/adder2_0/and_0/nand_0/a_7_n40# multi_2/addbox_3/adder2_0/and_0/a_48_48# 2 4 2597 -406
+p multi_2/addbox_3/m1_n12_92# multi_2/addbox_3/adder2_0/and_0/a_48_48# vdd 2 4 2597 -477
+n multi_2/addbox_3/adder2_0/and_1/a_48_48# gnd multi_2/addbox_3/adder2_0/a_528_88# 2 4 2869 -406
+p multi_2/addbox_3/adder2_0/and_1/a_48_48# vdd multi_2/addbox_3/adder2_0/a_528_88# 2 4 2869 -477
+p m1_3024_n356# vdd multi_2/addbox_3/adder2_0/and_1/a_48_48# 2 4 2825 -477
+n m1_3024_n356# gnd multi_2/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 2825 -406
+n multi_2/addbox_3/adder2_0/m1_76_8# multi_2/addbox_3/adder2_0/and_1/nand_0/a_7_n40# multi_2/addbox_3/adder2_0/and_1/a_48_48# 2 4 2841 -406
+p multi_2/addbox_3/adder2_0/m1_76_8# multi_2/addbox_3/adder2_0/and_1/a_48_48# vdd 2 4 2841 -477
+n multi_2/addbox_3/and_0/a_48_48# gnd multi_2/addbox_3/m1_n12_92# 2 4 2353 -575
+p multi_2/addbox_3/and_0/a_48_48# vdd multi_2/addbox_3/m1_n12_92# 2 4 2353 -504
+p a1 vdd multi_2/addbox_3/and_0/a_48_48# 2 4 2309 -504
+n a1 gnd multi_2/addbox_3/and_0/nand_0/a_7_n40# 2 4 2309 -575
+n b2 multi_2/addbox_3/and_0/nand_0/a_7_n40# multi_2/addbox_3/and_0/a_48_48# 2 4 2325 -575
+p b2 multi_2/addbox_3/and_0/a_48_48# vdd 2 4 2325 -504
+n multi_3/addbox_4/adder2_0/or_0/m1_44_48# gnd multi_4/cin 2 4 3721 -726
+p multi_3/addbox_4/adder2_0/or_0/m1_44_48# vdd multi_4/cin 2 4 3721 -797
+n multi_3/addbox_4/adder2_0/a_512_128# gnd multi_3/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3673 -726
+n multi_3/addbox_4/adder2_0/a_528_88# multi_3/addbox_4/adder2_0/or_0/m1_44_48# gnd 2 4 3689 -726
+p multi_3/addbox_4/adder2_0/a_528_88# multi_3/addbox_4/adder2_0/or_0/nor1_0/a_19_32# multi_3/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3689 -797
+p multi_3/addbox_4/adder2_0/a_512_128# vdd multi_3/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 -797
+p multi_3/addbox_4/m1_n12_92# vdd multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -828
+n multi_3/addbox_4/m1_n12_92# gnd multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -891
+p multi_3/sin1 vdd multi_3/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -828
+n multi_3/sin1 gnd multi_3/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -891
+p multi_3/addbox_4/adder2_0/xor3_0/a_32_44# vdd multi_3/addbox_4/adder2_0/xor3_0/a_35_76# 2 4 3269 -828
+p multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# multi_3/addbox_4/adder2_0/m1_76_8# multi_3/addbox_4/adder2_0/xor3_0/a_n5_76# 2 4 3230 -828
+p multi_3/sin1 multi_3/addbox_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 -828
+n multi_3/addbox_4/m1_n12_92# gnd multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3285 -892
+n multi_3/addbox_4/adder2_0/xor3_0/a_32_44# multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 -892
+n multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# multi_3/addbox_4/adder2_0/m1_76_8# 2 4 3230 -892
+n multi_3/sin1 multi_3/addbox_4/adder2_0/m1_76_8# multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3245 -892
+p multi_3/addbox_4/m1_n12_92# multi_3/addbox_4/adder2_0/xor3_0/a_35_76# multi_3/addbox_4/adder2_0/m1_76_8# 2 4 3285 -828
+p multi_3/addbox_4/adder2_0/m1_76_8# vdd multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -828
+n multi_3/addbox_4/adder2_0/m1_76_8# gnd multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -891
+p multi_3/cin vdd multi_3/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -828
+n multi_3/cin gnd multi_3/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -891
+p multi_3/addbox_4/adder2_0/xor3_1/a_32_44# vdd multi_3/addbox_4/adder2_0/xor3_1/a_35_76# 2 4 3513 -828
+p multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# p3 multi_3/addbox_4/adder2_0/xor3_1/a_n5_76# 2 4 3474 -828
+p multi_3/cin multi_3/addbox_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 -828
+n multi_3/addbox_4/adder2_0/m1_76_8# gnd multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3529 -892
+n multi_3/addbox_4/adder2_0/xor3_1/a_32_44# multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 -892
+n multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# p3 2 4 3474 -892
+n multi_3/cin p3 multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3489 -892
+p multi_3/addbox_4/adder2_0/m1_76_8# multi_3/addbox_4/adder2_0/xor3_1/a_35_76# p3 2 4 3529 -828
+n multi_3/addbox_4/adder2_0/and_0/a_48_48# gnd multi_3/addbox_4/adder2_0/a_512_128# 2 4 3381 -726
+p multi_3/addbox_4/adder2_0/and_0/a_48_48# vdd multi_3/addbox_4/adder2_0/a_512_128# 2 4 3381 -797
+p multi_3/sin1 vdd multi_3/addbox_4/adder2_0/and_0/a_48_48# 2 4 3337 -797
+n multi_3/sin1 gnd multi_3/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 -726
+n multi_3/addbox_4/m1_n12_92# multi_3/addbox_4/adder2_0/and_0/nand_0/a_7_n40# multi_3/addbox_4/adder2_0/and_0/a_48_48# 2 4 3353 -726
+p multi_3/addbox_4/m1_n12_92# multi_3/addbox_4/adder2_0/and_0/a_48_48# vdd 2 4 3353 -797
+n multi_3/addbox_4/adder2_0/and_1/a_48_48# gnd multi_3/addbox_4/adder2_0/a_528_88# 2 4 3625 -726
+p multi_3/addbox_4/adder2_0/and_1/a_48_48# vdd multi_3/addbox_4/adder2_0/a_528_88# 2 4 3625 -797
+p multi_3/cin vdd multi_3/addbox_4/adder2_0/and_1/a_48_48# 2 4 3581 -797
+n multi_3/cin gnd multi_3/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 -726
+n multi_3/addbox_4/adder2_0/m1_76_8# multi_3/addbox_4/adder2_0/and_1/nand_0/a_7_n40# multi_3/addbox_4/adder2_0/and_1/a_48_48# 2 4 3597 -726
+p multi_3/addbox_4/adder2_0/m1_76_8# multi_3/addbox_4/adder2_0/and_1/a_48_48# vdd 2 4 3597 -797
+n multi_3/addbox_4/and_0/a_48_48# gnd multi_3/addbox_4/m1_n12_92# 2 4 3109 -895
+p multi_3/addbox_4/and_0/a_48_48# vdd multi_3/addbox_4/m1_n12_92# 2 4 3109 -824
+p a0 vdd multi_3/addbox_4/and_0/a_48_48# 2 4 3065 -824
+n a0 gnd multi_3/addbox_4/and_0/nand_0/a_7_n40# 2 4 3065 -895
+n b3 multi_3/addbox_4/and_0/nand_0/a_7_n40# multi_3/addbox_4/and_0/a_48_48# 2 4 3081 -895
+p b3 multi_3/addbox_4/and_0/a_48_48# vdd 2 4 3081 -824
+n multi_3/addbox_0/adder2_0/or_0/m1_44_48# gnd m1_748_n996# 2 4 689 -726
+p multi_3/addbox_0/adder2_0/or_0/m1_44_48# vdd m1_748_n996# 2 4 689 -797
+n multi_3/addbox_0/adder2_0/a_512_128# gnd multi_3/addbox_0/adder2_0/or_0/m1_44_48# 2 4 641 -726
+n multi_3/addbox_0/adder2_0/a_528_88# multi_3/addbox_0/adder2_0/or_0/m1_44_48# gnd 2 4 657 -726
+p multi_3/addbox_0/adder2_0/a_528_88# multi_3/addbox_0/adder2_0/or_0/nor1_0/a_19_32# multi_3/addbox_0/adder2_0/or_0/m1_44_48# 2 4 657 -797
+p multi_3/addbox_0/adder2_0/a_512_128# vdd multi_3/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 641 -797
+p multi_3/addbox_0/m1_n12_92# vdd multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -828
+n multi_3/addbox_0/m1_n12_92# gnd multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -891
+p gnd vdd multi_3/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -828
+n gnd gnd multi_3/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -891
+p multi_3/addbox_0/adder2_0/xor3_0/a_32_44# vdd multi_3/addbox_0/adder2_0/xor3_0/a_35_76# 2 4 237 -828
+p multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# multi_3/addbox_0/adder2_0/m1_76_8# multi_3/addbox_0/adder2_0/xor3_0/a_n5_76# 2 4 198 -828
+p gnd multi_3/addbox_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 213 -828
+n multi_3/addbox_0/m1_n12_92# gnd multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 253 -892
+n multi_3/addbox_0/adder2_0/xor3_0/a_32_44# multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 237 -892
+n multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# multi_3/addbox_0/adder2_0/m1_76_8# 2 4 198 -892
+n gnd multi_3/addbox_0/adder2_0/m1_76_8# multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 213 -892
+p multi_3/addbox_0/m1_n12_92# multi_3/addbox_0/adder2_0/xor3_0/a_35_76# multi_3/addbox_0/adder2_0/m1_76_8# 2 4 253 -828
+p multi_3/addbox_0/adder2_0/m1_76_8# vdd multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -828
+n multi_3/addbox_0/adder2_0/m1_76_8# gnd multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -891
+p m1_748_n680# vdd multi_3/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -828
+n m1_748_n680# gnd multi_3/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -891
+p multi_3/addbox_0/adder2_0/xor3_1/a_32_44# vdd multi_3/addbox_0/adder2_0/xor3_1/a_35_76# 2 4 481 -828
+p multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# m1_596_n984# multi_3/addbox_0/adder2_0/xor3_1/a_n5_76# 2 4 442 -828
+p m1_748_n680# multi_3/addbox_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 457 -828
+n multi_3/addbox_0/adder2_0/m1_76_8# gnd multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 497 -892
+n multi_3/addbox_0/adder2_0/xor3_1/a_32_44# multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 481 -892
+n multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# m1_596_n984# 2 4 442 -892
+n m1_748_n680# m1_596_n984# multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 457 -892
+p multi_3/addbox_0/adder2_0/m1_76_8# multi_3/addbox_0/adder2_0/xor3_1/a_35_76# m1_596_n984# 2 4 497 -828
+n multi_3/addbox_0/adder2_0/and_0/a_48_48# gnd multi_3/addbox_0/adder2_0/a_512_128# 2 4 349 -726
+p multi_3/addbox_0/adder2_0/and_0/a_48_48# vdd multi_3/addbox_0/adder2_0/a_512_128# 2 4 349 -797
+p gnd vdd multi_3/addbox_0/adder2_0/and_0/a_48_48# 2 4 305 -797
+n gnd gnd multi_3/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 305 -726
+n multi_3/addbox_0/m1_n12_92# multi_3/addbox_0/adder2_0/and_0/nand_0/a_7_n40# multi_3/addbox_0/adder2_0/and_0/a_48_48# 2 4 321 -726
+p multi_3/addbox_0/m1_n12_92# multi_3/addbox_0/adder2_0/and_0/a_48_48# vdd 2 4 321 -797
+n multi_3/addbox_0/adder2_0/and_1/a_48_48# gnd multi_3/addbox_0/adder2_0/a_528_88# 2 4 593 -726
+p multi_3/addbox_0/adder2_0/and_1/a_48_48# vdd multi_3/addbox_0/adder2_0/a_528_88# 2 4 593 -797
+p m1_748_n680# vdd multi_3/addbox_0/adder2_0/and_1/a_48_48# 2 4 549 -797
+n m1_748_n680# gnd multi_3/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 549 -726
+n multi_3/addbox_0/adder2_0/m1_76_8# multi_3/addbox_0/adder2_0/and_1/nand_0/a_7_n40# multi_3/addbox_0/adder2_0/and_1/a_48_48# 2 4 565 -726
+p multi_3/addbox_0/adder2_0/m1_76_8# multi_3/addbox_0/adder2_0/and_1/a_48_48# vdd 2 4 565 -797
+n multi_3/addbox_0/and_0/a_48_48# gnd multi_3/addbox_0/m1_n12_92# 2 4 77 -895
+p multi_3/addbox_0/and_0/a_48_48# vdd multi_3/addbox_0/m1_n12_92# 2 4 77 -824
+p a4 vdd multi_3/addbox_0/and_0/a_48_48# 2 4 33 -824
+n a4 gnd multi_3/addbox_0/and_0/nand_0/a_7_n40# 2 4 33 -895
+n b3 multi_3/addbox_0/and_0/nand_0/a_7_n40# multi_3/addbox_0/and_0/a_48_48# 2 4 49 -895
+p b3 multi_3/addbox_0/and_0/a_48_48# vdd 2 4 49 -824
+n multi_3/addbox_1/adder2_0/or_0/m1_44_48# gnd m1_1508_n992# 2 4 1449 -726
+p multi_3/addbox_1/adder2_0/or_0/m1_44_48# vdd m1_1508_n992# 2 4 1449 -797
+n multi_3/addbox_1/adder2_0/a_512_128# gnd multi_3/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1401 -726
+n multi_3/addbox_1/adder2_0/a_528_88# multi_3/addbox_1/adder2_0/or_0/m1_44_48# gnd 2 4 1417 -726
+p multi_3/addbox_1/adder2_0/a_528_88# multi_3/addbox_1/adder2_0/or_0/nor1_0/a_19_32# multi_3/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1417 -797
+p multi_3/addbox_1/adder2_0/a_512_128# vdd multi_3/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1401 -797
+p multi_3/addbox_1/m1_n12_92# vdd multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -828
+n multi_3/addbox_1/m1_n12_92# gnd multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -891
+p m1_596_n664# vdd multi_3/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -828
+n m1_596_n664# gnd multi_3/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -891
+p multi_3/addbox_1/adder2_0/xor3_0/a_32_44# vdd multi_3/addbox_1/adder2_0/xor3_0/a_35_76# 2 4 997 -828
+p multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# multi_3/addbox_1/adder2_0/m1_76_8# multi_3/addbox_1/adder2_0/xor3_0/a_n5_76# 2 4 958 -828
+p m1_596_n664# multi_3/addbox_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 973 -828
+n multi_3/addbox_1/m1_n12_92# gnd multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 1013 -892
+n multi_3/addbox_1/adder2_0/xor3_0/a_32_44# multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 997 -892
+n multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# multi_3/addbox_1/adder2_0/m1_76_8# 2 4 958 -892
+n m1_596_n664# multi_3/addbox_1/adder2_0/m1_76_8# multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 973 -892
+p multi_3/addbox_1/m1_n12_92# multi_3/addbox_1/adder2_0/xor3_0/a_35_76# multi_3/addbox_1/adder2_0/m1_76_8# 2 4 1013 -828
+p multi_3/addbox_1/adder2_0/m1_76_8# vdd multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -828
+n multi_3/addbox_1/adder2_0/m1_76_8# gnd multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -891
+p m1_1508_n676# vdd multi_3/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -828
+n m1_1508_n676# gnd multi_3/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -891
+p multi_3/addbox_1/adder2_0/xor3_1/a_32_44# vdd multi_3/addbox_1/adder2_0/xor3_1/a_35_76# 2 4 1241 -828
+p multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# m1_1356_n984# multi_3/addbox_1/adder2_0/xor3_1/a_n5_76# 2 4 1202 -828
+p m1_1508_n676# multi_3/addbox_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 1217 -828
+n multi_3/addbox_1/adder2_0/m1_76_8# gnd multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1257 -892
+n multi_3/addbox_1/adder2_0/xor3_1/a_32_44# multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 1241 -892
+n multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# m1_1356_n984# 2 4 1202 -892
+n m1_1508_n676# m1_1356_n984# multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1217 -892
+p multi_3/addbox_1/adder2_0/m1_76_8# multi_3/addbox_1/adder2_0/xor3_1/a_35_76# m1_1356_n984# 2 4 1257 -828
+n multi_3/addbox_1/adder2_0/and_0/a_48_48# gnd multi_3/addbox_1/adder2_0/a_512_128# 2 4 1109 -726
+p multi_3/addbox_1/adder2_0/and_0/a_48_48# vdd multi_3/addbox_1/adder2_0/a_512_128# 2 4 1109 -797
+p m1_596_n664# vdd multi_3/addbox_1/adder2_0/and_0/a_48_48# 2 4 1065 -797
+n m1_596_n664# gnd multi_3/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 1065 -726
+n multi_3/addbox_1/m1_n12_92# multi_3/addbox_1/adder2_0/and_0/nand_0/a_7_n40# multi_3/addbox_1/adder2_0/and_0/a_48_48# 2 4 1081 -726
+p multi_3/addbox_1/m1_n12_92# multi_3/addbox_1/adder2_0/and_0/a_48_48# vdd 2 4 1081 -797
+n multi_3/addbox_1/adder2_0/and_1/a_48_48# gnd multi_3/addbox_1/adder2_0/a_528_88# 2 4 1353 -726
+p multi_3/addbox_1/adder2_0/and_1/a_48_48# vdd multi_3/addbox_1/adder2_0/a_528_88# 2 4 1353 -797
+p m1_1508_n676# vdd multi_3/addbox_1/adder2_0/and_1/a_48_48# 2 4 1309 -797
+n m1_1508_n676# gnd multi_3/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1309 -726
+n multi_3/addbox_1/adder2_0/m1_76_8# multi_3/addbox_1/adder2_0/and_1/nand_0/a_7_n40# multi_3/addbox_1/adder2_0/and_1/a_48_48# 2 4 1325 -726
+p multi_3/addbox_1/adder2_0/m1_76_8# multi_3/addbox_1/adder2_0/and_1/a_48_48# vdd 2 4 1325 -797
+n multi_3/addbox_1/and_0/a_48_48# gnd multi_3/addbox_1/m1_n12_92# 2 4 837 -895
+p multi_3/addbox_1/and_0/a_48_48# vdd multi_3/addbox_1/m1_n12_92# 2 4 837 -824
+p a3 vdd multi_3/addbox_1/and_0/a_48_48# 2 4 793 -824
+n a3 gnd multi_3/addbox_1/and_0/nand_0/a_7_n40# 2 4 793 -895
+n b3 multi_3/addbox_1/and_0/nand_0/a_7_n40# multi_3/addbox_1/and_0/a_48_48# 2 4 809 -895
+p b3 multi_3/addbox_1/and_0/a_48_48# vdd 2 4 809 -824
+n multi_3/addbox_2/adder2_0/or_0/m1_44_48# gnd m1_2268_n996# 2 4 2209 -726
+p multi_3/addbox_2/adder2_0/or_0/m1_44_48# vdd m1_2268_n996# 2 4 2209 -797
+n multi_3/addbox_2/adder2_0/a_512_128# gnd multi_3/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2161 -726
+n multi_3/addbox_2/adder2_0/a_528_88# multi_3/addbox_2/adder2_0/or_0/m1_44_48# gnd 2 4 2177 -726
+p multi_3/addbox_2/adder2_0/a_528_88# multi_3/addbox_2/adder2_0/or_0/nor1_0/a_19_32# multi_3/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2177 -797
+p multi_3/addbox_2/adder2_0/a_512_128# vdd multi_3/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 2161 -797
+p multi_3/addbox_2/m1_n12_92# vdd multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -828
+n multi_3/addbox_2/m1_n12_92# gnd multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -891
+p m1_1356_n664# vdd multi_3/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -828
+n m1_1356_n664# gnd multi_3/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -891
+p multi_3/addbox_2/adder2_0/xor3_0/a_32_44# vdd multi_3/addbox_2/adder2_0/xor3_0/a_35_76# 2 4 1757 -828
+p multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# multi_3/addbox_2/adder2_0/m1_76_8# multi_3/addbox_2/adder2_0/xor3_0/a_n5_76# 2 4 1718 -828
+p m1_1356_n664# multi_3/addbox_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 1733 -828
+n multi_3/addbox_2/m1_n12_92# gnd multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1773 -892
+n multi_3/addbox_2/adder2_0/xor3_0/a_32_44# multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 1757 -892
+n multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# multi_3/addbox_2/adder2_0/m1_76_8# 2 4 1718 -892
+n m1_1356_n664# multi_3/addbox_2/adder2_0/m1_76_8# multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1733 -892
+p multi_3/addbox_2/m1_n12_92# multi_3/addbox_2/adder2_0/xor3_0/a_35_76# multi_3/addbox_2/adder2_0/m1_76_8# 2 4 1773 -828
+p multi_3/addbox_2/adder2_0/m1_76_8# vdd multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -828
+n multi_3/addbox_2/adder2_0/m1_76_8# gnd multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -891
+p m1_2268_n676# vdd multi_3/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -828
+n m1_2268_n676# gnd multi_3/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -891
+p multi_3/addbox_2/adder2_0/xor3_1/a_32_44# vdd multi_3/addbox_2/adder2_0/xor3_1/a_35_76# 2 4 2001 -828
+p multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# m1_2116_n984# multi_3/addbox_2/adder2_0/xor3_1/a_n5_76# 2 4 1962 -828
+p m1_2268_n676# multi_3/addbox_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 1977 -828
+n multi_3/addbox_2/adder2_0/m1_76_8# gnd multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 2017 -892
+n multi_3/addbox_2/adder2_0/xor3_1/a_32_44# multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 2001 -892
+n multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# m1_2116_n984# 2 4 1962 -892
+n m1_2268_n676# m1_2116_n984# multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 1977 -892
+p multi_3/addbox_2/adder2_0/m1_76_8# multi_3/addbox_2/adder2_0/xor3_1/a_35_76# m1_2116_n984# 2 4 2017 -828
+n multi_3/addbox_2/adder2_0/and_0/a_48_48# gnd multi_3/addbox_2/adder2_0/a_512_128# 2 4 1869 -726
+p multi_3/addbox_2/adder2_0/and_0/a_48_48# vdd multi_3/addbox_2/adder2_0/a_512_128# 2 4 1869 -797
+p m1_1356_n664# vdd multi_3/addbox_2/adder2_0/and_0/a_48_48# 2 4 1825 -797
+n m1_1356_n664# gnd multi_3/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 1825 -726
+n multi_3/addbox_2/m1_n12_92# multi_3/addbox_2/adder2_0/and_0/nand_0/a_7_n40# multi_3/addbox_2/adder2_0/and_0/a_48_48# 2 4 1841 -726
+p multi_3/addbox_2/m1_n12_92# multi_3/addbox_2/adder2_0/and_0/a_48_48# vdd 2 4 1841 -797
+n multi_3/addbox_2/adder2_0/and_1/a_48_48# gnd multi_3/addbox_2/adder2_0/a_528_88# 2 4 2113 -726
+p multi_3/addbox_2/adder2_0/and_1/a_48_48# vdd multi_3/addbox_2/adder2_0/a_528_88# 2 4 2113 -797
+p m1_2268_n676# vdd multi_3/addbox_2/adder2_0/and_1/a_48_48# 2 4 2069 -797
+n m1_2268_n676# gnd multi_3/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 2069 -726
+n multi_3/addbox_2/adder2_0/m1_76_8# multi_3/addbox_2/adder2_0/and_1/nand_0/a_7_n40# multi_3/addbox_2/adder2_0/and_1/a_48_48# 2 4 2085 -726
+p multi_3/addbox_2/adder2_0/m1_76_8# multi_3/addbox_2/adder2_0/and_1/a_48_48# vdd 2 4 2085 -797
+n multi_3/addbox_2/and_0/a_48_48# gnd multi_3/addbox_2/m1_n12_92# 2 4 1597 -895
+p multi_3/addbox_2/and_0/a_48_48# vdd multi_3/addbox_2/m1_n12_92# 2 4 1597 -824
+p a2 vdd multi_3/addbox_2/and_0/a_48_48# 2 4 1553 -824
+n a2 gnd multi_3/addbox_2/and_0/nand_0/a_7_n40# 2 4 1553 -895
+n b3 multi_3/addbox_2/and_0/nand_0/a_7_n40# multi_3/addbox_2/and_0/a_48_48# 2 4 1569 -895
+p b3 multi_3/addbox_2/and_0/a_48_48# vdd 2 4 1569 -824
+n multi_3/addbox_3/adder2_0/or_0/m1_44_48# gnd m1_3024_n992# 2 4 2965 -726
+p multi_3/addbox_3/adder2_0/or_0/m1_44_48# vdd m1_3024_n992# 2 4 2965 -797
+n multi_3/addbox_3/adder2_0/a_512_128# gnd multi_3/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2917 -726
+n multi_3/addbox_3/adder2_0/a_528_88# multi_3/addbox_3/adder2_0/or_0/m1_44_48# gnd 2 4 2933 -726
+p multi_3/addbox_3/adder2_0/a_528_88# multi_3/addbox_3/adder2_0/or_0/nor1_0/a_19_32# multi_3/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2933 -797
+p multi_3/addbox_3/adder2_0/a_512_128# vdd multi_3/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 2917 -797
+p multi_3/addbox_3/m1_n12_92# vdd multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -828
+n multi_3/addbox_3/m1_n12_92# gnd multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -891
+p m1_2116_n664# vdd multi_3/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -828
+n m1_2116_n664# gnd multi_3/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -891
+p multi_3/addbox_3/adder2_0/xor3_0/a_32_44# vdd multi_3/addbox_3/adder2_0/xor3_0/a_35_76# 2 4 2513 -828
+p multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# multi_3/addbox_3/adder2_0/m1_76_8# multi_3/addbox_3/adder2_0/xor3_0/a_n5_76# 2 4 2474 -828
+p m1_2116_n664# multi_3/addbox_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 2489 -828
+n multi_3/addbox_3/m1_n12_92# gnd multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2529 -892
+n multi_3/addbox_3/adder2_0/xor3_0/a_32_44# multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 2513 -892
+n multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# multi_3/addbox_3/adder2_0/m1_76_8# 2 4 2474 -892
+n m1_2116_n664# multi_3/addbox_3/adder2_0/m1_76_8# multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2489 -892
+p multi_3/addbox_3/m1_n12_92# multi_3/addbox_3/adder2_0/xor3_0/a_35_76# multi_3/addbox_3/adder2_0/m1_76_8# 2 4 2529 -828
+p multi_3/addbox_3/adder2_0/m1_76_8# vdd multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -828
+n multi_3/addbox_3/adder2_0/m1_76_8# gnd multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -891
+p m1_3024_n676# vdd multi_3/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -828
+n m1_3024_n676# gnd multi_3/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -891
+p multi_3/addbox_3/adder2_0/xor3_1/a_32_44# vdd multi_3/addbox_3/adder2_0/xor3_1/a_35_76# 2 4 2757 -828
+p multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# multi_4/sin1 multi_3/addbox_3/adder2_0/xor3_1/a_n5_76# 2 4 2718 -828
+p m1_3024_n676# multi_3/addbox_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 2733 -828
+n multi_3/addbox_3/adder2_0/m1_76_8# gnd multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2773 -892
+n multi_3/addbox_3/adder2_0/xor3_1/a_32_44# multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 2757 -892
+n multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# multi_4/sin1 2 4 2718 -892
+n m1_3024_n676# multi_4/sin1 multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2733 -892
+p multi_3/addbox_3/adder2_0/m1_76_8# multi_3/addbox_3/adder2_0/xor3_1/a_35_76# multi_4/sin1 2 4 2773 -828
+n multi_3/addbox_3/adder2_0/and_0/a_48_48# gnd multi_3/addbox_3/adder2_0/a_512_128# 2 4 2625 -726
+p multi_3/addbox_3/adder2_0/and_0/a_48_48# vdd multi_3/addbox_3/adder2_0/a_512_128# 2 4 2625 -797
+p m1_2116_n664# vdd multi_3/addbox_3/adder2_0/and_0/a_48_48# 2 4 2581 -797
+n m1_2116_n664# gnd multi_3/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 2581 -726
+n multi_3/addbox_3/m1_n12_92# multi_3/addbox_3/adder2_0/and_0/nand_0/a_7_n40# multi_3/addbox_3/adder2_0/and_0/a_48_48# 2 4 2597 -726
+p multi_3/addbox_3/m1_n12_92# multi_3/addbox_3/adder2_0/and_0/a_48_48# vdd 2 4 2597 -797
+n multi_3/addbox_3/adder2_0/and_1/a_48_48# gnd multi_3/addbox_3/adder2_0/a_528_88# 2 4 2869 -726
+p multi_3/addbox_3/adder2_0/and_1/a_48_48# vdd multi_3/addbox_3/adder2_0/a_528_88# 2 4 2869 -797
+p m1_3024_n676# vdd multi_3/addbox_3/adder2_0/and_1/a_48_48# 2 4 2825 -797
+n m1_3024_n676# gnd multi_3/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 2825 -726
+n multi_3/addbox_3/adder2_0/m1_76_8# multi_3/addbox_3/adder2_0/and_1/nand_0/a_7_n40# multi_3/addbox_3/adder2_0/and_1/a_48_48# 2 4 2841 -726
+p multi_3/addbox_3/adder2_0/m1_76_8# multi_3/addbox_3/adder2_0/and_1/a_48_48# vdd 2 4 2841 -797
+n multi_3/addbox_3/and_0/a_48_48# gnd multi_3/addbox_3/m1_n12_92# 2 4 2353 -895
+p multi_3/addbox_3/and_0/a_48_48# vdd multi_3/addbox_3/m1_n12_92# 2 4 2353 -824
+p a1 vdd multi_3/addbox_3/and_0/a_48_48# 2 4 2309 -824
+n a1 gnd multi_3/addbox_3/and_0/nand_0/a_7_n40# 2 4 2309 -895
+n b3 multi_3/addbox_3/and_0/nand_0/a_7_n40# multi_3/addbox_3/and_0/a_48_48# 2 4 2325 -895
+p b3 multi_3/addbox_3/and_0/a_48_48# vdd 2 4 2325 -824
+n multi_4/addbox_4/adder2_0/or_0/m1_44_48# gnd m1_3024_n1460# 2 4 3721 -1042
+p multi_4/addbox_4/adder2_0/or_0/m1_44_48# vdd m1_3024_n1460# 2 4 3721 -1113
+n multi_4/addbox_4/adder2_0/a_512_128# gnd multi_4/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3673 -1042
+n multi_4/addbox_4/adder2_0/a_528_88# multi_4/addbox_4/adder2_0/or_0/m1_44_48# gnd 2 4 3689 -1042
+p multi_4/addbox_4/adder2_0/a_528_88# multi_4/addbox_4/adder2_0/or_0/nor1_0/a_19_32# multi_4/addbox_4/adder2_0/or_0/m1_44_48# 2 4 3689 -1113
+p multi_4/addbox_4/adder2_0/a_512_128# vdd multi_4/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 3673 -1113
+p multi_4/addbox_4/m1_n12_92# vdd multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -1144
+n multi_4/addbox_4/m1_n12_92# gnd multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# 2 4 3178 -1207
+p multi_4/sin1 vdd multi_4/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -1144
+n multi_4/sin1 gnd multi_4/addbox_4/adder2_0/xor3_0/a_32_44# 2 4 3334 -1207
+p multi_4/addbox_4/adder2_0/xor3_0/a_32_44# vdd multi_4/addbox_4/adder2_0/xor3_0/a_35_76# 2 4 3269 -1144
+p multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# multi_4/addbox_4/adder2_0/m1_76_8# multi_4/addbox_4/adder2_0/xor3_0/a_n5_76# 2 4 3230 -1144
+p multi_4/sin1 multi_4/addbox_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 3245 -1144
+n multi_4/addbox_4/m1_n12_92# gnd multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3285 -1208
+n multi_4/addbox_4/adder2_0/xor3_0/a_32_44# multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 3269 -1208
+n multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# multi_4/addbox_4/adder2_0/m1_76_8# 2 4 3230 -1208
+n multi_4/sin1 multi_4/addbox_4/adder2_0/m1_76_8# multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# 2 4 3245 -1208
+p multi_4/addbox_4/m1_n12_92# multi_4/addbox_4/adder2_0/xor3_0/a_35_76# multi_4/addbox_4/adder2_0/m1_76_8# 2 4 3285 -1144
+p multi_4/addbox_4/adder2_0/m1_76_8# vdd multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -1144
+n multi_4/addbox_4/adder2_0/m1_76_8# gnd multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# 2 4 3422 -1207
+p multi_4/cin vdd multi_4/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -1144
+n multi_4/cin gnd multi_4/addbox_4/adder2_0/xor3_1/a_32_44# 2 4 3578 -1207
+p multi_4/addbox_4/adder2_0/xor3_1/a_32_44# vdd multi_4/addbox_4/adder2_0/xor3_1/a_35_76# 2 4 3513 -1144
+p multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# p4 multi_4/addbox_4/adder2_0/xor3_1/a_n5_76# 2 4 3474 -1144
+p multi_4/cin multi_4/addbox_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 3489 -1144
+n multi_4/addbox_4/adder2_0/m1_76_8# gnd multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3529 -1208
+n multi_4/addbox_4/adder2_0/xor3_1/a_32_44# multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 3513 -1208
+n multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# p4 2 4 3474 -1208
+n multi_4/cin p4 multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# 2 4 3489 -1208
+p multi_4/addbox_4/adder2_0/m1_76_8# multi_4/addbox_4/adder2_0/xor3_1/a_35_76# p4 2 4 3529 -1144
+n multi_4/addbox_4/adder2_0/and_0/a_48_48# gnd multi_4/addbox_4/adder2_0/a_512_128# 2 4 3381 -1042
+p multi_4/addbox_4/adder2_0/and_0/a_48_48# vdd multi_4/addbox_4/adder2_0/a_512_128# 2 4 3381 -1113
+p multi_4/sin1 vdd multi_4/addbox_4/adder2_0/and_0/a_48_48# 2 4 3337 -1113
+n multi_4/sin1 gnd multi_4/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 3337 -1042
+n multi_4/addbox_4/m1_n12_92# multi_4/addbox_4/adder2_0/and_0/nand_0/a_7_n40# multi_4/addbox_4/adder2_0/and_0/a_48_48# 2 4 3353 -1042
+p multi_4/addbox_4/m1_n12_92# multi_4/addbox_4/adder2_0/and_0/a_48_48# vdd 2 4 3353 -1113
+n multi_4/addbox_4/adder2_0/and_1/a_48_48# gnd multi_4/addbox_4/adder2_0/a_528_88# 2 4 3625 -1042
+p multi_4/addbox_4/adder2_0/and_1/a_48_48# vdd multi_4/addbox_4/adder2_0/a_528_88# 2 4 3625 -1113
+p multi_4/cin vdd multi_4/addbox_4/adder2_0/and_1/a_48_48# 2 4 3581 -1113
+n multi_4/cin gnd multi_4/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 3581 -1042
+n multi_4/addbox_4/adder2_0/m1_76_8# multi_4/addbox_4/adder2_0/and_1/nand_0/a_7_n40# multi_4/addbox_4/adder2_0/and_1/a_48_48# 2 4 3597 -1042
+p multi_4/addbox_4/adder2_0/m1_76_8# multi_4/addbox_4/adder2_0/and_1/a_48_48# vdd 2 4 3597 -1113
+n multi_4/addbox_4/and_0/a_48_48# gnd multi_4/addbox_4/m1_n12_92# 2 4 3109 -1211
+p multi_4/addbox_4/and_0/a_48_48# vdd multi_4/addbox_4/m1_n12_92# 2 4 3109 -1140
+p a0 vdd multi_4/addbox_4/and_0/a_48_48# 2 4 3065 -1140
+n a0 gnd multi_4/addbox_4/and_0/nand_0/a_7_n40# 2 4 3065 -1211
+n b4 multi_4/addbox_4/and_0/nand_0/a_7_n40# multi_4/addbox_4/and_0/a_48_48# 2 4 3081 -1211
+p b4 multi_4/addbox_4/and_0/a_48_48# vdd 2 4 3081 -1140
+n multi_4/addbox_0/adder2_0/or_0/m1_44_48# gnd m1_40_n1315# 2 4 689 -1042
+p multi_4/addbox_0/adder2_0/or_0/m1_44_48# vdd m1_40_n1315# 2 4 689 -1113
+n multi_4/addbox_0/adder2_0/a_512_128# gnd multi_4/addbox_0/adder2_0/or_0/m1_44_48# 2 4 641 -1042
+n multi_4/addbox_0/adder2_0/a_528_88# multi_4/addbox_0/adder2_0/or_0/m1_44_48# gnd 2 4 657 -1042
+p multi_4/addbox_0/adder2_0/a_528_88# multi_4/addbox_0/adder2_0/or_0/nor1_0/a_19_32# multi_4/addbox_0/adder2_0/or_0/m1_44_48# 2 4 657 -1113
+p multi_4/addbox_0/adder2_0/a_512_128# vdd multi_4/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 641 -1113
+p multi_4/addbox_0/m1_n12_92# vdd multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -1144
+n multi_4/addbox_0/m1_n12_92# gnd multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# 2 4 146 -1207
+p gnd vdd multi_4/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -1144
+n gnd gnd multi_4/addbox_0/adder2_0/xor3_0/a_32_44# 2 4 302 -1207
+p multi_4/addbox_0/adder2_0/xor3_0/a_32_44# vdd multi_4/addbox_0/adder2_0/xor3_0/a_35_76# 2 4 237 -1144
+p multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# multi_4/addbox_0/adder2_0/m1_76_8# multi_4/addbox_0/adder2_0/xor3_0/a_n5_76# 2 4 198 -1144
+p gnd multi_4/addbox_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 213 -1144
+n multi_4/addbox_0/m1_n12_92# gnd multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 253 -1208
+n multi_4/addbox_0/adder2_0/xor3_0/a_32_44# multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 237 -1208
+n multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# multi_4/addbox_0/adder2_0/m1_76_8# 2 4 198 -1208
+n gnd multi_4/addbox_0/adder2_0/m1_76_8# multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# 2 4 213 -1208
+p multi_4/addbox_0/m1_n12_92# multi_4/addbox_0/adder2_0/xor3_0/a_35_76# multi_4/addbox_0/adder2_0/m1_76_8# 2 4 253 -1144
+p multi_4/addbox_0/adder2_0/m1_76_8# vdd multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -1144
+n multi_4/addbox_0/adder2_0/m1_76_8# gnd multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# 2 4 390 -1207
+p m1_748_n996# vdd multi_4/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -1144
+n m1_748_n996# gnd multi_4/addbox_0/adder2_0/xor3_1/a_32_44# 2 4 546 -1207
+p multi_4/addbox_0/adder2_0/xor3_1/a_32_44# vdd multi_4/addbox_0/adder2_0/xor3_1/a_35_76# 2 4 481 -1144
+p multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# m1_596_n1260# multi_4/addbox_0/adder2_0/xor3_1/a_n5_76# 2 4 442 -1144
+p m1_748_n996# multi_4/addbox_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 457 -1144
+n multi_4/addbox_0/adder2_0/m1_76_8# gnd multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 497 -1208
+n multi_4/addbox_0/adder2_0/xor3_1/a_32_44# multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 481 -1208
+n multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# m1_596_n1260# 2 4 442 -1208
+n m1_748_n996# m1_596_n1260# multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# 2 4 457 -1208
+p multi_4/addbox_0/adder2_0/m1_76_8# multi_4/addbox_0/adder2_0/xor3_1/a_35_76# m1_596_n1260# 2 4 497 -1144
+n multi_4/addbox_0/adder2_0/and_0/a_48_48# gnd multi_4/addbox_0/adder2_0/a_512_128# 2 4 349 -1042
+p multi_4/addbox_0/adder2_0/and_0/a_48_48# vdd multi_4/addbox_0/adder2_0/a_512_128# 2 4 349 -1113
+p gnd vdd multi_4/addbox_0/adder2_0/and_0/a_48_48# 2 4 305 -1113
+n gnd gnd multi_4/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 305 -1042
+n multi_4/addbox_0/m1_n12_92# multi_4/addbox_0/adder2_0/and_0/nand_0/a_7_n40# multi_4/addbox_0/adder2_0/and_0/a_48_48# 2 4 321 -1042
+p multi_4/addbox_0/m1_n12_92# multi_4/addbox_0/adder2_0/and_0/a_48_48# vdd 2 4 321 -1113
+n multi_4/addbox_0/adder2_0/and_1/a_48_48# gnd multi_4/addbox_0/adder2_0/a_528_88# 2 4 593 -1042
+p multi_4/addbox_0/adder2_0/and_1/a_48_48# vdd multi_4/addbox_0/adder2_0/a_528_88# 2 4 593 -1113
+p m1_748_n996# vdd multi_4/addbox_0/adder2_0/and_1/a_48_48# 2 4 549 -1113
+n m1_748_n996# gnd multi_4/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 549 -1042
+n multi_4/addbox_0/adder2_0/m1_76_8# multi_4/addbox_0/adder2_0/and_1/nand_0/a_7_n40# multi_4/addbox_0/adder2_0/and_1/a_48_48# 2 4 565 -1042
+p multi_4/addbox_0/adder2_0/m1_76_8# multi_4/addbox_0/adder2_0/and_1/a_48_48# vdd 2 4 565 -1113
+n multi_4/addbox_0/and_0/a_48_48# gnd multi_4/addbox_0/m1_n12_92# 2 4 77 -1211
+p multi_4/addbox_0/and_0/a_48_48# vdd multi_4/addbox_0/m1_n12_92# 2 4 77 -1140
+p a4 vdd multi_4/addbox_0/and_0/a_48_48# 2 4 33 -1140
+n a4 gnd multi_4/addbox_0/and_0/nand_0/a_7_n40# 2 4 33 -1211
+n b4 multi_4/addbox_0/and_0/nand_0/a_7_n40# multi_4/addbox_0/and_0/a_48_48# 2 4 49 -1211
+p b4 multi_4/addbox_0/and_0/a_48_48# vdd 2 4 49 -1140
+n multi_4/addbox_1/adder2_0/or_0/m1_44_48# gnd m1_764_n1327# 2 4 1449 -1042
+p multi_4/addbox_1/adder2_0/or_0/m1_44_48# vdd m1_764_n1327# 2 4 1449 -1113
+n multi_4/addbox_1/adder2_0/a_512_128# gnd multi_4/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1401 -1042
+n multi_4/addbox_1/adder2_0/a_528_88# multi_4/addbox_1/adder2_0/or_0/m1_44_48# gnd 2 4 1417 -1042
+p multi_4/addbox_1/adder2_0/a_528_88# multi_4/addbox_1/adder2_0/or_0/nor1_0/a_19_32# multi_4/addbox_1/adder2_0/or_0/m1_44_48# 2 4 1417 -1113
+p multi_4/addbox_1/adder2_0/a_512_128# vdd multi_4/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1401 -1113
+p multi_4/addbox_1/m1_n12_92# vdd multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -1144
+n multi_4/addbox_1/m1_n12_92# gnd multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# 2 4 906 -1207
+p m1_596_n984# vdd multi_4/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -1144
+n m1_596_n984# gnd multi_4/addbox_1/adder2_0/xor3_0/a_32_44# 2 4 1062 -1207
+p multi_4/addbox_1/adder2_0/xor3_0/a_32_44# vdd multi_4/addbox_1/adder2_0/xor3_0/a_35_76# 2 4 997 -1144
+p multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# multi_4/addbox_1/adder2_0/m1_76_8# multi_4/addbox_1/adder2_0/xor3_0/a_n5_76# 2 4 958 -1144
+p m1_596_n984# multi_4/addbox_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 973 -1144
+n multi_4/addbox_1/m1_n12_92# gnd multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 1013 -1208
+n multi_4/addbox_1/adder2_0/xor3_0/a_32_44# multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 997 -1208
+n multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# multi_4/addbox_1/adder2_0/m1_76_8# 2 4 958 -1208
+n m1_596_n984# multi_4/addbox_1/adder2_0/m1_76_8# multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# 2 4 973 -1208
+p multi_4/addbox_1/m1_n12_92# multi_4/addbox_1/adder2_0/xor3_0/a_35_76# multi_4/addbox_1/adder2_0/m1_76_8# 2 4 1013 -1144
+p multi_4/addbox_1/adder2_0/m1_76_8# vdd multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -1144
+n multi_4/addbox_1/adder2_0/m1_76_8# gnd multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# 2 4 1150 -1207
+p m1_1508_n992# vdd multi_4/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -1144
+n m1_1508_n992# gnd multi_4/addbox_1/adder2_0/xor3_1/a_32_44# 2 4 1306 -1207
+p multi_4/addbox_1/adder2_0/xor3_1/a_32_44# vdd multi_4/addbox_1/adder2_0/xor3_1/a_35_76# 2 4 1241 -1144
+p multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# m1_1356_n1436# multi_4/addbox_1/adder2_0/xor3_1/a_n5_76# 2 4 1202 -1144
+p m1_1508_n992# multi_4/addbox_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 1217 -1144
+n multi_4/addbox_1/adder2_0/m1_76_8# gnd multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1257 -1208
+n multi_4/addbox_1/adder2_0/xor3_1/a_32_44# multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 1241 -1208
+n multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# m1_1356_n1436# 2 4 1202 -1208
+n m1_1508_n992# m1_1356_n1436# multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# 2 4 1217 -1208
+p multi_4/addbox_1/adder2_0/m1_76_8# multi_4/addbox_1/adder2_0/xor3_1/a_35_76# m1_1356_n1436# 2 4 1257 -1144
+n multi_4/addbox_1/adder2_0/and_0/a_48_48# gnd multi_4/addbox_1/adder2_0/a_512_128# 2 4 1109 -1042
+p multi_4/addbox_1/adder2_0/and_0/a_48_48# vdd multi_4/addbox_1/adder2_0/a_512_128# 2 4 1109 -1113
+p m1_596_n984# vdd multi_4/addbox_1/adder2_0/and_0/a_48_48# 2 4 1065 -1113
+n m1_596_n984# gnd multi_4/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 1065 -1042
+n multi_4/addbox_1/m1_n12_92# multi_4/addbox_1/adder2_0/and_0/nand_0/a_7_n40# multi_4/addbox_1/adder2_0/and_0/a_48_48# 2 4 1081 -1042
+p multi_4/addbox_1/m1_n12_92# multi_4/addbox_1/adder2_0/and_0/a_48_48# vdd 2 4 1081 -1113
+n multi_4/addbox_1/adder2_0/and_1/a_48_48# gnd multi_4/addbox_1/adder2_0/a_528_88# 2 4 1353 -1042
+p multi_4/addbox_1/adder2_0/and_1/a_48_48# vdd multi_4/addbox_1/adder2_0/a_528_88# 2 4 1353 -1113
+p m1_1508_n992# vdd multi_4/addbox_1/adder2_0/and_1/a_48_48# 2 4 1309 -1113
+n m1_1508_n992# gnd multi_4/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1309 -1042
+n multi_4/addbox_1/adder2_0/m1_76_8# multi_4/addbox_1/adder2_0/and_1/nand_0/a_7_n40# multi_4/addbox_1/adder2_0/and_1/a_48_48# 2 4 1325 -1042
+p multi_4/addbox_1/adder2_0/m1_76_8# multi_4/addbox_1/adder2_0/and_1/a_48_48# vdd 2 4 1325 -1113
+n multi_4/addbox_1/and_0/a_48_48# gnd multi_4/addbox_1/m1_n12_92# 2 4 837 -1211
+p multi_4/addbox_1/and_0/a_48_48# vdd multi_4/addbox_1/m1_n12_92# 2 4 837 -1140
+p a3 vdd multi_4/addbox_1/and_0/a_48_48# 2 4 793 -1140
+n a3 gnd multi_4/addbox_1/and_0/nand_0/a_7_n40# 2 4 793 -1211
+n b4 multi_4/addbox_1/and_0/nand_0/a_7_n40# multi_4/addbox_1/and_0/a_48_48# 2 4 809 -1211
+p b4 multi_4/addbox_1/and_0/a_48_48# vdd 2 4 809 -1140
+n multi_4/addbox_2/adder2_0/or_0/m1_44_48# gnd m1_1528_n1340# 2 4 2209 -1042
+p multi_4/addbox_2/adder2_0/or_0/m1_44_48# vdd m1_1528_n1340# 2 4 2209 -1113
+n multi_4/addbox_2/adder2_0/a_512_128# gnd multi_4/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2161 -1042
+n multi_4/addbox_2/adder2_0/a_528_88# multi_4/addbox_2/adder2_0/or_0/m1_44_48# gnd 2 4 2177 -1042
+p multi_4/addbox_2/adder2_0/a_528_88# multi_4/addbox_2/adder2_0/or_0/nor1_0/a_19_32# multi_4/addbox_2/adder2_0/or_0/m1_44_48# 2 4 2177 -1113
+p multi_4/addbox_2/adder2_0/a_512_128# vdd multi_4/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 2161 -1113
+p multi_4/addbox_2/m1_n12_92# vdd multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -1144
+n multi_4/addbox_2/m1_n12_92# gnd multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# 2 4 1666 -1207
+p m1_1356_n984# vdd multi_4/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -1144
+n m1_1356_n984# gnd multi_4/addbox_2/adder2_0/xor3_0/a_32_44# 2 4 1822 -1207
+p multi_4/addbox_2/adder2_0/xor3_0/a_32_44# vdd multi_4/addbox_2/adder2_0/xor3_0/a_35_76# 2 4 1757 -1144
+p multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# multi_4/addbox_2/adder2_0/m1_76_8# multi_4/addbox_2/adder2_0/xor3_0/a_n5_76# 2 4 1718 -1144
+p m1_1356_n984# multi_4/addbox_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 1733 -1144
+n multi_4/addbox_2/m1_n12_92# gnd multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1773 -1208
+n multi_4/addbox_2/adder2_0/xor3_0/a_32_44# multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 1757 -1208
+n multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# multi_4/addbox_2/adder2_0/m1_76_8# 2 4 1718 -1208
+n m1_1356_n984# multi_4/addbox_2/adder2_0/m1_76_8# multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# 2 4 1733 -1208
+p multi_4/addbox_2/m1_n12_92# multi_4/addbox_2/adder2_0/xor3_0/a_35_76# multi_4/addbox_2/adder2_0/m1_76_8# 2 4 1773 -1144
+p multi_4/addbox_2/adder2_0/m1_76_8# vdd multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -1144
+n multi_4/addbox_2/adder2_0/m1_76_8# gnd multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# 2 4 1910 -1207
+p m1_2268_n996# vdd multi_4/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -1144
+n m1_2268_n996# gnd multi_4/addbox_2/adder2_0/xor3_1/a_32_44# 2 4 2066 -1207
+p multi_4/addbox_2/adder2_0/xor3_1/a_32_44# vdd multi_4/addbox_2/adder2_0/xor3_1/a_35_76# 2 4 2001 -1144
+p multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# m1_2116_n1448# multi_4/addbox_2/adder2_0/xor3_1/a_n5_76# 2 4 1962 -1144
+p m1_2268_n996# multi_4/addbox_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 1977 -1144
+n multi_4/addbox_2/adder2_0/m1_76_8# gnd multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 2017 -1208
+n multi_4/addbox_2/adder2_0/xor3_1/a_32_44# multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 2001 -1208
+n multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# m1_2116_n1448# 2 4 1962 -1208
+n m1_2268_n996# m1_2116_n1448# multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# 2 4 1977 -1208
+p multi_4/addbox_2/adder2_0/m1_76_8# multi_4/addbox_2/adder2_0/xor3_1/a_35_76# m1_2116_n1448# 2 4 2017 -1144
+n multi_4/addbox_2/adder2_0/and_0/a_48_48# gnd multi_4/addbox_2/adder2_0/a_512_128# 2 4 1869 -1042
+p multi_4/addbox_2/adder2_0/and_0/a_48_48# vdd multi_4/addbox_2/adder2_0/a_512_128# 2 4 1869 -1113
+p m1_1356_n984# vdd multi_4/addbox_2/adder2_0/and_0/a_48_48# 2 4 1825 -1113
+n m1_1356_n984# gnd multi_4/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 1825 -1042
+n multi_4/addbox_2/m1_n12_92# multi_4/addbox_2/adder2_0/and_0/nand_0/a_7_n40# multi_4/addbox_2/adder2_0/and_0/a_48_48# 2 4 1841 -1042
+p multi_4/addbox_2/m1_n12_92# multi_4/addbox_2/adder2_0/and_0/a_48_48# vdd 2 4 1841 -1113
+n multi_4/addbox_2/adder2_0/and_1/a_48_48# gnd multi_4/addbox_2/adder2_0/a_528_88# 2 4 2113 -1042
+p multi_4/addbox_2/adder2_0/and_1/a_48_48# vdd multi_4/addbox_2/adder2_0/a_528_88# 2 4 2113 -1113
+p m1_2268_n996# vdd multi_4/addbox_2/adder2_0/and_1/a_48_48# 2 4 2069 -1113
+n m1_2268_n996# gnd multi_4/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 2069 -1042
+n multi_4/addbox_2/adder2_0/m1_76_8# multi_4/addbox_2/adder2_0/and_1/nand_0/a_7_n40# multi_4/addbox_2/adder2_0/and_1/a_48_48# 2 4 2085 -1042
+p multi_4/addbox_2/adder2_0/m1_76_8# multi_4/addbox_2/adder2_0/and_1/a_48_48# vdd 2 4 2085 -1113
+n multi_4/addbox_2/and_0/a_48_48# gnd multi_4/addbox_2/m1_n12_92# 2 4 1597 -1211
+p multi_4/addbox_2/and_0/a_48_48# vdd multi_4/addbox_2/m1_n12_92# 2 4 1597 -1140
+p a2 vdd multi_4/addbox_2/and_0/a_48_48# 2 4 1553 -1140
+n a2 gnd multi_4/addbox_2/and_0/nand_0/a_7_n40# 2 4 1553 -1211
+n b4 multi_4/addbox_2/and_0/nand_0/a_7_n40# multi_4/addbox_2/and_0/a_48_48# 2 4 1569 -1211
+p b4 multi_4/addbox_2/and_0/a_48_48# vdd 2 4 1569 -1140
+n multi_4/addbox_3/adder2_0/or_0/m1_44_48# gnd m1_2316_n1328# 2 4 2965 -1042
+p multi_4/addbox_3/adder2_0/or_0/m1_44_48# vdd m1_2316_n1328# 2 4 2965 -1113
+n multi_4/addbox_3/adder2_0/a_512_128# gnd multi_4/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2917 -1042
+n multi_4/addbox_3/adder2_0/a_528_88# multi_4/addbox_3/adder2_0/or_0/m1_44_48# gnd 2 4 2933 -1042
+p multi_4/addbox_3/adder2_0/a_528_88# multi_4/addbox_3/adder2_0/or_0/nor1_0/a_19_32# multi_4/addbox_3/adder2_0/or_0/m1_44_48# 2 4 2933 -1113
+p multi_4/addbox_3/adder2_0/a_512_128# vdd multi_4/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 2917 -1113
+p multi_4/addbox_3/m1_n12_92# vdd multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -1144
+n multi_4/addbox_3/m1_n12_92# gnd multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# 2 4 2422 -1207
+p m1_2116_n984# vdd multi_4/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -1144
+n m1_2116_n984# gnd multi_4/addbox_3/adder2_0/xor3_0/a_32_44# 2 4 2578 -1207
+p multi_4/addbox_3/adder2_0/xor3_0/a_32_44# vdd multi_4/addbox_3/adder2_0/xor3_0/a_35_76# 2 4 2513 -1144
+p multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# multi_4/addbox_3/adder2_0/m1_76_8# multi_4/addbox_3/adder2_0/xor3_0/a_n5_76# 2 4 2474 -1144
+p m1_2116_n984# multi_4/addbox_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 2489 -1144
+n multi_4/addbox_3/m1_n12_92# gnd multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2529 -1208
+n multi_4/addbox_3/adder2_0/xor3_0/a_32_44# multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 2513 -1208
+n multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# multi_4/addbox_3/adder2_0/m1_76_8# 2 4 2474 -1208
+n m1_2116_n984# multi_4/addbox_3/adder2_0/m1_76_8# multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# 2 4 2489 -1208
+p multi_4/addbox_3/m1_n12_92# multi_4/addbox_3/adder2_0/xor3_0/a_35_76# multi_4/addbox_3/adder2_0/m1_76_8# 2 4 2529 -1144
+p multi_4/addbox_3/adder2_0/m1_76_8# vdd multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -1144
+n multi_4/addbox_3/adder2_0/m1_76_8# gnd multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# 2 4 2666 -1207
+p m1_3024_n992# vdd multi_4/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -1144
+n m1_3024_n992# gnd multi_4/addbox_3/adder2_0/xor3_1/a_32_44# 2 4 2822 -1207
+p multi_4/addbox_3/adder2_0/xor3_1/a_32_44# vdd multi_4/addbox_3/adder2_0/xor3_1/a_35_76# 2 4 2757 -1144
+p multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# m1_2872_n1304# multi_4/addbox_3/adder2_0/xor3_1/a_n5_76# 2 4 2718 -1144
+p m1_3024_n992# multi_4/addbox_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 2733 -1144
+n multi_4/addbox_3/adder2_0/m1_76_8# gnd multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2773 -1208
+n multi_4/addbox_3/adder2_0/xor3_1/a_32_44# multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 2757 -1208
+n multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# m1_2872_n1304# 2 4 2718 -1208
+n m1_3024_n992# m1_2872_n1304# multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# 2 4 2733 -1208
+p multi_4/addbox_3/adder2_0/m1_76_8# multi_4/addbox_3/adder2_0/xor3_1/a_35_76# m1_2872_n1304# 2 4 2773 -1144
+n multi_4/addbox_3/adder2_0/and_0/a_48_48# gnd multi_4/addbox_3/adder2_0/a_512_128# 2 4 2625 -1042
+p multi_4/addbox_3/adder2_0/and_0/a_48_48# vdd multi_4/addbox_3/adder2_0/a_512_128# 2 4 2625 -1113
+p m1_2116_n984# vdd multi_4/addbox_3/adder2_0/and_0/a_48_48# 2 4 2581 -1113
+n m1_2116_n984# gnd multi_4/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 2581 -1042
+n multi_4/addbox_3/m1_n12_92# multi_4/addbox_3/adder2_0/and_0/nand_0/a_7_n40# multi_4/addbox_3/adder2_0/and_0/a_48_48# 2 4 2597 -1042
+p multi_4/addbox_3/m1_n12_92# multi_4/addbox_3/adder2_0/and_0/a_48_48# vdd 2 4 2597 -1113
+n multi_4/addbox_3/adder2_0/and_1/a_48_48# gnd multi_4/addbox_3/adder2_0/a_528_88# 2 4 2869 -1042
+p multi_4/addbox_3/adder2_0/and_1/a_48_48# vdd multi_4/addbox_3/adder2_0/a_528_88# 2 4 2869 -1113
+p m1_3024_n992# vdd multi_4/addbox_3/adder2_0/and_1/a_48_48# 2 4 2825 -1113
+n m1_3024_n992# gnd multi_4/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 2825 -1042
+n multi_4/addbox_3/adder2_0/m1_76_8# multi_4/addbox_3/adder2_0/and_1/nand_0/a_7_n40# multi_4/addbox_3/adder2_0/and_1/a_48_48# 2 4 2841 -1042
+p multi_4/addbox_3/adder2_0/m1_76_8# multi_4/addbox_3/adder2_0/and_1/a_48_48# vdd 2 4 2841 -1113
+n multi_4/addbox_3/and_0/a_48_48# gnd multi_4/addbox_3/m1_n12_92# 2 4 2353 -1211
+p multi_4/addbox_3/and_0/a_48_48# vdd multi_4/addbox_3/m1_n12_92# 2 4 2353 -1140
+p a1 vdd multi_4/addbox_3/and_0/a_48_48# 2 4 2309 -1140
+n a1 gnd multi_4/addbox_3/and_0/nand_0/a_7_n40# 2 4 2309 -1211
+n b4 multi_4/addbox_3/and_0/nand_0/a_7_n40# multi_4/addbox_3/and_0/a_48_48# 2 4 2325 -1211
+p b4 multi_4/addbox_3/and_0/a_48_48# vdd 2 4 2325 -1140
+C m1_748_n356# gnd 2.16
+C multi_3/cin gnd 2.16
+C a2 vdd 10.80
+C gnd m1_2268_n676# 2.16
+C m1_40_n1315# gnd 3.36
+C m1_1508_n32# vdd 2.16
+C a1 vdd 10.80
+C m1_3024_n676# a1 2.16
+C m1_3024_n356# vdd 2.16
+C m1_748_n32# a4 2.16
+C gnd m1_748_n996# 2.16
+C m1_1508_n356# a3 2.16
+C a3 vdd 10.80
+C m1_2268_n676# a2 2.16
+C gnd m1_1508_n676# 2.16
+C b2 vdd 3.60
+C m1_3024_n32# gnd 3.60
+C m1_748_n32# vdd 2.16
+C m1_3024_n1460# a0 2.16
+C m1_3024_n992# vdd 2.16
+C m1_2268_n356# vdd 2.16
+C m1_1508_n992# a3 2.16
+C multi_2/cin a0 2.16
+C b1 gnd 6.48
+C m1_2316_n1328# vdd 2.88
+C a4 vdd 7.20
+C b4 vdd 3.60
+C m1_748_n680# gnd 2.16
+C m1_2268_n32# gnd 3.60
+C multi_1/cin gnd 3.60
+C m1_2268_n996# vdd 2.16
+C m1_1508_n356# vdd 2.16
+C m1_3024_n32# a1 2.16
+C multi_4/cin a0 2.16
+C m1_748_n356# a4 2.16
+C m1_1528_n1340# vdd 2.16
+C m1_3024_n676# vdd 2.16
+C gnd a2 12.96
+C m1_764_n1327# vdd 2.16
+C a0 vdd 7.20
+C m1_1508_n676# a3 2.16
+C m1_2268_n32# a2 2.16
+C m1_1508_n32# gnd 3.60
+C m1_40_n1315# a4 2.16
+C gnd a1 12.96
+C m1_3024_n356# gnd 2.16
+C m1_1508_n992# vdd 2.16
+C b0 vdd 3.60
+C b3 vdd 3.60
+C m1_748_n356# vdd 2.16
+C m1_748_n996# a4 2.16
+C m1_2268_n676# vdd 2.16
+C gnd a3 12.96
+C multi_3/cin a0 2.16
+C m1_40_n1315# vdd 2.88
+C m1_3024_n1460# gnd 2.16
+C b2 gnd 6.48
+C m1_748_n32# gnd 3.60
+C gnd m1_3024_n992# 2.16
+C m1_2268_n356# gnd 2.16
+C multi_2/cin gnd 2.16
+C m1_748_n996# vdd 2.16
+C m1_3024_n356# a1 2.16
+C m1_2316_n1328# gnd 2.88
+C m1_1508_n676# vdd 2.16
+C gnd a4 15.84
+C m1_3024_n32# vdd 2.16
+C gnd b4 8.64
+C m1_748_n680# a4 2.16
+C m1_1508_n32# a3 2.16
+C gnd m1_2268_n996# 2.16
+C m1_2268_n356# a2 2.16
+C gnd multi_4/cin 2.16
+C m1_1508_n356# gnd 2.16
+C b1 vdd 3.60
+C a1 m1_3024_n992# 2.16
+C m1_1528_n1340# gnd 2.16
+C gnd vdd 52.08
+C gnd m1_3024_n676# 2.16
+C m1_748_n680# vdd 2.16
+C m1_764_n1327# gnd 2.16
+C gnd a0 9.36
+C m1_2268_n32# vdd 2.16
+C m1_2316_n1328# a1 2.16
+C multi_1/cin a0 2.16
+C m1_2268_n996# a2 2.16
+C gnd m1_1508_n992# 2.16
+C b0 gnd 6.48
+C b3 gnd 6.48
+R multi_4/addbox_3/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_3/and_0/a_48_48# GND 38.89
+R multi_4/addbox_3/and_0/a_48_48# 1277
+C multi_4/addbox_3/adder2_0/a_528_88# GND 44.95
+R multi_4/addbox_3/adder2_0/a_528_88# 1203
+C vdd GND 3669.73
+R vdd 160862
+R multi_4/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_4/addbox_3/adder2_0/and_1/a_48_48# GND 38.89
+R multi_4/addbox_3/adder2_0/and_1/a_48_48# 1277
+R multi_4/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_3/adder2_0/a_512_128# GND 51.05
+R multi_4/addbox_3/adder2_0/a_512_128# 1998
+C multi_4/addbox_3/adder2_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_3/adder2_0/and_0/a_48_48# 1277
+C multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_4/addbox_3/adder2_0/xor3_1/a_n20_12# 497
+R multi_4/addbox_3/adder2_0/xor3_1/a_35_76# 208
+R multi_4/addbox_3/adder2_0/xor3_1/a_n5_76# 208
+C multi_4/addbox_3/adder2_0/m1_76_8# GND 131.41
+R multi_4/addbox_3/adder2_0/m1_76_8# 4458
+C multi_4/addbox_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_4/addbox_3/adder2_0/xor3_1/a_32_44# 1337
+C m1_3024_n992# GND 192.96
+R m1_3024_n992# 3174
+C multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_4/addbox_3/adder2_0/xor3_1/a_n8_44# 1336
+C multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_4/addbox_3/adder2_0/xor3_0/a_n20_12# 497
+R multi_4/addbox_3/adder2_0/xor3_0/a_35_76# 208
+R multi_4/addbox_3/adder2_0/xor3_0/a_n5_76# 208
+C multi_4/addbox_3/m1_n12_92# GND 141.06
+R multi_4/addbox_3/m1_n12_92# 3909
+C multi_4/addbox_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_4/addbox_3/adder2_0/xor3_0/a_32_44# 1337
+C m1_2116_n984# GND 147.69
+R m1_2116_n984# 3721
+C multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_4/addbox_3/adder2_0/xor3_0/a_n8_44# 1336
+R multi_4/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_4/addbox_3/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_4/addbox_3/adder2_0/or_0/m1_44_48# 1231
+R multi_4/addbox_2/and_0/nand_0/a_7_n40# 93
+C a2 GND 865.83
+R a2 5276
+C multi_4/addbox_2/and_0/a_48_48# GND 38.89
+R multi_4/addbox_2/and_0/a_48_48# 1277
+C multi_4/addbox_2/adder2_0/a_528_88# GND 44.95
+R multi_4/addbox_2/adder2_0/a_528_88# 1203
+R multi_4/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_4/addbox_2/adder2_0/and_1/a_48_48# GND 38.89
+R multi_4/addbox_2/adder2_0/and_1/a_48_48# 1277
+R multi_4/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_2/adder2_0/a_512_128# GND 51.05
+R multi_4/addbox_2/adder2_0/a_512_128# 1998
+C multi_4/addbox_2/adder2_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_2/adder2_0/and_0/a_48_48# 1277
+C multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_4/addbox_2/adder2_0/xor3_1/a_n20_12# 497
+R multi_4/addbox_2/adder2_0/xor3_1/a_35_76# 208
+R multi_4/addbox_2/adder2_0/xor3_1/a_n5_76# 208
+C multi_4/addbox_2/adder2_0/m1_76_8# GND 131.41
+R multi_4/addbox_2/adder2_0/m1_76_8# 4458
+C multi_4/addbox_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_4/addbox_2/adder2_0/xor3_1/a_32_44# 1337
+C m1_2268_n996# GND 192.96
+R m1_2268_n996# 3174
+C multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_4/addbox_2/adder2_0/xor3_1/a_n8_44# 1336
+C multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_4/addbox_2/adder2_0/xor3_0/a_n20_12# 497
+R multi_4/addbox_2/adder2_0/xor3_0/a_35_76# 208
+R multi_4/addbox_2/adder2_0/xor3_0/a_n5_76# 208
+C multi_4/addbox_2/m1_n12_92# GND 141.06
+R multi_4/addbox_2/m1_n12_92# 3909
+C multi_4/addbox_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_4/addbox_2/adder2_0/xor3_0/a_32_44# 1337
+C m1_1356_n984# GND 144.65
+R m1_1356_n984# 3720
+C multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_4/addbox_2/adder2_0/xor3_0/a_n8_44# 1336
+R multi_4/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_4/addbox_2/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_4/addbox_2/adder2_0/or_0/m1_44_48# 1231
+R multi_4/addbox_1/and_0/nand_0/a_7_n40# 93
+C a3 GND 863.38
+R a3 5276
+C multi_4/addbox_1/and_0/a_48_48# GND 38.89
+R multi_4/addbox_1/and_0/a_48_48# 1277
+C multi_4/addbox_1/adder2_0/a_528_88# GND 44.95
+R multi_4/addbox_1/adder2_0/a_528_88# 1203
+R multi_4/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_4/addbox_1/adder2_0/and_1/a_48_48# GND 38.89
+R multi_4/addbox_1/adder2_0/and_1/a_48_48# 1277
+R multi_4/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_1/adder2_0/a_512_128# GND 51.05
+R multi_4/addbox_1/adder2_0/a_512_128# 1998
+C multi_4/addbox_1/adder2_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_1/adder2_0/and_0/a_48_48# 1277
+C multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_4/addbox_1/adder2_0/xor3_1/a_n20_12# 497
+R multi_4/addbox_1/adder2_0/xor3_1/a_35_76# 208
+R multi_4/addbox_1/adder2_0/xor3_1/a_n5_76# 208
+C multi_4/addbox_1/adder2_0/m1_76_8# GND 131.41
+R multi_4/addbox_1/adder2_0/m1_76_8# 4458
+C multi_4/addbox_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_4/addbox_1/adder2_0/xor3_1/a_32_44# 1337
+C m1_1508_n992# GND 192.21
+R m1_1508_n992# 3174
+C multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_4/addbox_1/adder2_0/xor3_1/a_n8_44# 1336
+C multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_4/addbox_1/adder2_0/xor3_0/a_n20_12# 497
+R multi_4/addbox_1/adder2_0/xor3_0/a_35_76# 208
+R multi_4/addbox_1/adder2_0/xor3_0/a_n5_76# 208
+C multi_4/addbox_1/m1_n12_92# GND 141.06
+R multi_4/addbox_1/m1_n12_92# 3909
+C multi_4/addbox_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_4/addbox_1/adder2_0/xor3_0/a_32_44# 1337
+C m1_596_n984# GND 141.61
+R m1_596_n984# 3721
+C multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_4/addbox_1/adder2_0/xor3_0/a_n8_44# 1336
+R multi_4/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_4/addbox_1/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_4/addbox_1/adder2_0/or_0/m1_44_48# 1231
+R multi_4/addbox_0/and_0/nand_0/a_7_n40# 93
+C a4 GND 865.83
+R a4 5276
+C multi_4/addbox_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_0/and_0/a_48_48# 1277
+C multi_4/addbox_0/adder2_0/a_528_88# GND 44.95
+R multi_4/addbox_0/adder2_0/a_528_88# 1203
+R multi_4/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_4/addbox_0/adder2_0/and_1/a_48_48# GND 38.89
+R multi_4/addbox_0/adder2_0/and_1/a_48_48# 1277
+R multi_4/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_0/adder2_0/a_512_128# GND 51.05
+R multi_4/addbox_0/adder2_0/a_512_128# 1998
+C multi_4/addbox_0/adder2_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_0/adder2_0/and_0/a_48_48# 1277
+C multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_4/addbox_0/adder2_0/xor3_1/a_n20_12# 497
+R multi_4/addbox_0/adder2_0/xor3_1/a_35_76# 208
+R multi_4/addbox_0/adder2_0/xor3_1/a_n5_76# 208
+C multi_4/addbox_0/adder2_0/m1_76_8# GND 131.41
+R multi_4/addbox_0/adder2_0/m1_76_8# 4458
+C multi_4/addbox_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_4/addbox_0/adder2_0/xor3_1/a_32_44# 1337
+C m1_748_n996# GND 192.96
+R m1_748_n996# 3174
+C multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_4/addbox_0/adder2_0/xor3_1/a_n8_44# 1336
+C multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_4/addbox_0/adder2_0/xor3_0/a_n20_12# 497
+R multi_4/addbox_0/adder2_0/xor3_0/a_35_76# 208
+R multi_4/addbox_0/adder2_0/xor3_0/a_n5_76# 208
+C multi_4/addbox_0/m1_n12_92# GND 141.06
+R multi_4/addbox_0/m1_n12_92# 3909
+C multi_4/addbox_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_4/addbox_0/adder2_0/xor3_0/a_32_44# 1337
+C multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_4/addbox_0/adder2_0/xor3_0/a_n8_44# 1336
+R multi_4/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_4/addbox_0/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_4/addbox_0/adder2_0/or_0/m1_44_48# 1231
+R multi_4/addbox_4/and_0/nand_0/a_7_n40# 93
+C b4 GND 473.57
+R b4 5262
+C a0 GND 866.58
+R a0 5277
+C multi_4/addbox_4/and_0/a_48_48# GND 38.89
+R multi_4/addbox_4/and_0/a_48_48# 1277
+C p4 GND 56.79
+R p4 746
+C multi_4/addbox_4/adder2_0/a_528_88# GND 44.95
+R multi_4/addbox_4/adder2_0/a_528_88# 1203
+R multi_4/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_4/addbox_4/adder2_0/and_1/a_48_48# GND 38.89
+R multi_4/addbox_4/adder2_0/and_1/a_48_48# 1277
+R multi_4/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_4/addbox_4/adder2_0/a_512_128# GND 51.05
+R multi_4/addbox_4/adder2_0/a_512_128# 1998
+C multi_4/addbox_4/adder2_0/and_0/a_48_48# GND 38.89
+R multi_4/addbox_4/adder2_0/and_0/a_48_48# 1277
+C multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_4/addbox_4/adder2_0/xor3_1/a_n20_12# 497
+R multi_4/addbox_4/adder2_0/xor3_1/a_35_76# 208
+R multi_4/addbox_4/adder2_0/xor3_1/a_n5_76# 208
+C multi_4/addbox_4/adder2_0/m1_76_8# GND 131.41
+R multi_4/addbox_4/adder2_0/m1_76_8# 4458
+C multi_4/addbox_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_4/addbox_4/adder2_0/xor3_1/a_32_44# 1337
+C multi_4/cin GND 192.96
+R multi_4/cin 3174
+C multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_4/addbox_4/adder2_0/xor3_1/a_n8_44# 1336
+C multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_4/addbox_4/adder2_0/xor3_0/a_n20_12# 497
+R multi_4/addbox_4/adder2_0/xor3_0/a_35_76# 208
+R multi_4/addbox_4/adder2_0/xor3_0/a_n5_76# 208
+C multi_4/addbox_4/m1_n12_92# GND 141.06
+R multi_4/addbox_4/m1_n12_92# 3909
+C multi_4/addbox_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_4/addbox_4/adder2_0/xor3_0/a_32_44# 1337
+C multi_4/sin1 GND 143.62
+R multi_4/sin1 3721
+C multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_4/addbox_4/adder2_0/xor3_0/a_n8_44# 1336
+R multi_4/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_4/addbox_4/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_4/addbox_4/adder2_0/or_0/m1_44_48# 1231
+R multi_3/addbox_3/and_0/nand_0/a_7_n40# 93
+C a1 GND 866.39
+R a1 5276
+C multi_3/addbox_3/and_0/a_48_48# GND 38.89
+R multi_3/addbox_3/and_0/a_48_48# 1277
+C multi_3/addbox_3/adder2_0/a_528_88# GND 44.95
+R multi_3/addbox_3/adder2_0/a_528_88# 1203
+R multi_3/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_3/addbox_3/adder2_0/and_1/a_48_48# GND 38.89
+R multi_3/addbox_3/adder2_0/and_1/a_48_48# 1277
+R multi_3/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_3/adder2_0/a_512_128# GND 51.05
+R multi_3/addbox_3/adder2_0/a_512_128# 1998
+C multi_3/addbox_3/adder2_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_3/adder2_0/and_0/a_48_48# 1277
+C multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_3/addbox_3/adder2_0/xor3_1/a_n20_12# 497
+R multi_3/addbox_3/adder2_0/xor3_1/a_35_76# 208
+R multi_3/addbox_3/adder2_0/xor3_1/a_n5_76# 208
+C multi_3/addbox_3/adder2_0/m1_76_8# GND 131.41
+R multi_3/addbox_3/adder2_0/m1_76_8# 4458
+C multi_3/addbox_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_3/addbox_3/adder2_0/xor3_1/a_32_44# 1337
+C m1_3024_n676# GND 198.04
+R m1_3024_n676# 3174
+C multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_3/addbox_3/adder2_0/xor3_1/a_n8_44# 1336
+C multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_3/addbox_3/adder2_0/xor3_0/a_n20_12# 497
+R multi_3/addbox_3/adder2_0/xor3_0/a_35_76# 208
+R multi_3/addbox_3/adder2_0/xor3_0/a_n5_76# 208
+C multi_3/addbox_3/m1_n12_92# GND 141.06
+R multi_3/addbox_3/m1_n12_92# 3909
+C multi_3/addbox_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_3/addbox_3/adder2_0/xor3_0/a_32_44# 1337
+C m1_2116_n664# GND 180.18
+R m1_2116_n664# 3722
+C multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_3/addbox_3/adder2_0/xor3_0/a_n8_44# 1336
+R multi_3/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_3/addbox_3/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_3/addbox_3/adder2_0/or_0/m1_44_48# 1231
+R multi_3/addbox_2/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_2/and_0/a_48_48# GND 38.89
+R multi_3/addbox_2/and_0/a_48_48# 1277
+C multi_3/addbox_2/adder2_0/a_528_88# GND 44.95
+R multi_3/addbox_2/adder2_0/a_528_88# 1203
+R multi_3/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_3/addbox_2/adder2_0/and_1/a_48_48# GND 38.89
+R multi_3/addbox_2/adder2_0/and_1/a_48_48# 1277
+R multi_3/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_2/adder2_0/a_512_128# GND 51.05
+R multi_3/addbox_2/adder2_0/a_512_128# 1998
+C multi_3/addbox_2/adder2_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_2/adder2_0/and_0/a_48_48# 1277
+C multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_3/addbox_2/adder2_0/xor3_1/a_n20_12# 497
+R multi_3/addbox_2/adder2_0/xor3_1/a_35_76# 208
+R multi_3/addbox_2/adder2_0/xor3_1/a_n5_76# 208
+C multi_3/addbox_2/adder2_0/m1_76_8# GND 131.41
+R multi_3/addbox_2/adder2_0/m1_76_8# 4458
+C multi_3/addbox_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_3/addbox_2/adder2_0/xor3_1/a_32_44# 1337
+C m1_2268_n676# GND 198.04
+R m1_2268_n676# 3174
+C multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_3/addbox_2/adder2_0/xor3_1/a_n8_44# 1336
+C multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_3/addbox_2/adder2_0/xor3_0/a_n20_12# 497
+R multi_3/addbox_2/adder2_0/xor3_0/a_35_76# 208
+R multi_3/addbox_2/adder2_0/xor3_0/a_n5_76# 208
+C multi_3/addbox_2/m1_n12_92# GND 141.06
+R multi_3/addbox_2/m1_n12_92# 3909
+C multi_3/addbox_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_3/addbox_2/adder2_0/xor3_0/a_32_44# 1337
+C m1_1356_n664# GND 177.14
+R m1_1356_n664# 3721
+C multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_3/addbox_2/adder2_0/xor3_0/a_n8_44# 1336
+R multi_3/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_3/addbox_2/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_3/addbox_2/adder2_0/or_0/m1_44_48# 1231
+R multi_3/addbox_1/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_1/and_0/a_48_48# GND 38.89
+R multi_3/addbox_1/and_0/a_48_48# 1277
+C multi_3/addbox_1/adder2_0/a_528_88# GND 44.95
+R multi_3/addbox_1/adder2_0/a_528_88# 1203
+R multi_3/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_3/addbox_1/adder2_0/and_1/a_48_48# GND 38.89
+R multi_3/addbox_1/adder2_0/and_1/a_48_48# 1277
+R multi_3/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_1/adder2_0/a_512_128# GND 51.05
+R multi_3/addbox_1/adder2_0/a_512_128# 1998
+C multi_3/addbox_1/adder2_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_1/adder2_0/and_0/a_48_48# 1277
+C multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_3/addbox_1/adder2_0/xor3_1/a_n20_12# 497
+R multi_3/addbox_1/adder2_0/xor3_1/a_35_76# 208
+R multi_3/addbox_1/adder2_0/xor3_1/a_n5_76# 208
+C multi_3/addbox_1/adder2_0/m1_76_8# GND 131.41
+R multi_3/addbox_1/adder2_0/m1_76_8# 4458
+C multi_3/addbox_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_3/addbox_1/adder2_0/xor3_1/a_32_44# 1337
+C m1_1508_n676# GND 198.04
+R m1_1508_n676# 3174
+C multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_3/addbox_1/adder2_0/xor3_1/a_n8_44# 1336
+C multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_3/addbox_1/adder2_0/xor3_0/a_n20_12# 497
+R multi_3/addbox_1/adder2_0/xor3_0/a_35_76# 208
+R multi_3/addbox_1/adder2_0/xor3_0/a_n5_76# 208
+C multi_3/addbox_1/m1_n12_92# GND 141.06
+R multi_3/addbox_1/m1_n12_92# 3909
+C multi_3/addbox_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_3/addbox_1/adder2_0/xor3_0/a_32_44# 1337
+C m1_596_n664# GND 174.10
+R m1_596_n664# 3722
+C gnd GND 6809.17
+R gnd 111721
+C multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_3/addbox_1/adder2_0/xor3_0/a_n8_44# 1336
+R multi_3/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_3/addbox_1/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_3/addbox_1/adder2_0/or_0/m1_44_48# 1231
+R multi_3/addbox_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_0/and_0/a_48_48# 1277
+C multi_3/addbox_0/adder2_0/a_528_88# GND 44.95
+R multi_3/addbox_0/adder2_0/a_528_88# 1203
+R multi_3/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_3/addbox_0/adder2_0/and_1/a_48_48# GND 38.89
+R multi_3/addbox_0/adder2_0/and_1/a_48_48# 1277
+R multi_3/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_0/adder2_0/a_512_128# GND 51.05
+R multi_3/addbox_0/adder2_0/a_512_128# 1998
+C multi_3/addbox_0/adder2_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_0/adder2_0/and_0/a_48_48# 1277
+C multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_3/addbox_0/adder2_0/xor3_1/a_n20_12# 497
+R multi_3/addbox_0/adder2_0/xor3_1/a_35_76# 208
+R multi_3/addbox_0/adder2_0/xor3_1/a_n5_76# 208
+C multi_3/addbox_0/adder2_0/m1_76_8# GND 131.41
+R multi_3/addbox_0/adder2_0/m1_76_8# 4458
+C multi_3/addbox_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_3/addbox_0/adder2_0/xor3_1/a_32_44# 1337
+C m1_748_n680# GND 198.04
+R m1_748_n680# 3174
+C multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_3/addbox_0/adder2_0/xor3_1/a_n8_44# 1336
+C multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_3/addbox_0/adder2_0/xor3_0/a_n20_12# 497
+R multi_3/addbox_0/adder2_0/xor3_0/a_35_76# 208
+R multi_3/addbox_0/adder2_0/xor3_0/a_n5_76# 208
+C multi_3/addbox_0/m1_n12_92# GND 141.06
+R multi_3/addbox_0/m1_n12_92# 3909
+C multi_3/addbox_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_3/addbox_0/adder2_0/xor3_0/a_32_44# 1337
+C multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_3/addbox_0/adder2_0/xor3_0/a_n8_44# 1336
+R multi_3/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_3/addbox_0/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_3/addbox_0/adder2_0/or_0/m1_44_48# 1231
+R multi_3/addbox_4/and_0/nand_0/a_7_n40# 93
+C b3 GND 473.57
+R b3 5262
+C multi_3/addbox_4/and_0/a_48_48# GND 38.89
+R multi_3/addbox_4/and_0/a_48_48# 1277
+C p3 GND 56.04
+R p3 746
+C multi_3/addbox_4/adder2_0/a_528_88# GND 44.95
+R multi_3/addbox_4/adder2_0/a_528_88# 1203
+R multi_3/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_3/addbox_4/adder2_0/and_1/a_48_48# GND 38.89
+R multi_3/addbox_4/adder2_0/and_1/a_48_48# 1277
+R multi_3/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_3/addbox_4/adder2_0/a_512_128# GND 51.05
+R multi_3/addbox_4/adder2_0/a_512_128# 1998
+C multi_3/addbox_4/adder2_0/and_0/a_48_48# GND 38.89
+R multi_3/addbox_4/adder2_0/and_0/a_48_48# 1277
+C multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_3/addbox_4/adder2_0/xor3_1/a_n20_12# 497
+R multi_3/addbox_4/adder2_0/xor3_1/a_35_76# 208
+R multi_3/addbox_4/adder2_0/xor3_1/a_n5_76# 208
+C multi_3/addbox_4/adder2_0/m1_76_8# GND 131.41
+R multi_3/addbox_4/adder2_0/m1_76_8# 4458
+C multi_3/addbox_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_3/addbox_4/adder2_0/xor3_1/a_32_44# 1337
+C multi_3/cin GND 198.04
+R multi_3/cin 3174
+C multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_3/addbox_4/adder2_0/xor3_1/a_n8_44# 1336
+C multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_3/addbox_4/adder2_0/xor3_0/a_n20_12# 497
+R multi_3/addbox_4/adder2_0/xor3_0/a_35_76# 208
+R multi_3/addbox_4/adder2_0/xor3_0/a_n5_76# 208
+C multi_3/addbox_4/m1_n12_92# GND 141.06
+R multi_3/addbox_4/m1_n12_92# 3909
+C multi_3/addbox_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_3/addbox_4/adder2_0/xor3_0/a_32_44# 1337
+C multi_3/sin1 GND 176.12
+R multi_3/sin1 3722
+C multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_3/addbox_4/adder2_0/xor3_0/a_n8_44# 1336
+R multi_3/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_3/addbox_4/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_3/addbox_4/adder2_0/or_0/m1_44_48# 1231
+R multi_2/addbox_3/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_3/and_0/a_48_48# GND 38.89
+R multi_2/addbox_3/and_0/a_48_48# 1277
+C multi_2/addbox_3/adder2_0/a_528_88# GND 44.95
+R multi_2/addbox_3/adder2_0/a_528_88# 1203
+R multi_2/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_2/addbox_3/adder2_0/and_1/a_48_48# GND 38.89
+R multi_2/addbox_3/adder2_0/and_1/a_48_48# 1277
+R multi_2/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_3/adder2_0/a_512_128# GND 51.05
+R multi_2/addbox_3/adder2_0/a_512_128# 1998
+C multi_2/addbox_3/adder2_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_3/adder2_0/and_0/a_48_48# 1277
+C multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_2/addbox_3/adder2_0/xor3_1/a_n20_12# 497
+R multi_2/addbox_3/adder2_0/xor3_1/a_35_76# 208
+R multi_2/addbox_3/adder2_0/xor3_1/a_n5_76# 208
+C multi_2/addbox_3/adder2_0/m1_76_8# GND 131.41
+R multi_2/addbox_3/adder2_0/m1_76_8# 4458
+C multi_2/addbox_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_2/addbox_3/adder2_0/xor3_1/a_32_44# 1337
+C m1_3024_n356# GND 198.04
+R m1_3024_n356# 3174
+C multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_2/addbox_3/adder2_0/xor3_1/a_n8_44# 1336
+C multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_2/addbox_3/adder2_0/xor3_0/a_n20_12# 497
+R multi_2/addbox_3/adder2_0/xor3_0/a_35_76# 208
+R multi_2/addbox_3/adder2_0/xor3_0/a_n5_76# 208
+C multi_2/addbox_3/m1_n12_92# GND 141.06
+R multi_2/addbox_3/m1_n12_92# 3909
+C multi_2/addbox_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_2/addbox_3/adder2_0/xor3_0/a_32_44# 1337
+C m1_2116_n340# GND 180.18
+R m1_2116_n340# 3722
+C multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_2/addbox_3/adder2_0/xor3_0/a_n8_44# 1336
+R multi_2/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_2/addbox_3/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_2/addbox_3/adder2_0/or_0/m1_44_48# 1231
+R multi_2/addbox_2/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_2/and_0/a_48_48# GND 38.89
+R multi_2/addbox_2/and_0/a_48_48# 1277
+C multi_2/addbox_2/adder2_0/a_528_88# GND 44.95
+R multi_2/addbox_2/adder2_0/a_528_88# 1203
+R multi_2/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_2/addbox_2/adder2_0/and_1/a_48_48# GND 38.89
+R multi_2/addbox_2/adder2_0/and_1/a_48_48# 1277
+R multi_2/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_2/adder2_0/a_512_128# GND 51.05
+R multi_2/addbox_2/adder2_0/a_512_128# 1998
+C multi_2/addbox_2/adder2_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_2/adder2_0/and_0/a_48_48# 1277
+C multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_2/addbox_2/adder2_0/xor3_1/a_n20_12# 497
+R multi_2/addbox_2/adder2_0/xor3_1/a_35_76# 208
+R multi_2/addbox_2/adder2_0/xor3_1/a_n5_76# 208
+C multi_2/addbox_2/adder2_0/m1_76_8# GND 131.41
+R multi_2/addbox_2/adder2_0/m1_76_8# 4458
+C multi_2/addbox_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_2/addbox_2/adder2_0/xor3_1/a_32_44# 1337
+C m1_2268_n356# GND 198.04
+R m1_2268_n356# 3174
+C multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_2/addbox_2/adder2_0/xor3_1/a_n8_44# 1336
+C multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_2/addbox_2/adder2_0/xor3_0/a_n20_12# 497
+R multi_2/addbox_2/adder2_0/xor3_0/a_35_76# 208
+R multi_2/addbox_2/adder2_0/xor3_0/a_n5_76# 208
+C multi_2/addbox_2/m1_n12_92# GND 141.06
+R multi_2/addbox_2/m1_n12_92# 3909
+C multi_2/addbox_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_2/addbox_2/adder2_0/xor3_0/a_32_44# 1337
+C m1_1356_n340# GND 177.14
+R m1_1356_n340# 3721
+C multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_2/addbox_2/adder2_0/xor3_0/a_n8_44# 1336
+R multi_2/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_2/addbox_2/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_2/addbox_2/adder2_0/or_0/m1_44_48# 1231
+R multi_2/addbox_1/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_1/and_0/a_48_48# GND 38.89
+R multi_2/addbox_1/and_0/a_48_48# 1277
+C multi_2/addbox_1/adder2_0/a_528_88# GND 44.95
+R multi_2/addbox_1/adder2_0/a_528_88# 1203
+R multi_2/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_2/addbox_1/adder2_0/and_1/a_48_48# GND 38.89
+R multi_2/addbox_1/adder2_0/and_1/a_48_48# 1277
+R multi_2/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_1/adder2_0/a_512_128# GND 51.05
+R multi_2/addbox_1/adder2_0/a_512_128# 1998
+C multi_2/addbox_1/adder2_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_1/adder2_0/and_0/a_48_48# 1277
+C multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_2/addbox_1/adder2_0/xor3_1/a_n20_12# 497
+R multi_2/addbox_1/adder2_0/xor3_1/a_35_76# 208
+R multi_2/addbox_1/adder2_0/xor3_1/a_n5_76# 208
+C multi_2/addbox_1/adder2_0/m1_76_8# GND 131.41
+R multi_2/addbox_1/adder2_0/m1_76_8# 4458
+C multi_2/addbox_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_2/addbox_1/adder2_0/xor3_1/a_32_44# 1337
+C m1_1508_n356# GND 198.04
+R m1_1508_n356# 3174
+C multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_2/addbox_1/adder2_0/xor3_1/a_n8_44# 1336
+C multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_2/addbox_1/adder2_0/xor3_0/a_n20_12# 497
+R multi_2/addbox_1/adder2_0/xor3_0/a_35_76# 208
+R multi_2/addbox_1/adder2_0/xor3_0/a_n5_76# 208
+C multi_2/addbox_1/m1_n12_92# GND 141.06
+R multi_2/addbox_1/m1_n12_92# 3909
+C multi_2/addbox_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_2/addbox_1/adder2_0/xor3_0/a_32_44# 1337
+C m1_596_n340# GND 174.10
+R m1_596_n340# 3722
+C multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_2/addbox_1/adder2_0/xor3_0/a_n8_44# 1336
+R multi_2/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_2/addbox_1/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_2/addbox_1/adder2_0/or_0/m1_44_48# 1231
+R multi_2/addbox_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_0/and_0/a_48_48# 1277
+C multi_2/addbox_0/adder2_0/a_528_88# GND 44.95
+R multi_2/addbox_0/adder2_0/a_528_88# 1203
+R multi_2/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_2/addbox_0/adder2_0/and_1/a_48_48# GND 38.89
+R multi_2/addbox_0/adder2_0/and_1/a_48_48# 1277
+R multi_2/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_0/adder2_0/a_512_128# GND 51.05
+R multi_2/addbox_0/adder2_0/a_512_128# 1998
+C multi_2/addbox_0/adder2_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_0/adder2_0/and_0/a_48_48# 1277
+C multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_2/addbox_0/adder2_0/xor3_1/a_n20_12# 497
+R multi_2/addbox_0/adder2_0/xor3_1/a_35_76# 208
+R multi_2/addbox_0/adder2_0/xor3_1/a_n5_76# 208
+C multi_2/addbox_0/adder2_0/m1_76_8# GND 131.41
+R multi_2/addbox_0/adder2_0/m1_76_8# 4458
+C multi_2/addbox_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_2/addbox_0/adder2_0/xor3_1/a_32_44# 1337
+C m1_748_n356# GND 198.04
+R m1_748_n356# 3174
+C multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_2/addbox_0/adder2_0/xor3_1/a_n8_44# 1336
+C multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_2/addbox_0/adder2_0/xor3_0/a_n20_12# 497
+R multi_2/addbox_0/adder2_0/xor3_0/a_35_76# 208
+R multi_2/addbox_0/adder2_0/xor3_0/a_n5_76# 208
+C multi_2/addbox_0/m1_n12_92# GND 141.06
+R multi_2/addbox_0/m1_n12_92# 3909
+C multi_2/addbox_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_2/addbox_0/adder2_0/xor3_0/a_32_44# 1337
+C multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_2/addbox_0/adder2_0/xor3_0/a_n8_44# 1336
+R multi_2/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_2/addbox_0/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_2/addbox_0/adder2_0/or_0/m1_44_48# 1231
+R multi_2/addbox_4/and_0/nand_0/a_7_n40# 93
+C b2 GND 473.57
+R b2 5262
+C multi_2/addbox_4/and_0/a_48_48# GND 38.89
+R multi_2/addbox_4/and_0/a_48_48# 1277
+C p2 GND 56.79
+R p2 746
+C multi_2/addbox_4/adder2_0/a_528_88# GND 44.95
+R multi_2/addbox_4/adder2_0/a_528_88# 1203
+R multi_2/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_2/addbox_4/adder2_0/and_1/a_48_48# GND 38.89
+R multi_2/addbox_4/adder2_0/and_1/a_48_48# 1277
+R multi_2/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_2/addbox_4/adder2_0/a_512_128# GND 51.05
+R multi_2/addbox_4/adder2_0/a_512_128# 1998
+C multi_2/addbox_4/adder2_0/and_0/a_48_48# GND 38.89
+R multi_2/addbox_4/adder2_0/and_0/a_48_48# 1277
+C multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_2/addbox_4/adder2_0/xor3_1/a_n20_12# 497
+R multi_2/addbox_4/adder2_0/xor3_1/a_35_76# 208
+R multi_2/addbox_4/adder2_0/xor3_1/a_n5_76# 208
+C multi_2/addbox_4/adder2_0/m1_76_8# GND 131.41
+R multi_2/addbox_4/adder2_0/m1_76_8# 4458
+C multi_2/addbox_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_2/addbox_4/adder2_0/xor3_1/a_32_44# 1337
+C multi_2/cin GND 198.04
+R multi_2/cin 3174
+C multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_2/addbox_4/adder2_0/xor3_1/a_n8_44# 1336
+C multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_2/addbox_4/adder2_0/xor3_0/a_n20_12# 497
+R multi_2/addbox_4/adder2_0/xor3_0/a_35_76# 208
+R multi_2/addbox_4/adder2_0/xor3_0/a_n5_76# 208
+C multi_2/addbox_4/m1_n12_92# GND 141.06
+R multi_2/addbox_4/m1_n12_92# 3909
+C multi_2/addbox_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_2/addbox_4/adder2_0/xor3_0/a_32_44# 1337
+C multi_2/sin1 GND 176.12
+R multi_2/sin1 3722
+C multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_2/addbox_4/adder2_0/xor3_0/a_n8_44# 1336
+R multi_2/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_2/addbox_4/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_2/addbox_4/adder2_0/or_0/m1_44_48# 1231
+R multi_1/addbox_3/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_3/and_0/a_48_48# GND 38.89
+R multi_1/addbox_3/and_0/a_48_48# 1277
+C multi_1/addbox_3/adder2_0/a_528_88# GND 44.95
+R multi_1/addbox_3/adder2_0/a_528_88# 1203
+R multi_1/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_1/addbox_3/adder2_0/and_1/a_48_48# GND 38.89
+R multi_1/addbox_3/adder2_0/and_1/a_48_48# 1277
+R multi_1/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_3/adder2_0/a_512_128# GND 51.05
+R multi_1/addbox_3/adder2_0/a_512_128# 1998
+C multi_1/addbox_3/adder2_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_3/adder2_0/and_0/a_48_48# 1277
+C multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_1/addbox_3/adder2_0/xor3_1/a_n20_12# 497
+R multi_1/addbox_3/adder2_0/xor3_1/a_35_76# 208
+R multi_1/addbox_3/adder2_0/xor3_1/a_n5_76# 208
+C multi_1/addbox_3/adder2_0/m1_76_8# GND 131.41
+R multi_1/addbox_3/adder2_0/m1_76_8# 4458
+C multi_1/addbox_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_1/addbox_3/adder2_0/xor3_1/a_32_44# 1337
+C m1_3024_n32# GND 198.04
+R m1_3024_n32# 3174
+C multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_1/addbox_3/adder2_0/xor3_1/a_n8_44# 1336
+C multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_1/addbox_3/adder2_0/xor3_0/a_n20_12# 497
+R multi_1/addbox_3/adder2_0/xor3_0/a_35_76# 208
+R multi_1/addbox_3/adder2_0/xor3_0/a_n5_76# 208
+C multi_1/addbox_3/m1_n12_92# GND 141.06
+R multi_1/addbox_3/m1_n12_92# 3909
+C multi_1/addbox_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_1/addbox_3/adder2_0/xor3_0/a_32_44# 1337
+C m1_2116_n16# GND 180.18
+R m1_2116_n16# 3722
+C multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_1/addbox_3/adder2_0/xor3_0/a_n8_44# 1336
+R multi_1/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_1/addbox_3/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_1/addbox_3/adder2_0/or_0/m1_44_48# 1231
+R multi_1/addbox_2/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_2/and_0/a_48_48# GND 38.89
+R multi_1/addbox_2/and_0/a_48_48# 1277
+C multi_1/addbox_2/adder2_0/a_528_88# GND 44.95
+R multi_1/addbox_2/adder2_0/a_528_88# 1203
+R multi_1/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_1/addbox_2/adder2_0/and_1/a_48_48# GND 38.89
+R multi_1/addbox_2/adder2_0/and_1/a_48_48# 1277
+R multi_1/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_2/adder2_0/a_512_128# GND 51.05
+R multi_1/addbox_2/adder2_0/a_512_128# 1998
+C multi_1/addbox_2/adder2_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_2/adder2_0/and_0/a_48_48# 1277
+C multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_1/addbox_2/adder2_0/xor3_1/a_n20_12# 497
+R multi_1/addbox_2/adder2_0/xor3_1/a_35_76# 208
+R multi_1/addbox_2/adder2_0/xor3_1/a_n5_76# 208
+C multi_1/addbox_2/adder2_0/m1_76_8# GND 131.41
+R multi_1/addbox_2/adder2_0/m1_76_8# 4458
+C multi_1/addbox_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_1/addbox_2/adder2_0/xor3_1/a_32_44# 1337
+C m1_2268_n32# GND 198.04
+R m1_2268_n32# 3174
+C multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_1/addbox_2/adder2_0/xor3_1/a_n8_44# 1336
+C multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_1/addbox_2/adder2_0/xor3_0/a_n20_12# 497
+R multi_1/addbox_2/adder2_0/xor3_0/a_35_76# 208
+R multi_1/addbox_2/adder2_0/xor3_0/a_n5_76# 208
+C multi_1/addbox_2/m1_n12_92# GND 141.06
+R multi_1/addbox_2/m1_n12_92# 3909
+C multi_1/addbox_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_1/addbox_2/adder2_0/xor3_0/a_32_44# 1337
+C m1_1356_n16# GND 177.14
+R m1_1356_n16# 3721
+C multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_1/addbox_2/adder2_0/xor3_0/a_n8_44# 1336
+R multi_1/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_1/addbox_2/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_1/addbox_2/adder2_0/or_0/m1_44_48# 1231
+R multi_1/addbox_1/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_1/and_0/a_48_48# GND 38.89
+R multi_1/addbox_1/and_0/a_48_48# 1277
+C multi_1/addbox_1/adder2_0/a_528_88# GND 44.95
+R multi_1/addbox_1/adder2_0/a_528_88# 1203
+R multi_1/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_1/addbox_1/adder2_0/and_1/a_48_48# GND 38.89
+R multi_1/addbox_1/adder2_0/and_1/a_48_48# 1277
+R multi_1/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_1/adder2_0/a_512_128# GND 51.05
+R multi_1/addbox_1/adder2_0/a_512_128# 1998
+C multi_1/addbox_1/adder2_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_1/adder2_0/and_0/a_48_48# 1277
+C multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_1/addbox_1/adder2_0/xor3_1/a_n20_12# 497
+R multi_1/addbox_1/adder2_0/xor3_1/a_35_76# 208
+R multi_1/addbox_1/adder2_0/xor3_1/a_n5_76# 208
+C multi_1/addbox_1/adder2_0/m1_76_8# GND 131.41
+R multi_1/addbox_1/adder2_0/m1_76_8# 4458
+C multi_1/addbox_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_1/addbox_1/adder2_0/xor3_1/a_32_44# 1337
+C m1_1508_n32# GND 198.04
+R m1_1508_n32# 3174
+C multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_1/addbox_1/adder2_0/xor3_1/a_n8_44# 1336
+C multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_1/addbox_1/adder2_0/xor3_0/a_n20_12# 497
+R multi_1/addbox_1/adder2_0/xor3_0/a_35_76# 208
+R multi_1/addbox_1/adder2_0/xor3_0/a_n5_76# 208
+C multi_1/addbox_1/m1_n12_92# GND 141.06
+R multi_1/addbox_1/m1_n12_92# 3909
+C multi_1/addbox_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_1/addbox_1/adder2_0/xor3_0/a_32_44# 1337
+C m1_596_n16# GND 174.10
+R m1_596_n16# 3722
+C multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_1/addbox_1/adder2_0/xor3_0/a_n8_44# 1336
+R multi_1/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_1/addbox_1/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_1/addbox_1/adder2_0/or_0/m1_44_48# 1231
+R multi_1/addbox_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_0/and_0/a_48_48# 1277
+C multi_1/addbox_0/adder2_0/a_528_88# GND 44.95
+R multi_1/addbox_0/adder2_0/a_528_88# 1203
+R multi_1/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_1/addbox_0/adder2_0/and_1/a_48_48# GND 38.89
+R multi_1/addbox_0/adder2_0/and_1/a_48_48# 1277
+R multi_1/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_0/adder2_0/a_512_128# GND 51.05
+R multi_1/addbox_0/adder2_0/a_512_128# 1998
+C multi_1/addbox_0/adder2_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_0/adder2_0/and_0/a_48_48# 1277
+C multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_1/addbox_0/adder2_0/xor3_1/a_n20_12# 497
+R multi_1/addbox_0/adder2_0/xor3_1/a_35_76# 208
+R multi_1/addbox_0/adder2_0/xor3_1/a_n5_76# 208
+C multi_1/addbox_0/adder2_0/m1_76_8# GND 131.41
+R multi_1/addbox_0/adder2_0/m1_76_8# 4458
+C multi_1/addbox_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_1/addbox_0/adder2_0/xor3_1/a_32_44# 1337
+C m1_748_n32# GND 198.04
+R m1_748_n32# 3174
+C multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_1/addbox_0/adder2_0/xor3_1/a_n8_44# 1336
+C multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_1/addbox_0/adder2_0/xor3_0/a_n20_12# 497
+R multi_1/addbox_0/adder2_0/xor3_0/a_35_76# 208
+R multi_1/addbox_0/adder2_0/xor3_0/a_n5_76# 208
+C multi_1/addbox_0/m1_n12_92# GND 141.06
+R multi_1/addbox_0/m1_n12_92# 3909
+C multi_1/addbox_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_1/addbox_0/adder2_0/xor3_0/a_32_44# 1337
+C multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_1/addbox_0/adder2_0/xor3_0/a_n8_44# 1336
+R multi_1/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_1/addbox_0/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_1/addbox_0/adder2_0/or_0/m1_44_48# 1231
+R multi_1/addbox_4/and_0/nand_0/a_7_n40# 93
+C b1 GND 473.57
+R b1 5262
+C multi_1/addbox_4/and_0/a_48_48# GND 38.89
+R multi_1/addbox_4/and_0/a_48_48# 1277
+C p1 GND 56.79
+R p1 746
+C multi_1/addbox_4/adder2_0/a_528_88# GND 44.95
+R multi_1/addbox_4/adder2_0/a_528_88# 1203
+R multi_1/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_1/addbox_4/adder2_0/and_1/a_48_48# GND 38.89
+R multi_1/addbox_4/adder2_0/and_1/a_48_48# 1277
+R multi_1/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_1/addbox_4/adder2_0/a_512_128# GND 51.05
+R multi_1/addbox_4/adder2_0/a_512_128# 1998
+C multi_1/addbox_4/adder2_0/and_0/a_48_48# GND 38.89
+R multi_1/addbox_4/adder2_0/and_0/a_48_48# 1277
+C multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_1/addbox_4/adder2_0/xor3_1/a_n20_12# 497
+R multi_1/addbox_4/adder2_0/xor3_1/a_35_76# 208
+R multi_1/addbox_4/adder2_0/xor3_1/a_n5_76# 208
+C multi_1/addbox_4/adder2_0/m1_76_8# GND 131.41
+R multi_1/addbox_4/adder2_0/m1_76_8# 4458
+C multi_1/addbox_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_1/addbox_4/adder2_0/xor3_1/a_32_44# 1337
+C multi_1/cin GND 198.04
+R multi_1/cin 3174
+C multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_1/addbox_4/adder2_0/xor3_1/a_n8_44# 1336
+C multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_1/addbox_4/adder2_0/xor3_0/a_n20_12# 497
+R multi_1/addbox_4/adder2_0/xor3_0/a_35_76# 208
+R multi_1/addbox_4/adder2_0/xor3_0/a_n5_76# 208
+C multi_1/addbox_4/m1_n12_92# GND 141.06
+R multi_1/addbox_4/m1_n12_92# 3909
+C multi_1/addbox_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_1/addbox_4/adder2_0/xor3_0/a_32_44# 1337
+C multi_1/sin1 GND 205.99
+R multi_1/sin1 3722
+C multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_1/addbox_4/adder2_0/xor3_0/a_n8_44# 1336
+R multi_1/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_1/addbox_4/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_1/addbox_4/adder2_0/or_0/m1_44_48# 1231
+R multi_0/addbox_3/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_3/and_0/a_48_48# GND 38.89
+R multi_0/addbox_3/and_0/a_48_48# 1277
+C multi_0/addbox_3/adder2_0/a_528_88# GND 44.95
+R multi_0/addbox_3/adder2_0/a_528_88# 1203
+R multi_0/addbox_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_0/addbox_3/adder2_0/and_1/a_48_48# GND 38.89
+R multi_0/addbox_3/adder2_0/and_1/a_48_48# 1277
+R multi_0/addbox_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_3/adder2_0/a_512_128# GND 51.05
+R multi_0/addbox_3/adder2_0/a_512_128# 1998
+C multi_0/addbox_3/adder2_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_3/adder2_0/and_0/a_48_48# 1277
+C multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_0/addbox_3/adder2_0/xor3_1/a_n20_12# 497
+R multi_0/addbox_3/adder2_0/xor3_1/a_35_76# 208
+R multi_0/addbox_3/adder2_0/xor3_1/a_n5_76# 208
+C multi_0/addbox_3/adder2_0/m1_76_8# GND 131.41
+R multi_0/addbox_3/adder2_0/m1_76_8# 4458
+C multi_0/addbox_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_0/addbox_3/adder2_0/xor3_1/a_32_44# 1337
+C multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_0/addbox_3/adder2_0/xor3_1/a_n8_44# 1336
+C multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_0/addbox_3/adder2_0/xor3_0/a_n20_12# 497
+R multi_0/addbox_3/adder2_0/xor3_0/a_35_76# 208
+R multi_0/addbox_3/adder2_0/xor3_0/a_n5_76# 208
+C multi_0/addbox_3/m1_n12_92# GND 141.06
+R multi_0/addbox_3/m1_n12_92# 3909
+C multi_0/addbox_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_0/addbox_3/adder2_0/xor3_0/a_32_44# 1337
+C multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_0/addbox_3/adder2_0/xor3_0/a_n8_44# 1336
+R multi_0/addbox_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_0/addbox_3/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_0/addbox_3/adder2_0/or_0/m1_44_48# 1231
+R multi_0/addbox_2/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_2/and_0/a_48_48# GND 38.89
+R multi_0/addbox_2/and_0/a_48_48# 1277
+C multi_0/addbox_2/adder2_0/a_528_88# GND 44.95
+R multi_0/addbox_2/adder2_0/a_528_88# 1203
+R multi_0/addbox_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_0/addbox_2/adder2_0/and_1/a_48_48# GND 38.89
+R multi_0/addbox_2/adder2_0/and_1/a_48_48# 1277
+R multi_0/addbox_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_2/adder2_0/a_512_128# GND 51.05
+R multi_0/addbox_2/adder2_0/a_512_128# 1998
+C multi_0/addbox_2/adder2_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_2/adder2_0/and_0/a_48_48# 1277
+C multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_0/addbox_2/adder2_0/xor3_1/a_n20_12# 497
+R multi_0/addbox_2/adder2_0/xor3_1/a_35_76# 208
+R multi_0/addbox_2/adder2_0/xor3_1/a_n5_76# 208
+C multi_0/addbox_2/adder2_0/m1_76_8# GND 131.41
+R multi_0/addbox_2/adder2_0/m1_76_8# 4458
+C multi_0/addbox_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_0/addbox_2/adder2_0/xor3_1/a_32_44# 1337
+C multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_0/addbox_2/adder2_0/xor3_1/a_n8_44# 1336
+C multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_0/addbox_2/adder2_0/xor3_0/a_n20_12# 497
+R multi_0/addbox_2/adder2_0/xor3_0/a_35_76# 208
+R multi_0/addbox_2/adder2_0/xor3_0/a_n5_76# 208
+C multi_0/addbox_2/m1_n12_92# GND 141.06
+R multi_0/addbox_2/m1_n12_92# 3909
+C multi_0/addbox_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_0/addbox_2/adder2_0/xor3_0/a_32_44# 1337
+C multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_0/addbox_2/adder2_0/xor3_0/a_n8_44# 1336
+R multi_0/addbox_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_0/addbox_2/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_0/addbox_2/adder2_0/or_0/m1_44_48# 1231
+R multi_0/addbox_1/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_1/and_0/a_48_48# GND 38.89
+R multi_0/addbox_1/and_0/a_48_48# 1277
+C multi_0/addbox_1/adder2_0/a_528_88# GND 44.95
+R multi_0/addbox_1/adder2_0/a_528_88# 1203
+R multi_0/addbox_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_0/addbox_1/adder2_0/and_1/a_48_48# GND 38.89
+R multi_0/addbox_1/adder2_0/and_1/a_48_48# 1277
+R multi_0/addbox_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_1/adder2_0/a_512_128# GND 51.05
+R multi_0/addbox_1/adder2_0/a_512_128# 1998
+C multi_0/addbox_1/adder2_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_1/adder2_0/and_0/a_48_48# 1277
+C multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_0/addbox_1/adder2_0/xor3_1/a_n20_12# 497
+R multi_0/addbox_1/adder2_0/xor3_1/a_35_76# 208
+R multi_0/addbox_1/adder2_0/xor3_1/a_n5_76# 208
+C multi_0/addbox_1/adder2_0/m1_76_8# GND 131.41
+R multi_0/addbox_1/adder2_0/m1_76_8# 4458
+C multi_0/addbox_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_0/addbox_1/adder2_0/xor3_1/a_32_44# 1337
+C multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_0/addbox_1/adder2_0/xor3_1/a_n8_44# 1336
+C multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_0/addbox_1/adder2_0/xor3_0/a_n20_12# 497
+R multi_0/addbox_1/adder2_0/xor3_0/a_35_76# 208
+R multi_0/addbox_1/adder2_0/xor3_0/a_n5_76# 208
+C multi_0/addbox_1/m1_n12_92# GND 141.06
+R multi_0/addbox_1/m1_n12_92# 3909
+C multi_0/addbox_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_0/addbox_1/adder2_0/xor3_0/a_32_44# 1337
+C multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_0/addbox_1/adder2_0/xor3_0/a_n8_44# 1336
+R multi_0/addbox_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_0/addbox_1/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_0/addbox_1/adder2_0/or_0/m1_44_48# 1231
+R multi_0/addbox_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_0/and_0/a_48_48# 1277
+C multi_0/addbox_0/adder2_0/a_528_88# GND 44.95
+R multi_0/addbox_0/adder2_0/a_528_88# 1203
+R multi_0/addbox_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_0/addbox_0/adder2_0/and_1/a_48_48# GND 38.89
+R multi_0/addbox_0/adder2_0/and_1/a_48_48# 1277
+R multi_0/addbox_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_0/adder2_0/a_512_128# GND 51.05
+R multi_0/addbox_0/adder2_0/a_512_128# 1998
+C multi_0/addbox_0/adder2_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_0/adder2_0/and_0/a_48_48# 1277
+C multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_0/addbox_0/adder2_0/xor3_1/a_n20_12# 497
+R multi_0/addbox_0/adder2_0/xor3_1/a_35_76# 208
+R multi_0/addbox_0/adder2_0/xor3_1/a_n5_76# 208
+C multi_0/addbox_0/adder2_0/m1_76_8# GND 131.41
+R multi_0/addbox_0/adder2_0/m1_76_8# 4458
+C multi_0/addbox_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_0/addbox_0/adder2_0/xor3_1/a_32_44# 1337
+C multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_0/addbox_0/adder2_0/xor3_1/a_n8_44# 1336
+C multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_0/addbox_0/adder2_0/xor3_0/a_n20_12# 497
+R multi_0/addbox_0/adder2_0/xor3_0/a_35_76# 208
+R multi_0/addbox_0/adder2_0/xor3_0/a_n5_76# 208
+C multi_0/addbox_0/m1_n12_92# GND 141.06
+R multi_0/addbox_0/m1_n12_92# 3909
+C multi_0/addbox_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_0/addbox_0/adder2_0/xor3_0/a_32_44# 1337
+C multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_0/addbox_0/adder2_0/xor3_0/a_n8_44# 1336
+R multi_0/addbox_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_0/addbox_0/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_0/addbox_0/adder2_0/or_0/m1_44_48# 1231
+R multi_0/addbox_4/and_0/nand_0/a_7_n40# 93
+C b0 GND 473.57
+R b0 5262
+C multi_0/addbox_4/and_0/a_48_48# GND 38.89
+R multi_0/addbox_4/and_0/a_48_48# 1277
+C p0 GND 56.79
+R p0 746
+C multi_0/addbox_4/adder2_0/a_528_88# GND 44.95
+R multi_0/addbox_4/adder2_0/a_528_88# 1203
+R multi_0/addbox_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C multi_0/addbox_4/adder2_0/and_1/a_48_48# GND 38.89
+R multi_0/addbox_4/adder2_0/and_1/a_48_48# 1277
+R multi_0/addbox_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C multi_0/addbox_4/adder2_0/a_512_128# GND 51.05
+R multi_0/addbox_4/adder2_0/a_512_128# 1998
+C multi_0/addbox_4/adder2_0/and_0/a_48_48# GND 38.89
+R multi_0/addbox_4/adder2_0/and_0/a_48_48# 1277
+C multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R multi_0/addbox_4/adder2_0/xor3_1/a_n20_12# 497
+R multi_0/addbox_4/adder2_0/xor3_1/a_35_76# 208
+R multi_0/addbox_4/adder2_0/xor3_1/a_n5_76# 208
+C multi_0/addbox_4/adder2_0/m1_76_8# GND 131.41
+R multi_0/addbox_4/adder2_0/m1_76_8# 4458
+C multi_0/addbox_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R multi_0/addbox_4/adder2_0/xor3_1/a_32_44# 1337
+C multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R multi_0/addbox_4/adder2_0/xor3_1/a_n8_44# 1336
+C multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R multi_0/addbox_4/adder2_0/xor3_0/a_n20_12# 497
+R multi_0/addbox_4/adder2_0/xor3_0/a_35_76# 208
+R multi_0/addbox_4/adder2_0/xor3_0/a_n5_76# 208
+C multi_0/addbox_4/m1_n12_92# GND 141.06
+R multi_0/addbox_4/m1_n12_92# 3909
+C multi_0/addbox_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R multi_0/addbox_4/adder2_0/xor3_0/a_32_44# 1337
+C multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R multi_0/addbox_4/adder2_0/xor3_0/a_n8_44# 1336
+R multi_0/addbox_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C multi_0/addbox_4/adder2_0/or_0/m1_44_48# GND 38.34
+R multi_0/addbox_4/adder2_0/or_0/m1_44_48# 1231
+C p9 GND 34.76
+R p9 744
+C adder2_4/m1_28_n63# GND 2.07
+C adder2_4/a_528_88# GND 44.95
+R adder2_4/a_528_88# 1203
+R adder2_4/and_1/nand_0/a_7_n40# 93
+C adder2_4/and_1/a_48_48# GND 38.89
+R adder2_4/and_1/a_48_48# 1277
+R adder2_4/and_0/nand_0/a_7_n40# 93
+C adder2_4/a_512_128# GND 51.05
+R adder2_4/a_512_128# 1998
+C adder2_4/and_0/a_48_48# GND 38.89
+R adder2_4/and_0/a_48_48# 1277
+C adder2_4/xor3_1/a_n20_12# GND 12.38
+R adder2_4/xor3_1/a_n20_12# 497
+R adder2_4/xor3_1/a_35_76# 208
+R adder2_4/xor3_1/a_n5_76# 208
+C adder2_4/m1_76_8# GND 131.41
+R adder2_4/m1_76_8# 4458
+C adder2_4/xor3_1/a_32_44# GND 43.24
+R adder2_4/xor3_1/a_32_44# 1337
+C m1_552_n1532# GND 249.06
+R m1_552_n1532# 3179
+C adder2_4/xor3_1/a_n8_44# GND 34.60
+R adder2_4/xor3_1/a_n8_44# 1336
+C adder2_4/xor3_0/a_n20_12# GND 12.38
+R adder2_4/xor3_0/a_n20_12# 497
+R adder2_4/xor3_0/a_35_76# 208
+R adder2_4/xor3_0/a_n5_76# 208
+C adder2_4/xor3_0/a_32_44# GND 43.24
+R adder2_4/xor3_0/a_32_44# 1337
+C m1_40_n1315# GND 173.14
+R m1_40_n1315# 3173
+C adder2_4/xor3_0/a_n8_44# GND 34.60
+R adder2_4/xor3_0/a_n8_44# 1336
+R adder2_4/or_0/nor1_0/a_19_32# 208
+C adder2_4/m2_576_112# GND 13.85
+R adder2_4/m2_576_112# 195
+C adder2_4/or_0/m1_44_48# GND 38.34
+R adder2_4/or_0/m1_44_48# 1231
+C p8 GND 34.76
+R p8 744
+C adder2_3/m1_28_n63# GND 2.07
+C adder2_3/a_528_88# GND 44.95
+R adder2_3/a_528_88# 1203
+R adder2_3/and_1/nand_0/a_7_n40# 93
+C adder2_3/and_1/a_48_48# GND 38.89
+R adder2_3/and_1/a_48_48# 1277
+R adder2_3/and_0/nand_0/a_7_n40# 93
+C adder2_3/a_512_128# GND 51.05
+R adder2_3/a_512_128# 1998
+C adder2_3/and_0/a_48_48# GND 38.89
+R adder2_3/and_0/a_48_48# 1277
+C adder2_3/xor3_1/a_n20_12# GND 12.38
+R adder2_3/xor3_1/a_n20_12# 497
+R adder2_3/xor3_1/a_35_76# 208
+R adder2_3/xor3_1/a_n5_76# 208
+C adder2_3/m1_76_8# GND 131.41
+R adder2_3/m1_76_8# 4458
+C adder2_3/xor3_1/a_32_44# GND 43.24
+R adder2_3/xor3_1/a_32_44# 1337
+C m1_1276_n1584# GND 266.64
+R m1_1276_n1584# 3178
+C adder2_3/xor3_1/a_n8_44# GND 34.60
+R adder2_3/xor3_1/a_n8_44# 1336
+C adder2_3/xor3_0/a_n20_12# GND 12.38
+R adder2_3/xor3_0/a_n20_12# 497
+R adder2_3/xor3_0/a_35_76# 208
+R adder2_3/xor3_0/a_n5_76# 208
+C m1_596_n1260# GND 215.48
+R m1_596_n1260# 4462
+C adder2_3/xor3_0/a_32_44# GND 43.24
+R adder2_3/xor3_0/a_32_44# 1337
+C m1_764_n1327# GND 178.14
+R m1_764_n1327# 3171
+C adder2_3/xor3_0/a_n8_44# GND 34.60
+R adder2_3/xor3_0/a_n8_44# 1336
+R adder2_3/or_0/nor1_0/a_19_32# 208
+C adder2_3/or_0/m1_44_48# GND 38.34
+R adder2_3/or_0/m1_44_48# 1231
+C p6 GND 34.76
+R p6 744
+C adder2_1/m1_28_n63# GND 2.07
+C adder2_1/a_528_88# GND 44.95
+R adder2_1/a_528_88# 1203
+R adder2_1/and_1/nand_0/a_7_n40# 93
+C adder2_1/and_1/a_48_48# GND 38.89
+R adder2_1/and_1/a_48_48# 1277
+R adder2_1/and_0/nand_0/a_7_n40# 93
+C adder2_1/a_512_128# GND 51.05
+R adder2_1/a_512_128# 1998
+C adder2_1/and_0/a_48_48# GND 38.89
+R adder2_1/and_0/a_48_48# 1277
+C adder2_1/xor3_1/a_n20_12# GND 12.38
+R adder2_1/xor3_1/a_n20_12# 497
+R adder2_1/xor3_1/a_35_76# 208
+R adder2_1/xor3_1/a_n5_76# 208
+C adder2_1/m1_76_8# GND 131.41
+R adder2_1/m1_76_8# 4458
+C adder2_1/xor3_1/a_32_44# GND 43.24
+R adder2_1/xor3_1/a_32_44# 1337
+C m1_2828_n1524# GND 259.38
+R m1_2828_n1524# 3180
+C adder2_1/xor3_1/a_n8_44# GND 34.60
+R adder2_1/xor3_1/a_n8_44# 1336
+C adder2_1/xor3_0/a_n20_12# GND 12.38
+R adder2_1/xor3_0/a_n20_12# 497
+R adder2_1/xor3_0/a_35_76# 208
+R adder2_1/xor3_0/a_n5_76# 208
+C m1_2116_n1448# GND 221.87
+R m1_2116_n1448# 4462
+C adder2_1/xor3_0/a_32_44# GND 43.24
+R adder2_1/xor3_0/a_32_44# 1337
+C m1_2316_n1328# GND 175.59
+R m1_2316_n1328# 3175
+C adder2_1/xor3_0/a_n8_44# GND 34.60
+R adder2_1/xor3_0/a_n8_44# 1336
+R adder2_1/or_0/nor1_0/a_19_32# 208
+C adder2_1/or_0/m1_44_48# GND 38.34
+R adder2_1/or_0/m1_44_48# 1231
+C p7 GND 34.76
+R p7 744
+C adder2_2/m1_28_n63# GND 2.07
+C adder2_2/a_528_88# GND 44.95
+R adder2_2/a_528_88# 1203
+R adder2_2/and_1/nand_0/a_7_n40# 93
+C adder2_2/and_1/a_48_48# GND 38.89
+R adder2_2/and_1/a_48_48# 1277
+R adder2_2/and_0/nand_0/a_7_n40# 93
+C adder2_2/a_512_128# GND 51.05
+R adder2_2/a_512_128# 1998
+C adder2_2/and_0/a_48_48# GND 38.89
+R adder2_2/and_0/a_48_48# 1277
+C adder2_2/xor3_1/a_n20_12# GND 12.38
+R adder2_2/xor3_1/a_n20_12# 497
+R adder2_2/xor3_1/a_35_76# 208
+R adder2_2/xor3_1/a_n5_76# 208
+C adder2_2/m1_76_8# GND 131.41
+R adder2_2/m1_76_8# 4458
+C adder2_2/xor3_1/a_32_44# GND 43.24
+R adder2_2/xor3_1/a_32_44# 1337
+C m1_2024_n1544# GND 259.50
+R m1_2024_n1544# 3179
+C adder2_2/xor3_1/a_n8_44# GND 34.60
+R adder2_2/xor3_1/a_n8_44# 1336
+C adder2_2/xor3_0/a_n20_12# GND 12.38
+R adder2_2/xor3_0/a_n20_12# 497
+R adder2_2/xor3_0/a_35_76# 208
+R adder2_2/xor3_0/a_n5_76# 208
+C m1_1356_n1436# GND 209.65
+R m1_1356_n1436# 4462
+C adder2_2/xor3_0/a_32_44# GND 43.24
+R adder2_2/xor3_0/a_32_44# 1337
+C m1_1528_n1340# GND 207.67
+R m1_1528_n1340# 3175
+C adder2_2/xor3_0/a_n8_44# GND 34.60
+R adder2_2/xor3_0/a_n8_44# 1336
+R adder2_2/or_0/nor1_0/a_19_32# 208
+C adder2_2/or_0/m1_44_48# GND 38.34
+R adder2_2/or_0/m1_44_48# 1231
+C p5 GND 34.76
+R p5 744
+C adder2_0/m1_28_n63# GND 2.07
+C adder2_0/a_528_88# GND 44.95
+R adder2_0/a_528_88# 1203
+R adder2_0/and_1/nand_0/a_7_n40# 93
+C adder2_0/and_1/a_48_48# GND 38.89
+R adder2_0/and_1/a_48_48# 1277
+R adder2_0/and_0/nand_0/a_7_n40# 93
+C adder2_0/a_512_128# GND 51.05
+R adder2_0/a_512_128# 1998
+C adder2_0/and_0/a_48_48# GND 38.89
+R adder2_0/and_0/a_48_48# 1277
+C adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder2_0/xor3_1/a_n20_12# 497
+R adder2_0/xor3_1/a_35_76# 208
+R adder2_0/xor3_1/a_n5_76# 208
+C adder2_0/m1_76_8# GND 131.41
+R adder2_0/m1_76_8# 4458
+C adder2_0/xor3_1/a_32_44# GND 43.24
+R adder2_0/xor3_1/a_32_44# 1337
+C adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder2_0/xor3_1/a_n8_44# 1336
+C adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder2_0/xor3_0/a_n20_12# 497
+R adder2_0/xor3_0/a_35_76# 208
+R adder2_0/xor3_0/a_n5_76# 208
+C m1_3024_n1460# GND 291.93
+R m1_3024_n1460# 3917
+C adder2_0/xor3_0/a_32_44# GND 43.24
+R adder2_0/xor3_0/a_32_44# 1337
+C m1_2872_n1304# GND 172.92
+R m1_2872_n1304# 3721
+C adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder2_0/xor3_0/a_n8_44# 1336
+R adder2_0/or_0/nor1_0/a_19_32# 208
+C adder2_0/or_0/m1_44_48# GND 38.34
+R adder2_0/or_0/m1_44_48# 1231

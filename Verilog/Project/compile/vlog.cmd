@@ -1,0 +1,1 @@
+-o C:/My_Designs/Project/Project/compile -lc C:/My_Designs/Project/library.cfg -fl C:/My_Designs/Project/Project/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -epr C:/My_Designs/Project/Project/compile/Project.epr -O2 -sve -msg 5 -sv2k12 -work Project C:/My_Designs/Project/Project/src/ALU_5_bit.v 

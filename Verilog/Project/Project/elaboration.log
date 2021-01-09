@@ -1,0 +1,27 @@
+Active-HDL 11.1.262.7351 2020-11-04 23:42:41
+
+Elaboration top modules:
+Verilog Module                ALU_5_bit
+
+
+-----------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------
+ALU_5_bit               | project |      | 11.1.262.7351 (Windows) | -O2 -sv2k12
+Multiplication          | project |      | 11.1.262.7351 (Windows) | -O2 -sv2k12
+addersubtractor         | project |      | 11.1.262.7351 (Windows) | -O2 -sv2k12
+Mul_Adder               | project |      | 11.1.262.7351 (Windows) | -O2 -sv2k12
+Adder                   | project |      | 11.1.262.7351 (Windows) | -O2 -sv2k12
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------
+project                 | None
+-----------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +w_nets +accb +accr +access +r +access +r+w
+
+
+The performance of simulation is reduced. Version Student Edition

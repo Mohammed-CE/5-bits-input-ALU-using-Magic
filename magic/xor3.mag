@@ -1,0 +1,113 @@
+magic
+tech scmos
+timestamp 1607099119
+<< polysilicon >>
+rect -59 85 -52 87
+rect -59 82 -57 85
+rect 4 85 51 87
+rect -7 80 -5 83
+rect 9 80 11 83
+rect 33 80 35 83
+rect 49 80 51 85
+rect -7 48 -5 76
+rect 9 56 11 76
+rect -7 16 -5 44
+rect 9 16 11 52
+rect 33 48 35 76
+rect 33 16 35 44
+rect 49 16 51 76
+rect -7 9 -5 12
+rect 9 9 11 12
+rect 33 9 35 12
+rect 49 9 51 12
+<< ndiffusion >>
+rect -20 12 -16 16
+rect -12 12 -7 16
+rect -5 12 0 16
+rect 4 12 9 16
+rect 11 12 20 16
+rect 24 12 33 16
+rect 35 12 40 16
+rect 44 12 49 16
+rect 51 12 60 16
+rect 64 12 72 16
+<< pdiffusion >>
+rect -20 76 -16 80
+rect -12 76 -7 80
+rect -5 76 9 80
+rect 11 76 20 80
+rect 24 76 33 80
+rect 35 76 49 80
+rect 51 76 64 80
+rect 68 76 72 80
+<< metal1 >>
+rect -48 84 0 88
+rect 20 80 24 92
+rect -16 64 -12 76
+rect 64 64 68 76
+rect -96 44 -60 48
+rect -40 44 -8 48
+rect 0 16 4 60
+rect 12 52 96 56
+rect 36 44 116 48
+rect 20 16 24 24
+rect 60 16 64 24
+rect -16 8 -12 12
+rect 20 8 24 12
+rect 40 0 44 12
+<< metal2 >>
+rect -36 92 20 96
+rect 24 92 76 96
+rect -12 60 0 64
+rect 4 60 64 64
+rect 24 24 60 28
+rect -12 4 20 8
+rect -36 -4 40 0
+rect 44 -4 76 0
+<< ntransistor >>
+rect -7 12 -5 16
+rect 9 12 11 16
+rect 33 12 35 16
+rect 49 12 51 16
+<< ptransistor >>
+rect -7 76 -5 80
+rect 9 76 11 80
+rect 33 76 35 80
+rect 49 76 51 80
+<< polycontact >>
+rect -52 84 -48 88
+rect 0 84 4 88
+rect 8 52 12 56
+rect -60 44 -56 48
+rect -8 44 -4 48
+rect 32 44 36 48
+rect 96 52 100 56
+<< ndcontact >>
+rect -16 12 -12 16
+rect 0 12 4 16
+rect 20 12 24 16
+rect 40 12 44 16
+rect 60 12 64 16
+<< pdcontact >>
+rect -16 76 -12 80
+rect 20 76 24 80
+rect 64 76 68 80
+<< m2contact >>
+rect 20 92 24 96
+rect -16 60 -12 64
+rect 0 60 4 64
+rect 64 60 68 64
+rect 20 24 24 28
+rect 60 24 64 28
+rect -16 4 -12 8
+rect 20 4 24 8
+rect 40 -4 44 0
+use inv  inv_0
+timestamp 1607098331
+transform 1 0 -52 0 1 36
+box -28 -40 20 60
+use inv  inv_1
+timestamp 1607098331
+transform 1 0 104 0 1 36
+box -28 -40 20 60
+<< end >>

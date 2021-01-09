@@ -1,0 +1,17 @@
+magic
+tech scmos
+timestamp 1606069941
+<< metal2 >>
+rect 44 96 48 100
+rect 44 0 48 4
+<< m2contact >>
+rect 44 48 48 52
+use not  not_0
+timestamp 1605560378
+transform 1 0 40 0 1 52
+box 4 -52 40 48
+use nor1  nor1_0
+timestamp 1606069422
+transform 1 0 -4 0 1 52
+box 4 -52 52 48
+<< end >>

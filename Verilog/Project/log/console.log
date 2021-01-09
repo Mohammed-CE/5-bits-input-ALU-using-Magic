@@ -1,0 +1,227 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Design Explorer: Shortcut to "C:\My_Designs\Project\Project.aws" workspace added.
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/addersubtractor.v $dsn/src/ALU_5_bit.v $dsn/src/Multiplication.v $dsn/src/Adder.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ALU_5_bit.
+# $root top modules: ALU_5_bit.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: Multiplication.v (33): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F0".
+# SLP: Warning: Multiplication.v (33): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F0".
+# SLP: Warning: Multiplication.v (34): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F1".
+# SLP: Warning: Multiplication.v (34): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F1".
+# SLP: Warning: Multiplication.v (35): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F2".
+# SLP: Warning: Multiplication.v (35): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F2".
+# SLP: Warning: Multiplication.v (36): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F3".
+# SLP: Warning: Multiplication.v (36): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F3".
+# SLP: Warning: Multiplication.v (37): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F4".
+# SLP: Warning: Multiplication.v (37): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F4".
+# SLP: Warning: Multiplication.v (44): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F9".
+# SLP: Warning: Multiplication.v (51): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F14".
+# SLP: Warning: Multiplication.v (58): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F19".
+# SLP: Warning: Multiplication.v (65): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F24".
+# SLP: Warning: Multiplication.v (68): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F25".
+# SLP: Warning: Multiplication.v (72): Length of connection (32) does not match the length of port "a" (1) on instance "/ALU_5_bit/N2/F29".
+# SLP: Warning: ALU_5_bit.v (12): Length of connection (10) does not match the length of port "Result" (5) on instance "/ALU_5_bit/N1".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.9 [s]
+# SLP: Finished : 1.0 [s]
+# SLP: 0 primitives and 68 (100.00%) other processes in SLP
+# SLP: 16 (5.78%) signals in SLP and 261 (94.22%) interface signals
+# ELAB2: Elaboration final pass complete - time: 1.2 [s].
+# KERNEL: SLP loading done - time: 1.4 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6044 kB (elbread=1280 elab2=4630 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project\Project\src\wave.asdb
+#  11:20 PM, Wednesday, November 4, 2020
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+alog -O2 -sve -msg 5 -sv2k12 -work Project $dsn/src/ALU_5_bit.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module Multiplication found in current working library.
+# Info: VCP2113 Module addersubtractor found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ALU_5_bit.
+# $root top modules: ALU_5_bit.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: Multiplication.v (33): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F0".
+# SLP: Warning: Multiplication.v (33): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F0".
+# SLP: Warning: Multiplication.v (34): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F1".
+# SLP: Warning: Multiplication.v (34): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F1".
+# SLP: Warning: Multiplication.v (35): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F2".
+# SLP: Warning: Multiplication.v (35): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F2".
+# SLP: Warning: Multiplication.v (36): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F3".
+# SLP: Warning: Multiplication.v (36): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F3".
+# SLP: Warning: Multiplication.v (37): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F4".
+# SLP: Warning: Multiplication.v (37): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F4".
+# SLP: Warning: Multiplication.v (44): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F9".
+# SLP: Warning: Multiplication.v (51): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F14".
+# SLP: Warning: Multiplication.v (58): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F19".
+# SLP: Warning: Multiplication.v (65): Length of connection (32) does not match the length of port "Sin" (1) on instance "/ALU_5_bit/N2/F24".
+# SLP: Warning: Multiplication.v (68): Length of connection (32) does not match the length of port "cin" (1) on instance "/ALU_5_bit/N2/F25".
+# SLP: Warning: Multiplication.v (72): Length of connection (32) does not match the length of port "a" (1) on instance "/ALU_5_bit/N2/F29".
+# SLP: Warning: ALU_5_bit.v (12): Length of connection (10) does not match the length of port "Result" (5) on instance "/ALU_5_bit/N1".
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.3 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 68 (100.00%) other processes in SLP
+# SLP: 16 (5.78%) signals in SLP and 261 (94.22%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.4 [s].
+# KERNEL: SLP loading done - time: 1.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4631 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project\Project\src\wave.asdb
+#  11:31 PM, Wednesday, November 4, 2020
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type wire.
+# VSIM: Error: Cannot force signal "/ALU_5_bit/selection" with formula "2".
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +w_nets +accb +accr +access +r +access +r+w
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 68 (100.00%) other processes in SLP
+# SLP: 16 (5.78%) signals in SLP and 261 (94.22%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6045 kB (elbread=1280 elab2=4631 kernel=133 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Project\Project\src\wave.asdb
+#  11:42 PM, Wednesday, November 4, 2020
+#  Simulation has been initialized
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

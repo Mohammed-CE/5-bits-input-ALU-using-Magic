@@ -1,0 +1,85 @@
+magic
+tech scmos
+timestamp 1606599331
+<< polysilicon >>
+rect 5 64 7 68
+rect 21 64 23 68
+rect 5 28 7 60
+rect 21 48 23 60
+rect 5 -8 7 24
+rect 21 -8 23 44
+rect 5 -16 7 -12
+rect 21 -16 23 -12
+<< ndiffusion >>
+rect 0 -12 5 -8
+rect 7 -12 12 -8
+rect 16 -12 21 -8
+rect 23 -12 28 -8
+<< pdiffusion >>
+rect 0 60 5 64
+rect 7 60 21 64
+rect 23 60 28 64
+<< metal1 >>
+rect -72 28 -68 80
+rect -16 48 -12 80
+rect -4 64 0 72
+rect -16 44 20 48
+rect 28 28 32 60
+rect -104 24 -100 28
+rect -56 24 -52 28
+rect -20 24 4 28
+rect 12 -8 16 24
+rect -4 -20 0 -12
+rect 28 -20 32 -12
+<< metal2 >>
+rect -68 80 -16 84
+rect -72 72 -52 76
+rect -24 72 -4 76
+rect 0 72 36 76
+rect 16 24 28 28
+rect 32 24 36 28
+rect -72 -24 -52 -20
+rect -24 -24 -4 -20
+rect 0 -24 28 -20
+rect 32 -24 36 -20
+<< ntransistor >>
+rect 5 -12 7 -8
+rect 21 -12 23 -8
+<< ptransistor >>
+rect 5 60 7 64
+rect 21 60 23 64
+<< polycontact >>
+rect 20 44 24 48
+rect 4 24 8 28
+<< ndcontact >>
+rect -4 -12 0 -8
+rect 12 -12 16 -8
+rect 28 -12 32 -8
+<< pdcontact >>
+rect -4 60 0 64
+rect 28 60 32 64
+<< m2contact >>
+rect -72 80 -68 84
+rect -16 80 -12 84
+rect -4 72 0 76
+rect -72 24 -68 28
+rect -24 24 -20 28
+rect 12 24 16 28
+rect 28 24 32 28
+rect -4 -24 0 -20
+rect 28 -24 32 -20
+use not  not_0
+timestamp 1605560378
+transform 1 0 -60 0 1 28
+box 4 -52 40 48
+use not  not_1
+timestamp 1605560378
+transform 1 0 -108 0 1 28
+box 4 -52 40 48
+<< labels >>
+rlabel metal2 32 72 36 76 1 vdd
+rlabel metal2 34 -23 34 -23 1 gnd
+rlabel metal1 -56 24 -52 28 1 a
+rlabel metal1 -104 24 -100 28 3 b
+rlabel metal2 34 26 34 26 7 o
+<< end >>

@@ -1,0 +1,124 @@
+timestamp 1607107347
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use addbox addbox_4 1 0 3124 0 1 4
+use addbox addbox_3 1 0 2368 0 1 4
+use addbox addbox_2 1 0 1612 0 1 4
+use addbox addbox_1 1 0 852 0 1 4
+use addbox addbox_0 1 0 92 0 1 4
+node "m2_3004_36#" 0 3648 3004 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "m2_2248_36#" 0 3648 2248 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 0 0
+node "m2_1488_36#" 0 3952 1488 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "m2_728_36#" 0 3952 728 36 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 112 0 0
+node "m2_2970_132#" 1 8436 2970 132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 444 230 0 0
+node "m2_2215_132#" 1 8436 2215 132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 444 230 0 0
+node "m2_1454_132#" 1 8436 1454 132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 444 230 0 0
+node "m2_694_132#" 1 8436 694 132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 444 230 0 0
+node "m1_3776_n24#" 0 752 3776 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3764_n24#" 0 752 3764 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3264_n24#" 0 940 3264 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_3476_n8#" 0 940 3476 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_2720_n8#" 0 940 2720 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "m1_2668_n8#" 0 940 2668 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0
+node "gnd" 0 752 152 -4 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "b0" 0 1504 -4 68 m1 0 0 0 0 0 0 0 0 0 0 0 0 32 24 0 0 0 0
+node "cin" 0 752 3776 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "a1" 0 752 3764 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "sin1" 0 752 3264 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_3020_268#" 0 752 3020 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "a2" 0 752 3008 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_2508_268#" 0 752 2508 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_2264_268#" 0 752 2264 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "a3" 0 752 2252 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_1752_268#" 0 752 1752 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_1504_268#" 0 752 1504 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "a4" 0 752 1492 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_992_268#" 0 752 992 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_744_268#" 0 752 744 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "a5" 0 752 732 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_232_268#" 0 752 232 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "vdd" 0 752 152 268 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+cap "addbox_1/and_0/nand_0/a_n4_n40#" "addbox_0/m1_n92_72#" 720
+cap "addbox_1/and_0/nand_0/a_n4_n40#" "addbox_1/m1_n92_20#" 720
+subcap "m2_1488_36#" -3413
+cap "addbox_1/adder2_0/m1_600_n32#" "addbox_1/m1_n92_72#" 720
+cap "addbox_2/and_0/nand_0/a_n4_n40#" "addbox_2/m1_n92_20#" 720
+cap "addbox_3/m1_n92_20#" "addbox_3/and_0/nand_0/a_n4_n40#" 720
+cap "addbox_2/m1_n92_72#" "addbox_3/and_0/nand_0/a_n4_n40#" 720
+cap "addbox_4/and_0/nand_0/a_n4_n40#" "addbox_4/m1_n92_20#" 720
+cap "addbox_4/and_0/nand_0/a_n4_n40#" "addbox_3/m1_n92_72#" 720
+subcap "m2_694_132#" -8208
+cap "addbox_1/and_0/a_4_40#" "addbox_1/and_0/nand_0/a_n4_32#" 720
+cap "addbox_1/and_0/nand_0/a_n4_32#" "addbox_0/adder2_0/m1_400_24#" 720
+cap "addbox_1/and_0/nand_0/a_n4_32#" "addbox_0/m1_612_n8#" 720
+cap "addbox_1/and_0/nand_0/a_n4_32#" "addbox_0/m1_n92_72#" 720
+cap "addbox_1/and_0/nand_0/a_n4_32#" "addbox_0/adder2_0/m1_600_n32#" 720
+subcap "m2_1454_132#" -6080
+cap "addbox_1/m1_n92_72#" "m2_1454_132#" 720
+cap "addbox_1/m1_612_n8#" "m2_1454_132#" 720
+cap "addbox_1/adder2_0/m1_600_n32#" "m2_1454_132#" 720
+cap "addbox_2/and_0/a_4_40#" "addbox_2/and_0/nand_0/a_n4_32#" 720
+cap "addbox_2/and_0/nand_0/a_n4_32#" "addbox_1/adder2_0/m1_400_24#" 720
+subcap "m2_2215_132#" -3724
+cap "addbox_2/m1_n92_72#" "addbox_3/and_0/nand_0/a_n4_32#" 720
+cap "addbox_2/adder2_0/m1_600_n32#" "addbox_3/and_0/nand_0/a_n4_32#" 720
+cap "addbox_3/and_0/nand_0/a_n4_32#" "addbox_2/adder2_0/m1_400_24#" 720
+cap "addbox_2/m1_612_n8#" "addbox_3/and_0/nand_0/a_n4_32#" 720
+cap "addbox_3/m1_n92_72#" "addbox_3/and_0/nand_0/a_n4_32#" 720
+subcap "m2_2970_132#" -6688
+cap "addbox_3/m1_612_n8#" "m2_2970_132#" 720
+cap "addbox_4/and_0/nand_0/a_n4_32#" "addbox_3/m1_n92_72#" 720
+cap "addbox_4/and_0/nand_0/a_n4_32#" "addbox_3/adder2_0/m1_400_24#" 720
+cap "addbox_4/and_0/nand_0/a_n4_32#" "addbox_3/adder2_0/m1_600_n32#" 720
+cap "addbox_4/and_0/nand_0/a_n4_32#" "addbox_4/and_0/a_4_40#" 720
+subcap "vdd" -188
+subcap "m1_232_268#" -376
+subcap "m1_992_268#" -376
+subcap "a4" -376
+subcap "m1_1752_268#" -376
+subcap "m1_2508_268#" -376
+subcap "sin1" -188
+merge "addbox_0/m1_60_207#" "vdd" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0
+merge "addbox_2/and_0/nand_0/a_n4_32#" "addbox_1/adder2_0/or_0/not_0/a_12_32#" -6536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -312 -176 0 0
+merge "addbox_1/adder2_0/or_0/not_0/a_12_32#" "m2_1454_132#"
+merge "addbox_1/and_0/m2_20_96#" "addbox_1/and_0/nand_0/a_n4_32#" -4408 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -152 -96 0 0
+merge "addbox_1/and_0/nand_0/a_n4_32#" "addbox_0/adder2_0/or_0/not_0/a_12_32#"
+merge "addbox_0/adder2_0/or_0/not_0/a_12_32#" "m2_694_132#"
+merge "addbox_4/m1_652_108#" "cin" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "addbox_0/m1_140_201#" "m1_232_268#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "addbox_4/m1_n92_72#" "m1_3764_n24#" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "m1_3764_n24#" "a1"
+merge "addbox_0/m1_n92_20#" "addbox_1/m1_n92_20#" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "addbox_1/m1_n92_20#" "addbox_2/m1_n92_20#"
+merge "addbox_2/m1_n92_20#" "addbox_3/m1_n92_20#"
+merge "addbox_3/m1_n92_20#" "addbox_4/m1_n92_20#"
+merge "addbox_4/m1_n92_20#" "b0"
+merge "addbox_3/m1_652_108#" "m1_3020_268#" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0
+merge "addbox_2/m1_652_108#" "m1_2264_268#" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0
+merge "addbox_1/m1_140_201#" "m1_992_268#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -22 0 0 0 0
+merge "addbox_2/adder2_0/m1_600_n32#" "addbox_3/and_0/nand_0/a_n4_n40#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -36 0 0
+merge "addbox_3/and_0/nand_0/a_n4_n40#" "m2_2248_36#"
+merge "addbox_1/m1_652_108#" "m1_1504_268#" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -30 0 0 0 0
+merge "addbox_0/adder2_0/m1_600_n32#" "addbox_1/and_0/nand_0/a_n4_n40#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "addbox_1/and_0/nand_0/a_n4_n40#" "m2_728_36#"
+merge "addbox_0/m1_652_108#" "m1_744_268#" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0
+merge "addbox_4/m1_140_201#" "sin1" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 0 0 0 0
+merge "addbox_2/adder2_0/or_0/not_0/a_12_32#" "addbox_3/and_0/nand_0/a_n4_32#" -4484 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -156 -94 0 0
+merge "addbox_3/and_0/nand_0/a_n4_32#" "m2_2215_132#"
+merge "addbox_3/m1_140_201#" "m1_2508_268#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "addbox_3/m1_n92_72#" "a2" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0
+merge "addbox_0/m1_60_n24#" "gnd" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "addbox_2/m1_140_201#" "m1_1752_268#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "addbox_4/and_0/nand_0/a_n4_32#" "addbox_3/adder2_0/or_0/not_0/a_12_32#" -6232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -264 -152 0 0
+merge "addbox_3/adder2_0/or_0/not_0/a_12_32#" "m2_2970_132#"
+merge "addbox_4/m1_612_n8#" "m1_3776_n24#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "addbox_2/m1_n92_72#" "a3" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0
+merge "addbox_1/m1_n92_72#" "a4" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -29 0 0 0 0
+merge "addbox_3/adder2_0/m1_600_n32#" "addbox_4/and_0/nand_0/a_n4_n40#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0
+merge "addbox_4/and_0/nand_0/a_n4_n40#" "m2_3004_36#"
+merge "addbox_2/and_0/nand_0/a_n4_n40#" "addbox_1/adder2_0/m1_600_n32#" -1216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -36 0 0
+merge "addbox_1/adder2_0/m1_600_n32#" "m2_1488_36#"
+merge "addbox_0/m1_n92_72#" "a5" -1880 0 0 0 0 0 0 0 0 0 0 0 0 -40 -32 0 0 0 0

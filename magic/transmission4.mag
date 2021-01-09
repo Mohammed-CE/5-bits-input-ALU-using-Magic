@@ -1,0 +1,99 @@
+magic
+tech scmos
+timestamp 1606856646
+<< metal1 >>
+rect -48 -204 -44 0
+rect -48 -364 -44 -208
+rect -8 -100 -4 104
+rect -80 -420 -76 -368
+rect -8 -420 -4 -104
+rect 32 -204 36 0
+rect 60 -40 64 52
+rect 60 -48 64 -44
+rect 0 -420 4 -312
+rect 32 -364 36 -208
+rect 64 -364 68 -104
+rect 124 -148 128 -52
+rect 76 -256 80 -152
+<< metal2 >>
+rect -4 104 0 108
+rect 24 52 60 56
+rect -44 0 0 4
+rect 36 0 92 4
+rect 64 -44 96 -40
+rect 24 -52 60 -48
+rect 116 -52 124 -48
+rect -4 -104 0 -100
+rect 68 -104 92 -100
+rect 24 -152 76 -148
+rect 80 -152 96 -148
+rect 116 -152 124 -148
+rect -44 -208 0 -204
+rect 36 -208 92 -204
+rect 24 -260 76 -256
+rect -48 -320 36 -316
+rect -48 -416 36 -412
+rect -76 -424 -8 -420
+rect -4 -424 0 -420
+<< m2contact >>
+rect -8 104 -4 108
+rect -48 0 -44 4
+rect -48 -208 -44 -204
+rect -48 -368 -44 -364
+rect 20 52 24 56
+rect 60 52 64 56
+rect 32 0 36 4
+rect 20 -52 24 -48
+rect -8 -104 -4 -100
+rect -80 -424 -76 -420
+rect 20 -152 24 -148
+rect 60 -44 64 -40
+rect 96 -44 100 -40
+rect 60 -52 64 -48
+rect 112 -52 116 -48
+rect 124 -52 128 -48
+rect 32 -208 36 -204
+rect 20 -260 24 -256
+rect -8 -424 -4 -420
+rect 0 -312 4 -308
+rect 64 -104 68 -100
+rect 76 -152 80 -148
+rect 96 -152 100 -148
+rect 112 -152 116 -148
+rect 124 -152 128 -148
+rect 76 -260 80 -256
+rect 64 -368 68 -364
+rect 0 -424 4 -420
+use not  not_1
+timestamp 1605560378
+transform 1 0 28 0 1 -364
+box 4 -52 40 48
+use not  not_0
+timestamp 1605560378
+transform 1 0 -84 0 1 -364
+box 4 -52 40 48
+use transmission  transmission_0
+timestamp 1606632552
+transform 1 0 16 0 1 36
+box -16 -36 12 72
+use transmission  transmission_1
+timestamp 1606632552
+transform 1 0 16 0 1 -68
+box -16 -36 12 72
+use transmission  transmission_2
+timestamp 1606632552
+transform 1 0 16 0 1 -172
+box -16 -36 12 72
+use transmission  transmission_3
+timestamp 1606632552
+transform 1 0 16 0 1 -276
+box -16 -36 12 72
+use transmission  transmission_4
+timestamp 1606632552
+transform 1 0 108 0 1 -68
+box -16 -36 12 72
+use transmission  transmission_5
+timestamp 1606632552
+transform 1 0 108 0 1 -172
+box -16 -36 12 72
+<< end >>

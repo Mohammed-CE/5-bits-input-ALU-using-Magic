@@ -1,0 +1,530 @@
+| units: 100 tech: scmos format: MIT
+n addsub_0/adder2_0/or_0/m1_44_48# m1_724_112# m1_1324_0# 2 4 1257 354
+p addsub_0/adder2_0/or_0/m1_44_48# m1_748_n661# m1_1324_0# 2 4 1257 283
+n addsub_0/adder2_0/a_512_128# m1_724_112# addsub_0/adder2_0/or_0/m1_44_48# 2 4 1209 354
+n addsub_0/adder2_0/a_528_88# addsub_0/adder2_0/or_0/m1_44_48# m1_724_112# 2 4 1225 354
+p addsub_0/adder2_0/a_528_88# addsub_0/adder2_0/or_0/nor1_0/a_19_32# addsub_0/adder2_0/or_0/m1_44_48# 2 4 1225 283
+p addsub_0/adder2_0/a_512_128# m1_748_n661# addsub_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 1209 283
+p addsub_0/m1_21_155# m1_748_n661# addsub_0/adder2_0/xor3_0/a_n8_44# 2 4 714 252
+n addsub_0/m1_21_155# m1_724_112# addsub_0/adder2_0/xor3_0/a_n8_44# 2 4 714 189
+p m1_804_356# m1_748_n661# addsub_0/adder2_0/xor3_0/a_32_44# 2 4 870 252
+n m1_804_356# m1_724_112# addsub_0/adder2_0/xor3_0/a_32_44# 2 4 870 189
+p addsub_0/adder2_0/xor3_0/a_32_44# m1_748_n661# addsub_0/adder2_0/xor3_0/a_35_76# 2 4 805 252
+p addsub_0/adder2_0/xor3_0/a_n8_44# addsub_0/adder2_0/m1_76_8# addsub_0/adder2_0/xor3_0/a_n5_76# 2 4 766 252
+p m1_804_356# addsub_0/adder2_0/xor3_0/a_n5_76# m1_748_n661# 2 4 781 252
+n addsub_0/m1_21_155# m1_724_112# addsub_0/adder2_0/xor3_0/a_n20_12# 2 4 821 188
+n addsub_0/adder2_0/xor3_0/a_32_44# addsub_0/adder2_0/xor3_0/a_n20_12# m1_724_112# 2 4 805 188
+n addsub_0/adder2_0/xor3_0/a_n8_44# addsub_0/adder2_0/xor3_0/a_n20_12# addsub_0/adder2_0/m1_76_8# 2 4 766 188
+n m1_804_356# addsub_0/adder2_0/m1_76_8# addsub_0/adder2_0/xor3_0/a_n20_12# 2 4 781 188
+p addsub_0/m1_21_155# addsub_0/adder2_0/xor3_0/a_35_76# addsub_0/adder2_0/m1_76_8# 2 4 821 252
+p addsub_0/adder2_0/m1_76_8# m1_748_n661# addsub_0/adder2_0/xor3_1/a_n8_44# 2 4 958 252
+n addsub_0/adder2_0/m1_76_8# m1_724_112# addsub_0/adder2_0/xor3_1/a_n8_44# 2 4 958 189
+p m1_1320_248# m1_748_n661# addsub_0/adder2_0/xor3_1/a_32_44# 2 4 1114 252
+n m1_1320_248# m1_724_112# addsub_0/adder2_0/xor3_1/a_32_44# 2 4 1114 189
+p addsub_0/adder2_0/xor3_1/a_32_44# m1_748_n661# addsub_0/adder2_0/xor3_1/a_35_76# 2 4 1049 252
+p addsub_0/adder2_0/xor3_1/a_n8_44# m1_1016_136# addsub_0/adder2_0/xor3_1/a_n5_76# 2 4 1010 252
+p m1_1320_248# addsub_0/adder2_0/xor3_1/a_n5_76# m1_748_n661# 2 4 1025 252
+n addsub_0/adder2_0/m1_76_8# m1_724_112# addsub_0/adder2_0/xor3_1/a_n20_12# 2 4 1065 188
+n addsub_0/adder2_0/xor3_1/a_32_44# addsub_0/adder2_0/xor3_1/a_n20_12# m1_724_112# 2 4 1049 188
+n addsub_0/adder2_0/xor3_1/a_n8_44# addsub_0/adder2_0/xor3_1/a_n20_12# m1_1016_136# 2 4 1010 188
+n m1_1320_248# m1_1016_136# addsub_0/adder2_0/xor3_1/a_n20_12# 2 4 1025 188
+p addsub_0/adder2_0/m1_76_8# addsub_0/adder2_0/xor3_1/a_35_76# m1_1016_136# 2 4 1065 252
+n addsub_0/adder2_0/and_0/a_48_48# m1_724_112# addsub_0/adder2_0/a_512_128# 2 4 917 354
+p addsub_0/adder2_0/and_0/a_48_48# m1_748_n661# addsub_0/adder2_0/a_512_128# 2 4 917 283
+p m1_804_356# m1_748_n661# addsub_0/adder2_0/and_0/a_48_48# 2 4 873 283
+n m1_804_356# m1_724_112# addsub_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 873 354
+n addsub_0/m1_21_155# addsub_0/adder2_0/and_0/nand_0/a_7_n40# addsub_0/adder2_0/and_0/a_48_48# 2 4 889 354
+p addsub_0/m1_21_155# addsub_0/adder2_0/and_0/a_48_48# m1_748_n661# 2 4 889 283
+n addsub_0/adder2_0/and_1/a_48_48# m1_724_112# addsub_0/adder2_0/a_528_88# 2 4 1161 354
+p addsub_0/adder2_0/and_1/a_48_48# m1_748_n661# addsub_0/adder2_0/a_528_88# 2 4 1161 283
+p m1_1320_248# m1_748_n661# addsub_0/adder2_0/and_1/a_48_48# 2 4 1117 283
+n m1_1320_248# m1_724_112# addsub_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 1117 354
+n addsub_0/adder2_0/m1_76_8# addsub_0/adder2_0/and_1/nand_0/a_7_n40# addsub_0/adder2_0/and_1/a_48_48# 2 4 1133 354
+p addsub_0/adder2_0/m1_76_8# addsub_0/adder2_0/and_1/a_48_48# m1_748_n661# 2 4 1133 283
+p m1_428_220# m1_748_n661# addsub_0/m1_n152_64# 2 4 474 252
+n m1_428_220# m1_724_112# addsub_0/m1_n152_64# 2 4 474 189
+p m1_1320_248# m1_748_n661# addsub_0/xor3_0/a_32_44# 2 4 630 252
+n m1_1320_248# m1_724_112# addsub_0/xor3_0/a_32_44# 2 4 630 189
+p addsub_0/xor3_0/a_32_44# m1_748_n661# addsub_0/xor3_0/a_35_76# 2 4 565 252
+p addsub_0/m1_n152_64# addsub_0/m1_21_155# addsub_0/xor3_0/a_n5_76# 2 4 526 252
+p m1_1320_248# addsub_0/xor3_0/a_n5_76# m1_748_n661# 2 4 541 252
+n m1_428_220# m1_724_112# addsub_0/xor3_0/a_n20_12# 2 4 581 188
+n addsub_0/xor3_0/a_32_44# addsub_0/xor3_0/a_n20_12# m1_724_112# 2 4 565 188
+n addsub_0/m1_n152_64# addsub_0/xor3_0/a_n20_12# addsub_0/m1_21_155# 2 4 526 188
+n m1_1320_248# addsub_0/m1_21_155# addsub_0/xor3_0/a_n20_12# 2 4 541 188
+p m1_428_220# addsub_0/xor3_0/a_35_76# addsub_0/m1_21_155# 2 4 581 252
+n addsub_1/adder2_0/or_0/m1_44_48# m1_724_112# m1_1356_n264# 2 4 1257 -107
+p addsub_1/adder2_0/or_0/m1_44_48# m1_748_n661# m1_1356_n264# 2 4 1257 -36
+n addsub_1/adder2_0/a_512_128# m1_724_112# addsub_1/adder2_0/or_0/m1_44_48# 2 4 1209 -107
+n addsub_1/adder2_0/a_528_88# addsub_1/adder2_0/or_0/m1_44_48# m1_724_112# 2 4 1225 -107
+p addsub_1/adder2_0/a_528_88# addsub_1/adder2_0/or_0/nor1_0/a_19_32# addsub_1/adder2_0/or_0/m1_44_48# 2 4 1225 -36
+p addsub_1/adder2_0/a_512_128# m1_748_n661# addsub_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 1209 -36
+p addsub_1/m1_21_155# m1_748_n661# addsub_1/adder2_0/xor3_0/a_n8_44# 2 4 714 -5
+n addsub_1/m1_21_155# m1_724_112# addsub_1/adder2_0/xor3_0/a_n8_44# 2 4 714 58
+p m1_804_n112# m1_748_n661# addsub_1/adder2_0/xor3_0/a_32_44# 2 4 870 -5
+n m1_804_n112# m1_724_112# addsub_1/adder2_0/xor3_0/a_32_44# 2 4 870 58
+p addsub_1/adder2_0/xor3_0/a_32_44# m1_748_n661# addsub_1/adder2_0/xor3_0/a_35_76# 2 4 805 -5
+p addsub_1/adder2_0/xor3_0/a_n8_44# addsub_1/adder2_0/m1_76_8# addsub_1/adder2_0/xor3_0/a_n5_76# 2 4 766 -5
+p m1_804_n112# addsub_1/adder2_0/xor3_0/a_n5_76# m1_748_n661# 2 4 781 -5
+n addsub_1/m1_21_155# m1_724_112# addsub_1/adder2_0/xor3_0/a_n20_12# 2 4 821 59
+n addsub_1/adder2_0/xor3_0/a_32_44# addsub_1/adder2_0/xor3_0/a_n20_12# m1_724_112# 2 4 805 59
+n addsub_1/adder2_0/xor3_0/a_n8_44# addsub_1/adder2_0/xor3_0/a_n20_12# addsub_1/adder2_0/m1_76_8# 2 4 766 59
+n m1_804_n112# addsub_1/adder2_0/m1_76_8# addsub_1/adder2_0/xor3_0/a_n20_12# 2 4 781 59
+p addsub_1/m1_21_155# addsub_1/adder2_0/xor3_0/a_35_76# addsub_1/adder2_0/m1_76_8# 2 4 821 -5
+p addsub_1/adder2_0/m1_76_8# m1_748_n661# addsub_1/adder2_0/xor3_1/a_n8_44# 2 4 958 -5
+n addsub_1/adder2_0/m1_76_8# m1_724_112# addsub_1/adder2_0/xor3_1/a_n8_44# 2 4 958 58
+p m1_1324_0# m1_748_n661# addsub_1/adder2_0/xor3_1/a_32_44# 2 4 1114 -5
+n m1_1324_0# m1_724_112# addsub_1/adder2_0/xor3_1/a_32_44# 2 4 1114 58
+p addsub_1/adder2_0/xor3_1/a_32_44# m1_748_n661# addsub_1/adder2_0/xor3_1/a_35_76# 2 4 1049 -5
+p addsub_1/adder2_0/xor3_1/a_n8_44# m1_1016_108# addsub_1/adder2_0/xor3_1/a_n5_76# 2 4 1010 -5
+p m1_1324_0# addsub_1/adder2_0/xor3_1/a_n5_76# m1_748_n661# 2 4 1025 -5
+n addsub_1/adder2_0/m1_76_8# m1_724_112# addsub_1/adder2_0/xor3_1/a_n20_12# 2 4 1065 59
+n addsub_1/adder2_0/xor3_1/a_32_44# addsub_1/adder2_0/xor3_1/a_n20_12# m1_724_112# 2 4 1049 59
+n addsub_1/adder2_0/xor3_1/a_n8_44# addsub_1/adder2_0/xor3_1/a_n20_12# m1_1016_108# 2 4 1010 59
+n m1_1324_0# m1_1016_108# addsub_1/adder2_0/xor3_1/a_n20_12# 2 4 1025 59
+p addsub_1/adder2_0/m1_76_8# addsub_1/adder2_0/xor3_1/a_35_76# m1_1016_108# 2 4 1065 -5
+n addsub_1/adder2_0/and_0/a_48_48# m1_724_112# addsub_1/adder2_0/a_512_128# 2 4 917 -107
+p addsub_1/adder2_0/and_0/a_48_48# m1_748_n661# addsub_1/adder2_0/a_512_128# 2 4 917 -36
+p m1_804_n112# m1_748_n661# addsub_1/adder2_0/and_0/a_48_48# 2 4 873 -36
+n m1_804_n112# m1_724_112# addsub_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 873 -107
+n addsub_1/m1_21_155# addsub_1/adder2_0/and_0/nand_0/a_7_n40# addsub_1/adder2_0/and_0/a_48_48# 2 4 889 -107
+p addsub_1/m1_21_155# addsub_1/adder2_0/and_0/a_48_48# m1_748_n661# 2 4 889 -36
+n addsub_1/adder2_0/and_1/a_48_48# m1_724_112# addsub_1/adder2_0/a_528_88# 2 4 1161 -107
+p addsub_1/adder2_0/and_1/a_48_48# m1_748_n661# addsub_1/adder2_0/a_528_88# 2 4 1161 -36
+p m1_1324_0# m1_748_n661# addsub_1/adder2_0/and_1/a_48_48# 2 4 1117 -36
+n m1_1324_0# m1_724_112# addsub_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 1117 -107
+n addsub_1/adder2_0/m1_76_8# addsub_1/adder2_0/and_1/nand_0/a_7_n40# addsub_1/adder2_0/and_1/a_48_48# 2 4 1133 -107
+p addsub_1/adder2_0/m1_76_8# addsub_1/adder2_0/and_1/a_48_48# m1_748_n661# 2 4 1133 -36
+p m1_428_24# m1_748_n661# addsub_1/m1_n152_64# 2 4 474 -5
+n m1_428_24# m1_724_112# addsub_1/m1_n152_64# 2 4 474 58
+p m1_1320_248# m1_748_n661# addsub_1/xor3_0/a_32_44# 2 4 630 -5
+n m1_1320_248# m1_724_112# addsub_1/xor3_0/a_32_44# 2 4 630 58
+p addsub_1/xor3_0/a_32_44# m1_748_n661# addsub_1/xor3_0/a_35_76# 2 4 565 -5
+p addsub_1/m1_n152_64# addsub_1/m1_21_155# addsub_1/xor3_0/a_n5_76# 2 4 526 -5
+p m1_1320_248# addsub_1/xor3_0/a_n5_76# m1_748_n661# 2 4 541 -5
+n m1_428_24# m1_724_112# addsub_1/xor3_0/a_n20_12# 2 4 581 59
+n addsub_1/xor3_0/a_32_44# addsub_1/xor3_0/a_n20_12# m1_724_112# 2 4 565 59
+n addsub_1/m1_n152_64# addsub_1/xor3_0/a_n20_12# addsub_1/m1_21_155# 2 4 526 59
+n m1_1320_248# addsub_1/m1_21_155# addsub_1/xor3_0/a_n20_12# 2 4 541 59
+p m1_428_24# addsub_1/xor3_0/a_35_76# addsub_1/m1_21_155# 2 4 581 -5
+n addsub_2/adder2_0/or_0/m1_44_48# m1_724_112# m1_1344_n512# 2 4 1285 -154
+p addsub_2/adder2_0/or_0/m1_44_48# m1_748_n661# m1_1344_n512# 2 4 1285 -225
+n addsub_2/adder2_0/a_512_128# m1_724_112# addsub_2/adder2_0/or_0/m1_44_48# 2 4 1237 -154
+n addsub_2/adder2_0/a_528_88# addsub_2/adder2_0/or_0/m1_44_48# m1_724_112# 2 4 1253 -154
+p addsub_2/adder2_0/a_528_88# addsub_2/adder2_0/or_0/nor1_0/a_19_32# addsub_2/adder2_0/or_0/m1_44_48# 2 4 1253 -225
+p addsub_2/adder2_0/a_512_128# m1_748_n661# addsub_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 1237 -225
+p addsub_2/m1_21_155# m1_748_n661# addsub_2/adder2_0/xor3_0/a_n8_44# 2 4 742 -256
+n addsub_2/m1_21_155# m1_724_112# addsub_2/adder2_0/xor3_0/a_n8_44# 2 4 742 -319
+p m1_832_n156# m1_748_n661# addsub_2/adder2_0/xor3_0/a_32_44# 2 4 898 -256
+n m1_832_n156# m1_724_112# addsub_2/adder2_0/xor3_0/a_32_44# 2 4 898 -319
+p addsub_2/adder2_0/xor3_0/a_32_44# m1_748_n661# addsub_2/adder2_0/xor3_0/a_35_76# 2 4 833 -256
+p addsub_2/adder2_0/xor3_0/a_n8_44# addsub_2/adder2_0/m1_76_8# addsub_2/adder2_0/xor3_0/a_n5_76# 2 4 794 -256
+p m1_832_n156# addsub_2/adder2_0/xor3_0/a_n5_76# m1_748_n661# 2 4 809 -256
+n addsub_2/m1_21_155# m1_724_112# addsub_2/adder2_0/xor3_0/a_n20_12# 2 4 849 -320
+n addsub_2/adder2_0/xor3_0/a_32_44# addsub_2/adder2_0/xor3_0/a_n20_12# m1_724_112# 2 4 833 -320
+n addsub_2/adder2_0/xor3_0/a_n8_44# addsub_2/adder2_0/xor3_0/a_n20_12# addsub_2/adder2_0/m1_76_8# 2 4 794 -320
+n m1_832_n156# addsub_2/adder2_0/m1_76_8# addsub_2/adder2_0/xor3_0/a_n20_12# 2 4 809 -320
+p addsub_2/m1_21_155# addsub_2/adder2_0/xor3_0/a_35_76# addsub_2/adder2_0/m1_76_8# 2 4 849 -256
+p addsub_2/adder2_0/m1_76_8# m1_748_n661# addsub_2/adder2_0/xor3_1/a_n8_44# 2 4 986 -256
+n addsub_2/adder2_0/m1_76_8# m1_724_112# addsub_2/adder2_0/xor3_1/a_n8_44# 2 4 986 -319
+p m1_1356_n264# m1_748_n661# addsub_2/adder2_0/xor3_1/a_32_44# 2 4 1142 -256
+n m1_1356_n264# m1_724_112# addsub_2/adder2_0/xor3_1/a_32_44# 2 4 1142 -319
+p addsub_2/adder2_0/xor3_1/a_32_44# m1_748_n661# addsub_2/adder2_0/xor3_1/a_35_76# 2 4 1077 -256
+p addsub_2/adder2_0/xor3_1/a_n8_44# m1_1044_n372# addsub_2/adder2_0/xor3_1/a_n5_76# 2 4 1038 -256
+p m1_1356_n264# addsub_2/adder2_0/xor3_1/a_n5_76# m1_748_n661# 2 4 1053 -256
+n addsub_2/adder2_0/m1_76_8# m1_724_112# addsub_2/adder2_0/xor3_1/a_n20_12# 2 4 1093 -320
+n addsub_2/adder2_0/xor3_1/a_32_44# addsub_2/adder2_0/xor3_1/a_n20_12# m1_724_112# 2 4 1077 -320
+n addsub_2/adder2_0/xor3_1/a_n8_44# addsub_2/adder2_0/xor3_1/a_n20_12# m1_1044_n372# 2 4 1038 -320
+n m1_1356_n264# m1_1044_n372# addsub_2/adder2_0/xor3_1/a_n20_12# 2 4 1053 -320
+p addsub_2/adder2_0/m1_76_8# addsub_2/adder2_0/xor3_1/a_35_76# m1_1044_n372# 2 4 1093 -256
+n addsub_2/adder2_0/and_0/a_48_48# m1_724_112# addsub_2/adder2_0/a_512_128# 2 4 945 -154
+p addsub_2/adder2_0/and_0/a_48_48# m1_748_n661# addsub_2/adder2_0/a_512_128# 2 4 945 -225
+p m1_832_n156# m1_748_n661# addsub_2/adder2_0/and_0/a_48_48# 2 4 901 -225
+n m1_832_n156# m1_724_112# addsub_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 901 -154
+n addsub_2/m1_21_155# addsub_2/adder2_0/and_0/nand_0/a_7_n40# addsub_2/adder2_0/and_0/a_48_48# 2 4 917 -154
+p addsub_2/m1_21_155# addsub_2/adder2_0/and_0/a_48_48# m1_748_n661# 2 4 917 -225
+n addsub_2/adder2_0/and_1/a_48_48# m1_724_112# addsub_2/adder2_0/a_528_88# 2 4 1189 -154
+p addsub_2/adder2_0/and_1/a_48_48# m1_748_n661# addsub_2/adder2_0/a_528_88# 2 4 1189 -225
+p m1_1356_n264# m1_748_n661# addsub_2/adder2_0/and_1/a_48_48# 2 4 1145 -225
+n m1_1356_n264# m1_724_112# addsub_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 1145 -154
+n addsub_2/adder2_0/m1_76_8# addsub_2/adder2_0/and_1/nand_0/a_7_n40# addsub_2/adder2_0/and_1/a_48_48# 2 4 1161 -154
+p addsub_2/adder2_0/m1_76_8# addsub_2/adder2_0/and_1/a_48_48# m1_748_n661# 2 4 1161 -225
+p m1_456_n288# m1_748_n661# addsub_2/m1_n152_64# 2 4 502 -256
+n m1_456_n288# m1_724_112# addsub_2/m1_n152_64# 2 4 502 -319
+p m1_1320_248# m1_748_n661# addsub_2/xor3_0/a_32_44# 2 4 658 -256
+n m1_1320_248# m1_724_112# addsub_2/xor3_0/a_32_44# 2 4 658 -319
+p addsub_2/xor3_0/a_32_44# m1_748_n661# addsub_2/xor3_0/a_35_76# 2 4 593 -256
+p addsub_2/m1_n152_64# addsub_2/m1_21_155# addsub_2/xor3_0/a_n5_76# 2 4 554 -256
+p m1_1320_248# addsub_2/xor3_0/a_n5_76# m1_748_n661# 2 4 569 -256
+n m1_456_n288# m1_724_112# addsub_2/xor3_0/a_n20_12# 2 4 609 -320
+n addsub_2/xor3_0/a_32_44# addsub_2/xor3_0/a_n20_12# m1_724_112# 2 4 593 -320
+n addsub_2/m1_n152_64# addsub_2/xor3_0/a_n20_12# addsub_2/m1_21_155# 2 4 554 -320
+n m1_1320_248# addsub_2/m1_21_155# addsub_2/xor3_0/a_n20_12# 2 4 569 -320
+p m1_456_n288# addsub_2/xor3_0/a_35_76# addsub_2/m1_21_155# 2 4 609 -256
+n addsub_4/adder2_0/or_0/m1_44_48# m1_724_112# m2_1356_n700# 2 4 1281 -662
+p addsub_4/adder2_0/or_0/m1_44_48# m1_748_n661# m2_1356_n700# 2 4 1281 -733
+n addsub_4/adder2_0/a_512_128# m1_724_112# addsub_4/adder2_0/or_0/m1_44_48# 2 4 1233 -662
+n addsub_4/adder2_0/a_528_88# addsub_4/adder2_0/or_0/m1_44_48# m1_724_112# 2 4 1249 -662
+p addsub_4/adder2_0/a_528_88# addsub_4/adder2_0/or_0/nor1_0/a_19_32# addsub_4/adder2_0/or_0/m1_44_48# 2 4 1249 -733
+p addsub_4/adder2_0/a_512_128# m1_748_n661# addsub_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 1233 -733
+p addsub_4/m1_21_155# m1_748_n661# addsub_4/adder2_0/xor3_0/a_n8_44# 2 4 738 -764
+n addsub_4/m1_21_155# m1_724_112# addsub_4/adder2_0/xor3_0/a_n8_44# 2 4 738 -827
+p m1_828_n660# m1_748_n661# addsub_4/adder2_0/xor3_0/a_32_44# 2 4 894 -764
+n m1_828_n660# m1_724_112# addsub_4/adder2_0/xor3_0/a_32_44# 2 4 894 -827
+p addsub_4/adder2_0/xor3_0/a_32_44# m1_748_n661# addsub_4/adder2_0/xor3_0/a_35_76# 2 4 829 -764
+p addsub_4/adder2_0/xor3_0/a_n8_44# addsub_4/adder2_0/m1_76_8# addsub_4/adder2_0/xor3_0/a_n5_76# 2 4 790 -764
+p m1_828_n660# addsub_4/adder2_0/xor3_0/a_n5_76# m1_748_n661# 2 4 805 -764
+n addsub_4/m1_21_155# m1_724_112# addsub_4/adder2_0/xor3_0/a_n20_12# 2 4 845 -828
+n addsub_4/adder2_0/xor3_0/a_32_44# addsub_4/adder2_0/xor3_0/a_n20_12# m1_724_112# 2 4 829 -828
+n addsub_4/adder2_0/xor3_0/a_n8_44# addsub_4/adder2_0/xor3_0/a_n20_12# addsub_4/adder2_0/m1_76_8# 2 4 790 -828
+n m1_828_n660# addsub_4/adder2_0/m1_76_8# addsub_4/adder2_0/xor3_0/a_n20_12# 2 4 805 -828
+p addsub_4/m1_21_155# addsub_4/adder2_0/xor3_0/a_35_76# addsub_4/adder2_0/m1_76_8# 2 4 845 -764
+p addsub_4/adder2_0/m1_76_8# m1_748_n661# addsub_4/adder2_0/xor3_1/a_n8_44# 2 4 982 -764
+n addsub_4/adder2_0/m1_76_8# m1_724_112# addsub_4/adder2_0/xor3_1/a_n8_44# 2 4 982 -827
+p m1_1352_n768# m1_748_n661# addsub_4/adder2_0/xor3_1/a_32_44# 2 4 1138 -764
+n m1_1352_n768# m1_724_112# addsub_4/adder2_0/xor3_1/a_32_44# 2 4 1138 -827
+p addsub_4/adder2_0/xor3_1/a_32_44# m1_748_n661# addsub_4/adder2_0/xor3_1/a_35_76# 2 4 1073 -764
+p addsub_4/adder2_0/xor3_1/a_n8_44# m1_1040_n880# addsub_4/adder2_0/xor3_1/a_n5_76# 2 4 1034 -764
+p m1_1352_n768# addsub_4/adder2_0/xor3_1/a_n5_76# m1_748_n661# 2 4 1049 -764
+n addsub_4/adder2_0/m1_76_8# m1_724_112# addsub_4/adder2_0/xor3_1/a_n20_12# 2 4 1089 -828
+n addsub_4/adder2_0/xor3_1/a_32_44# addsub_4/adder2_0/xor3_1/a_n20_12# m1_724_112# 2 4 1073 -828
+n addsub_4/adder2_0/xor3_1/a_n8_44# addsub_4/adder2_0/xor3_1/a_n20_12# m1_1040_n880# 2 4 1034 -828
+n m1_1352_n768# m1_1040_n880# addsub_4/adder2_0/xor3_1/a_n20_12# 2 4 1049 -828
+p addsub_4/adder2_0/m1_76_8# addsub_4/adder2_0/xor3_1/a_35_76# m1_1040_n880# 2 4 1089 -764
+n addsub_4/adder2_0/and_0/a_48_48# m1_724_112# addsub_4/adder2_0/a_512_128# 2 4 941 -662
+p addsub_4/adder2_0/and_0/a_48_48# m1_748_n661# addsub_4/adder2_0/a_512_128# 2 4 941 -733
+p m1_828_n660# m1_748_n661# addsub_4/adder2_0/and_0/a_48_48# 2 4 897 -733
+n m1_828_n660# m1_724_112# addsub_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 897 -662
+n addsub_4/m1_21_155# addsub_4/adder2_0/and_0/nand_0/a_7_n40# addsub_4/adder2_0/and_0/a_48_48# 2 4 913 -662
+p addsub_4/m1_21_155# addsub_4/adder2_0/and_0/a_48_48# m1_748_n661# 2 4 913 -733
+n addsub_4/adder2_0/and_1/a_48_48# m1_724_112# addsub_4/adder2_0/a_528_88# 2 4 1185 -662
+p addsub_4/adder2_0/and_1/a_48_48# m1_748_n661# addsub_4/adder2_0/a_528_88# 2 4 1185 -733
+p m1_1352_n768# m1_748_n661# addsub_4/adder2_0/and_1/a_48_48# 2 4 1141 -733
+n m1_1352_n768# m1_724_112# addsub_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 1141 -662
+n addsub_4/adder2_0/m1_76_8# addsub_4/adder2_0/and_1/nand_0/a_7_n40# addsub_4/adder2_0/and_1/a_48_48# 2 4 1157 -662
+p addsub_4/adder2_0/m1_76_8# addsub_4/adder2_0/and_1/a_48_48# m1_748_n661# 2 4 1157 -733
+p m1_452_n796# m1_748_n661# addsub_4/m1_n152_64# 2 4 498 -764
+n m1_452_n796# m1_724_112# addsub_4/m1_n152_64# 2 4 498 -827
+p m1_1320_248# m1_748_n661# addsub_4/xor3_0/a_32_44# 2 4 654 -764
+n m1_1320_248# m1_724_112# addsub_4/xor3_0/a_32_44# 2 4 654 -827
+p addsub_4/xor3_0/a_32_44# m1_748_n661# addsub_4/xor3_0/a_35_76# 2 4 589 -764
+p addsub_4/m1_n152_64# addsub_4/m1_21_155# addsub_4/xor3_0/a_n5_76# 2 4 550 -764
+p m1_1320_248# addsub_4/xor3_0/a_n5_76# m1_748_n661# 2 4 565 -764
+n m1_452_n796# m1_724_112# addsub_4/xor3_0/a_n20_12# 2 4 605 -828
+n addsub_4/xor3_0/a_32_44# addsub_4/xor3_0/a_n20_12# m1_724_112# 2 4 589 -828
+n addsub_4/m1_n152_64# addsub_4/xor3_0/a_n20_12# addsub_4/m1_21_155# 2 4 550 -828
+n m1_1320_248# addsub_4/m1_21_155# addsub_4/xor3_0/a_n20_12# 2 4 565 -828
+p m1_452_n796# addsub_4/xor3_0/a_35_76# addsub_4/m1_21_155# 2 4 605 -764
+n addsub_3/adder2_0/or_0/m1_44_48# m1_724_112# m1_1352_n768# 2 4 1285 -615
+p addsub_3/adder2_0/or_0/m1_44_48# m1_748_n661# m1_1352_n768# 2 4 1285 -544
+n addsub_3/adder2_0/a_512_128# m1_724_112# addsub_3/adder2_0/or_0/m1_44_48# 2 4 1237 -615
+n addsub_3/adder2_0/a_528_88# addsub_3/adder2_0/or_0/m1_44_48# m1_724_112# 2 4 1253 -615
+p addsub_3/adder2_0/a_528_88# addsub_3/adder2_0/or_0/nor1_0/a_19_32# addsub_3/adder2_0/or_0/m1_44_48# 2 4 1253 -544
+p addsub_3/adder2_0/a_512_128# m1_748_n661# addsub_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 1237 -544
+p addsub_3/m1_21_155# m1_748_n661# addsub_3/adder2_0/xor3_0/a_n8_44# 2 4 742 -513
+n addsub_3/m1_21_155# m1_724_112# addsub_3/adder2_0/xor3_0/a_n8_44# 2 4 742 -450
+p m1_832_n620# m1_748_n661# addsub_3/adder2_0/xor3_0/a_32_44# 2 4 898 -513
+n m1_832_n620# m1_724_112# addsub_3/adder2_0/xor3_0/a_32_44# 2 4 898 -450
+p addsub_3/adder2_0/xor3_0/a_32_44# m1_748_n661# addsub_3/adder2_0/xor3_0/a_35_76# 2 4 833 -513
+p addsub_3/adder2_0/xor3_0/a_n8_44# addsub_3/adder2_0/m1_76_8# addsub_3/adder2_0/xor3_0/a_n5_76# 2 4 794 -513
+p m1_832_n620# addsub_3/adder2_0/xor3_0/a_n5_76# m1_748_n661# 2 4 809 -513
+n addsub_3/m1_21_155# m1_724_112# addsub_3/adder2_0/xor3_0/a_n20_12# 2 4 849 -449
+n addsub_3/adder2_0/xor3_0/a_32_44# addsub_3/adder2_0/xor3_0/a_n20_12# m1_724_112# 2 4 833 -449
+n addsub_3/adder2_0/xor3_0/a_n8_44# addsub_3/adder2_0/xor3_0/a_n20_12# addsub_3/adder2_0/m1_76_8# 2 4 794 -449
+n m1_832_n620# addsub_3/adder2_0/m1_76_8# addsub_3/adder2_0/xor3_0/a_n20_12# 2 4 809 -449
+p addsub_3/m1_21_155# addsub_3/adder2_0/xor3_0/a_35_76# addsub_3/adder2_0/m1_76_8# 2 4 849 -513
+p addsub_3/adder2_0/m1_76_8# m1_748_n661# addsub_3/adder2_0/xor3_1/a_n8_44# 2 4 986 -513
+n addsub_3/adder2_0/m1_76_8# m1_724_112# addsub_3/adder2_0/xor3_1/a_n8_44# 2 4 986 -450
+p m1_1344_n512# m1_748_n661# addsub_3/adder2_0/xor3_1/a_32_44# 2 4 1142 -513
+n m1_1344_n512# m1_724_112# addsub_3/adder2_0/xor3_1/a_32_44# 2 4 1142 -450
+p addsub_3/adder2_0/xor3_1/a_32_44# m1_748_n661# addsub_3/adder2_0/xor3_1/a_35_76# 2 4 1077 -513
+p addsub_3/adder2_0/xor3_1/a_n8_44# m1_1044_n400# addsub_3/adder2_0/xor3_1/a_n5_76# 2 4 1038 -513
+p m1_1344_n512# addsub_3/adder2_0/xor3_1/a_n5_76# m1_748_n661# 2 4 1053 -513
+n addsub_3/adder2_0/m1_76_8# m1_724_112# addsub_3/adder2_0/xor3_1/a_n20_12# 2 4 1093 -449
+n addsub_3/adder2_0/xor3_1/a_32_44# addsub_3/adder2_0/xor3_1/a_n20_12# m1_724_112# 2 4 1077 -449
+n addsub_3/adder2_0/xor3_1/a_n8_44# addsub_3/adder2_0/xor3_1/a_n20_12# m1_1044_n400# 2 4 1038 -449
+n m1_1344_n512# m1_1044_n400# addsub_3/adder2_0/xor3_1/a_n20_12# 2 4 1053 -449
+p addsub_3/adder2_0/m1_76_8# addsub_3/adder2_0/xor3_1/a_35_76# m1_1044_n400# 2 4 1093 -513
+n addsub_3/adder2_0/and_0/a_48_48# m1_724_112# addsub_3/adder2_0/a_512_128# 2 4 945 -615
+p addsub_3/adder2_0/and_0/a_48_48# m1_748_n661# addsub_3/adder2_0/a_512_128# 2 4 945 -544
+p m1_832_n620# m1_748_n661# addsub_3/adder2_0/and_0/a_48_48# 2 4 901 -544
+n m1_832_n620# m1_724_112# addsub_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 901 -615
+n addsub_3/m1_21_155# addsub_3/adder2_0/and_0/nand_0/a_7_n40# addsub_3/adder2_0/and_0/a_48_48# 2 4 917 -615
+p addsub_3/m1_21_155# addsub_3/adder2_0/and_0/a_48_48# m1_748_n661# 2 4 917 -544
+n addsub_3/adder2_0/and_1/a_48_48# m1_724_112# addsub_3/adder2_0/a_528_88# 2 4 1189 -615
+p addsub_3/adder2_0/and_1/a_48_48# m1_748_n661# addsub_3/adder2_0/a_528_88# 2 4 1189 -544
+p m1_1344_n512# m1_748_n661# addsub_3/adder2_0/and_1/a_48_48# 2 4 1145 -544
+n m1_1344_n512# m1_724_112# addsub_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 1145 -615
+n addsub_3/adder2_0/m1_76_8# addsub_3/adder2_0/and_1/nand_0/a_7_n40# addsub_3/adder2_0/and_1/a_48_48# 2 4 1161 -615
+p addsub_3/adder2_0/m1_76_8# addsub_3/adder2_0/and_1/a_48_48# m1_748_n661# 2 4 1161 -544
+p m1_456_n484# m1_748_n661# addsub_3/m1_n152_64# 2 4 502 -513
+n m1_456_n484# m1_724_112# addsub_3/m1_n152_64# 2 4 502 -450
+p m1_1320_248# m1_748_n661# addsub_3/xor3_0/a_32_44# 2 4 658 -513
+n m1_1320_248# m1_724_112# addsub_3/xor3_0/a_32_44# 2 4 658 -450
+p addsub_3/xor3_0/a_32_44# m1_748_n661# addsub_3/xor3_0/a_35_76# 2 4 593 -513
+p addsub_3/m1_n152_64# addsub_3/m1_21_155# addsub_3/xor3_0/a_n5_76# 2 4 554 -513
+p m1_1320_248# addsub_3/xor3_0/a_n5_76# m1_748_n661# 2 4 569 -513
+n m1_456_n484# m1_724_112# addsub_3/xor3_0/a_n20_12# 2 4 609 -449
+n addsub_3/xor3_0/a_32_44# addsub_3/xor3_0/a_n20_12# m1_724_112# 2 4 593 -449
+n addsub_3/m1_n152_64# addsub_3/xor3_0/a_n20_12# addsub_3/m1_21_155# 2 4 554 -449
+n m1_1320_248# addsub_3/m1_21_155# addsub_3/xor3_0/a_n20_12# 2 4 569 -449
+p m1_456_n484# addsub_3/xor3_0/a_35_76# addsub_3/m1_21_155# 2 4 609 -513
+C m1_748_n661# addsub_1/m1_21_155# 2.40
+C m1_1324_0# m1_1320_248# 2.31
+C m1_748_n661# m1_724_112# 3.60
+C m1_1344_n512# m1_1320_248# 3.03
+C m1_1352_n768# m1_1320_248# 2.31
+C m1_1356_n264# m1_1320_248# 3.03
+C m1_1320_248# m1_724_112# 5.76
+C m1_748_n661# m1_1320_248# 9.36
+C addsub_3/xor3_0/a_n20_12# GND 12.38
+R addsub_3/xor3_0/a_n20_12# 497
+R addsub_3/xor3_0/a_35_76# 208
+R addsub_3/xor3_0/a_n5_76# 208
+C m1_456_n484# GND 57.08
+R m1_456_n484# 2608
+C addsub_3/xor3_0/a_32_44# GND 43.24
+R addsub_3/xor3_0/a_32_44# 1337
+C addsub_3/m1_n152_64# GND 35.35
+R addsub_3/m1_n152_64# 1336
+C m1_1044_n400# GND 36.26
+R m1_1044_n400# 744
+C addsub_3/adder2_0/a_528_88# GND 44.95
+R addsub_3/adder2_0/a_528_88# 1203
+C addsub_3/adder2_0/and_1/a_48_48# GND 38.89
+R addsub_3/adder2_0/and_1/a_48_48# 1277
+R addsub_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C addsub_3/adder2_0/and_0/a_48_48# GND 38.89
+R addsub_3/adder2_0/and_0/a_48_48# 1277
+R addsub_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C addsub_3/adder2_0/a_512_128# GND 51.05
+R addsub_3/adder2_0/a_512_128# 1998
+C addsub_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R addsub_3/adder2_0/xor3_1/a_n20_12# 497
+R addsub_3/adder2_0/xor3_1/a_35_76# 208
+R addsub_3/adder2_0/xor3_1/a_n5_76# 208
+C addsub_3/adder2_0/m1_76_8# GND 128.56
+R addsub_3/adder2_0/m1_76_8# 4411
+C addsub_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R addsub_3/adder2_0/xor3_1/a_32_44# 1337
+C m1_1344_n512# GND 143.35
+R m1_1344_n512# 3079
+C addsub_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R addsub_3/adder2_0/xor3_1/a_n8_44# 1336
+C addsub_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R addsub_3/adder2_0/xor3_0/a_n20_12# 497
+R addsub_3/adder2_0/xor3_0/a_35_76# 208
+R addsub_3/adder2_0/xor3_0/a_n5_76# 208
+C addsub_3/m1_21_155# GND 198.67
+R addsub_3/m1_21_155# 4413
+C addsub_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R addsub_3/adder2_0/xor3_0/a_32_44# 1337
+C m1_832_n620# GND 113.98
+R m1_832_n620# 2878
+C m1_724_112# GND 884.55
+R m1_724_112# 11859
+C addsub_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R addsub_3/adder2_0/xor3_0/a_n8_44# 1336
+C addsub_3/adder2_0/or_0/m1_44_48# GND 38.34
+R addsub_3/adder2_0/or_0/m1_44_48# 1231
+R addsub_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C addsub_4/xor3_0/a_n20_12# GND 12.38
+R addsub_4/xor3_0/a_n20_12# 497
+R addsub_4/xor3_0/a_35_76# 208
+R addsub_4/xor3_0/a_n5_76# 208
+C m1_452_n796# GND 57.08
+R m1_452_n796# 2608
+C addsub_4/xor3_0/a_32_44# GND 43.24
+R addsub_4/xor3_0/a_32_44# 1337
+C m1_1320_248# GND 539.90
+R m1_1320_248# 12240
+C addsub_4/m1_n152_64# GND 35.35
+R addsub_4/m1_n152_64# 1336
+C m1_1040_n880# GND 36.26
+R m1_1040_n880# 744
+C addsub_4/adder2_0/a_528_88# GND 44.95
+R addsub_4/adder2_0/a_528_88# 1203
+C addsub_4/adder2_0/and_1/a_48_48# GND 38.89
+R addsub_4/adder2_0/and_1/a_48_48# 1277
+R addsub_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C addsub_4/adder2_0/and_0/a_48_48# GND 38.89
+R addsub_4/adder2_0/and_0/a_48_48# 1277
+R addsub_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C addsub_4/adder2_0/a_512_128# GND 51.05
+R addsub_4/adder2_0/a_512_128# 1998
+C addsub_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R addsub_4/adder2_0/xor3_1/a_n20_12# 497
+R addsub_4/adder2_0/xor3_1/a_35_76# 208
+R addsub_4/adder2_0/xor3_1/a_n5_76# 208
+C addsub_4/adder2_0/m1_76_8# GND 128.56
+R addsub_4/adder2_0/m1_76_8# 4411
+C addsub_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R addsub_4/adder2_0/xor3_1/a_32_44# 1337
+C m1_1352_n768# GND 155.64
+R m1_1352_n768# 3076
+C addsub_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R addsub_4/adder2_0/xor3_1/a_n8_44# 1336
+C addsub_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R addsub_4/adder2_0/xor3_0/a_n20_12# 497
+R addsub_4/adder2_0/xor3_0/a_35_76# 208
+R addsub_4/adder2_0/xor3_0/a_n5_76# 208
+C addsub_4/m1_21_155# GND 198.67
+R addsub_4/m1_21_155# 4413
+C addsub_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R addsub_4/adder2_0/xor3_0/a_32_44# 1337
+C m1_828_n660# GND 113.22
+R m1_828_n660# 2878
+C addsub_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R addsub_4/adder2_0/xor3_0/a_n8_44# 1336
+C addsub_4/adder2_0/or_0/m1_44_48# GND 38.34
+R addsub_4/adder2_0/or_0/m1_44_48# 1231
+R addsub_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C m2_1356_n700# GND 14.76
+R m2_1356_n700# 195
+C addsub_2/xor3_0/a_n20_12# GND 12.38
+R addsub_2/xor3_0/a_n20_12# 497
+R addsub_2/xor3_0/a_35_76# 208
+R addsub_2/xor3_0/a_n5_76# 208
+C m1_456_n288# GND 57.08
+R m1_456_n288# 2608
+C addsub_2/xor3_0/a_32_44# GND 43.24
+R addsub_2/xor3_0/a_32_44# 1337
+C addsub_2/m1_n152_64# GND 35.35
+R addsub_2/m1_n152_64# 1336
+C m1_1044_n372# GND 36.26
+R m1_1044_n372# 744
+C addsub_2/adder2_0/a_528_88# GND 44.95
+R addsub_2/adder2_0/a_528_88# 1203
+C addsub_2/adder2_0/and_1/a_48_48# GND 38.89
+R addsub_2/adder2_0/and_1/a_48_48# 1277
+R addsub_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C m1_748_n661# GND 732.82
+R m1_748_n661# 29373
+C addsub_2/adder2_0/and_0/a_48_48# GND 38.89
+R addsub_2/adder2_0/and_0/a_48_48# 1277
+R addsub_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C addsub_2/adder2_0/a_512_128# GND 51.05
+R addsub_2/adder2_0/a_512_128# 1998
+C addsub_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R addsub_2/adder2_0/xor3_1/a_n20_12# 497
+R addsub_2/adder2_0/xor3_1/a_35_76# 208
+R addsub_2/adder2_0/xor3_1/a_n5_76# 208
+C addsub_2/adder2_0/m1_76_8# GND 128.56
+R addsub_2/adder2_0/m1_76_8# 4411
+C addsub_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R addsub_2/adder2_0/xor3_1/a_32_44# 1337
+C m1_1356_n264# GND 158.20
+R m1_1356_n264# 3076
+C addsub_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R addsub_2/adder2_0/xor3_1/a_n8_44# 1336
+C addsub_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R addsub_2/adder2_0/xor3_0/a_n20_12# 497
+R addsub_2/adder2_0/xor3_0/a_35_76# 208
+R addsub_2/adder2_0/xor3_0/a_n5_76# 208
+C addsub_2/m1_21_155# GND 198.67
+R addsub_2/m1_21_155# 4413
+C addsub_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R addsub_2/adder2_0/xor3_0/a_32_44# 1337
+C m1_832_n156# GND 114.73
+R m1_832_n156# 2878
+C addsub_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R addsub_2/adder2_0/xor3_0/a_n8_44# 1336
+C addsub_2/adder2_0/or_0/m1_44_48# GND 38.34
+R addsub_2/adder2_0/or_0/m1_44_48# 1231
+R addsub_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C addsub_1/xor3_0/a_n20_12# GND 12.38
+R addsub_1/xor3_0/a_n20_12# 497
+R addsub_1/xor3_0/a_35_76# 208
+R addsub_1/xor3_0/a_n5_76# 208
+C m1_428_24# GND 57.08
+R m1_428_24# 2608
+C addsub_1/xor3_0/a_32_44# GND 43.24
+R addsub_1/xor3_0/a_32_44# 1337
+C addsub_1/m1_n152_64# GND 35.35
+R addsub_1/m1_n152_64# 1336
+C m1_1016_108# GND 36.26
+R m1_1016_108# 744
+C addsub_1/adder2_0/a_528_88# GND 44.95
+R addsub_1/adder2_0/a_528_88# 1203
+C addsub_1/adder2_0/and_1/a_48_48# GND 38.89
+R addsub_1/adder2_0/and_1/a_48_48# 1277
+R addsub_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C addsub_1/adder2_0/and_0/a_48_48# GND 38.89
+R addsub_1/adder2_0/and_0/a_48_48# 1277
+R addsub_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C addsub_1/adder2_0/a_512_128# GND 51.05
+R addsub_1/adder2_0/a_512_128# 1998
+C addsub_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R addsub_1/adder2_0/xor3_1/a_n20_12# 497
+R addsub_1/adder2_0/xor3_1/a_35_76# 208
+R addsub_1/adder2_0/xor3_1/a_n5_76# 208
+C addsub_1/adder2_0/m1_76_8# GND 128.56
+R addsub_1/adder2_0/m1_76_8# 4411
+C addsub_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R addsub_1/adder2_0/xor3_1/a_32_44# 1337
+C m1_1324_0# GND 142.10
+R m1_1324_0# 3078
+C addsub_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R addsub_1/adder2_0/xor3_1/a_n8_44# 1336
+C addsub_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R addsub_1/adder2_0/xor3_0/a_n20_12# 497
+R addsub_1/adder2_0/xor3_0/a_35_76# 208
+R addsub_1/adder2_0/xor3_0/a_n5_76# 208
+C addsub_1/m1_21_155# GND 198.67
+R addsub_1/m1_21_155# 4413
+C addsub_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R addsub_1/adder2_0/xor3_0/a_32_44# 1337
+C m1_804_n112# GND 113.98
+R m1_804_n112# 2878
+C addsub_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R addsub_1/adder2_0/xor3_0/a_n8_44# 1336
+C addsub_1/adder2_0/or_0/m1_44_48# GND 38.34
+R addsub_1/adder2_0/or_0/m1_44_48# 1231
+R addsub_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C addsub_0/xor3_0/a_n20_12# GND 12.38
+R addsub_0/xor3_0/a_n20_12# 497
+R addsub_0/xor3_0/a_35_76# 208
+R addsub_0/xor3_0/a_n5_76# 208
+C m1_428_220# GND 57.08
+R m1_428_220# 2608
+C addsub_0/xor3_0/a_32_44# GND 43.24
+R addsub_0/xor3_0/a_32_44# 1337
+C addsub_0/m1_n152_64# GND 35.35
+R addsub_0/m1_n152_64# 1336
+C m1_1016_136# GND 36.26
+R m1_1016_136# 744
+C addsub_0/adder2_0/a_528_88# GND 44.95
+R addsub_0/adder2_0/a_528_88# 1203
+C addsub_0/adder2_0/and_1/a_48_48# GND 38.89
+R addsub_0/adder2_0/and_1/a_48_48# 1277
+R addsub_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C addsub_0/adder2_0/and_0/a_48_48# GND 38.89
+R addsub_0/adder2_0/and_0/a_48_48# 1277
+R addsub_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C addsub_0/adder2_0/a_512_128# GND 51.05
+R addsub_0/adder2_0/a_512_128# 1998
+C addsub_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R addsub_0/adder2_0/xor3_1/a_n20_12# 497
+R addsub_0/adder2_0/xor3_1/a_35_76# 208
+R addsub_0/adder2_0/xor3_1/a_n5_76# 208
+C addsub_0/adder2_0/m1_76_8# GND 128.56
+R addsub_0/adder2_0/m1_76_8# 4411
+C addsub_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R addsub_0/adder2_0/xor3_1/a_32_44# 1337
+C addsub_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R addsub_0/adder2_0/xor3_1/a_n8_44# 1336
+C addsub_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R addsub_0/adder2_0/xor3_0/a_n20_12# 497
+R addsub_0/adder2_0/xor3_0/a_35_76# 208
+R addsub_0/adder2_0/xor3_0/a_n5_76# 208
+C addsub_0/m1_21_155# GND 198.67
+R addsub_0/m1_21_155# 4413
+C addsub_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R addsub_0/adder2_0/xor3_0/a_32_44# 1337
+C m1_804_356# GND 113.98
+R m1_804_356# 2878
+C addsub_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R addsub_0/adder2_0/xor3_0/a_n8_44# 1336
+C addsub_0/adder2_0/or_0/m1_44_48# GND 38.34
+R addsub_0/adder2_0/or_0/m1_44_48# 1231
+R addsub_0/adder2_0/or_0/nor1_0/a_19_32# 208

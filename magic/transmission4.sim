@@ -1,0 +1,44 @@
+| units: 100 tech: scmos format: MIT
+n m1_n80_n424# m2_n48_n416# m1_n48_n368# 2 4 -63 -403
+p m1_n80_n424# m2_n48_n320# m1_n48_n368# 2 4 -63 -332
+n m1_32_n364# m2_n48_n416# m1_64_n368# 2 4 49 -403
+p m1_32_n364# m2_n48_n320# m1_64_n368# 2 4 49 -332
+n m1_n48_n368# transmission_0/a_n12_n20# m1_20_n52# 2 4 14 17
+p m1_n80_n424# transmission_0/a_n12_n20# m1_20_n52# 2 4 14 88
+n m1_n80_n424# transmission_1/a_n12_n20# m1_20_n52# 2 4 14 -87
+p m1_n48_n368# transmission_1/a_n12_n20# m1_20_n52# 2 4 14 -16
+n m1_n48_n368# transmission_2/a_n12_n20# m1_20_n260# 2 4 14 -191
+p m1_n80_n424# transmission_2/a_n12_n20# m1_20_n260# 2 4 14 -120
+n m1_64_n368# m1_20_n52# m1_112_n152# 2 4 106 -87
+p m1_32_n364# m1_20_n52# m1_112_n152# 2 4 106 -16
+n m1_n80_n424# transmission_3/a_n12_n20# m1_20_n260# 2 4 14 -295
+p m1_n48_n368# transmission_3/a_n12_n20# m1_20_n260# 2 4 14 -224
+n m1_32_n364# m1_20_n260# m1_112_n152# 2 4 106 -191
+p m1_64_n368# m1_20_n260# m1_112_n152# 2 4 106 -120
+C m1_20_n260# m1_32_n364# 2.16
+C m1_112_n152# GND 33.58
+R m1_112_n152# 629
+C m1_20_n260# GND 16.90
+R m1_20_n260# 1040
+C transmission_3/a_n12_n20# GND 12.78
+R transmission_3/a_n12_n20# 195
+C transmission_2/a_n12_n20# GND 12.78
+R transmission_2/a_n12_n20# 195
+C m1_20_n52# GND 32.42
+R m1_20_n52# 1040
+C transmission_1/a_n12_n20# GND 12.78
+R transmission_1/a_n12_n20# 195
+C transmission_0/a_n12_n20# GND 12.78
+R transmission_0/a_n12_n20# 195
+C m1_64_n368# GND 49.66
+R m1_64_n368# 626
+C m1_32_n364# GND 67.81
+R m1_32_n364# 1484
+C m2_n48_n416# GND 12.62
+R m2_n48_n416# 195
+C m1_n48_n368# GND 64.58
+R m1_n48_n368# 1107
+C m2_n48_n320# GND 12.49
+R m2_n48_n320# 433
+C m1_n80_n424# GND 190.94
+R m1_n80_n424# 1967

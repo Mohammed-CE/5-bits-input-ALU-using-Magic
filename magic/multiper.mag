@@ -1,0 +1,32 @@
+magic
+tech scmos
+timestamp 1607086254
+<< metal1 >>
+rect 156 296 160 300
+rect 736 296 740 300
+rect 1496 296 1500 300
+rect 2256 296 2260 300
+rect 3012 296 3016 300
+rect 3768 296 3772 300
+rect 916 0 920 4
+rect 1676 0 1680 4
+rect 2432 0 2436 4
+rect 3188 0 3192 4
+rect 3268 -296 3272 -292
+use multi  multi_0
+timestamp 1607086254
+transform 1 0 4 0 1 24
+box -4 -24 3792 272
+use multi  multi_1
+timestamp 1607086254
+transform 1 0 4 0 1 -268
+box -4 -24 3792 272
+<< labels >>
+rlabel metal1 158 298 158 298 5 vdd
+rlabel metal1 738 298 738 298 5 a4
+rlabel metal1 1498 298 1498 298 5 a3
+rlabel metal1 2257 298 2257 298 5 a2
+rlabel metal1 3015 298 3015 298 5 a1
+rlabel metal1 3770 298 3770 298 5 a0
+rlabel metal1 3270 -294 3270 -294 1 p0
+<< end >>

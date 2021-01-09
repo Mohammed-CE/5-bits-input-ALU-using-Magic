@@ -1,0 +1,840 @@
+| units: 100 tech: scmos format: MIT
+n s0 gnd sd_0/m1_0_40# 2 4 417 109
+p s0 vdd sd_0/m1_0_40# 2 4 417 180
+n s1 gnd sd_0/m1_0_n48# 2 4 417 86
+p s1 vdd sd_0/m1_0_n48# 2 4 417 15
+n sd_0/and_0/a_48_48# gnd m1_816_n248# 2 4 493 109
+p sd_0/and_0/a_48_48# vdd m1_816_n248# 2 4 493 180
+p sd_0/m1_0_40# vdd sd_0/and_0/a_48_48# 2 4 449 180
+n sd_0/m1_0_40# gnd sd_0/and_0/nand_0/a_7_n40# 2 4 449 109
+n s1 sd_0/and_0/nand_0/a_7_n40# sd_0/and_0/a_48_48# 2 4 465 109
+p s1 sd_0/and_0/a_48_48# vdd 2 4 465 180
+n sd_0/and_1/a_48_48# gnd m1_n1048_n12# 2 4 493 86
+p sd_0/and_1/a_48_48# vdd m1_n1048_n12# 2 4 493 15
+p sd_0/m1_0_n48# vdd sd_0/and_1/a_48_48# 2 4 449 15
+n sd_0/m1_0_n48# gnd sd_0/and_1/nand_0/a_7_n40# 2 4 449 86
+n s0 sd_0/and_1/nand_0/a_7_n40# sd_0/and_1/a_48_48# 2 4 465 86
+p s0 sd_0/and_1/a_48_48# vdd 2 4 465 15
+n sm_0/and_0/a_48_48# gnd o5 2 4 885 109
+p sm_0/and_0/a_48_48# vdd o5 2 4 885 180
+p m1_816_n248# vdd sm_0/and_0/a_48_48# 2 4 841 180
+n m1_816_n248# gnd sm_0/and_0/nand_0/a_7_n40# 2 4 841 109
+n sm_0/and_0/a_20_32# sm_0/and_0/nand_0/a_7_n40# sm_0/and_0/a_48_48# 2 4 857 109
+p sm_0/and_0/a_20_32# sm_0/and_0/a_48_48# vdd 2 4 857 180
+n sm_0/and_1/a_48_48# gnd o6 2 4 885 86
+p sm_0/and_1/a_48_48# vdd o6 2 4 885 15
+p sm_0/and_1/a_4_40# vdd sm_0/and_1/a_48_48# 2 4 841 15
+n sm_0/and_1/a_4_40# gnd sm_0/and_1/nand_0/a_7_n40# 2 4 841 86
+n m1_816_n248# sm_0/and_1/nand_0/a_7_n40# sm_0/and_1/a_48_48# 2 4 857 86
+p m1_816_n248# sm_0/and_1/a_48_48# vdd 2 4 857 15
+n sm_0/and_2/a_48_48# gnd o7 2 4 885 -83
+p sm_0/and_2/a_48_48# vdd o7 2 4 885 -12
+p m1_816_n248# vdd sm_0/and_2/a_48_48# 2 4 841 -12
+n m1_816_n248# gnd sm_0/and_2/nand_0/a_7_n40# 2 4 841 -83
+n sm_0/and_2/a_20_32# sm_0/and_2/nand_0/a_7_n40# sm_0/and_2/a_48_48# 2 4 857 -83
+p sm_0/and_2/a_20_32# sm_0/and_2/a_48_48# vdd 2 4 857 -12
+n sm_0/and_3/a_48_48# gnd o8 2 4 885 -106
+p sm_0/and_3/a_48_48# vdd o8 2 4 885 -177
+p sm_0/and_3/a_4_40# vdd sm_0/and_3/a_48_48# 2 4 841 -177
+n sm_0/and_3/a_4_40# gnd sm_0/and_3/nand_0/a_7_n40# 2 4 841 -106
+n m1_816_n248# sm_0/and_3/nand_0/a_7_n40# sm_0/and_3/a_48_48# 2 4 857 -106
+p m1_816_n248# sm_0/and_3/a_48_48# vdd 2 4 857 -177
+n sm_0/and_4/a_48_48# gnd o9 2 4 885 -275
+p sm_0/and_4/a_48_48# vdd o9 2 4 885 -204
+p m1_816_n248# vdd sm_0/and_4/a_48_48# 2 4 841 -204
+n m1_816_n248# gnd sm_0/and_4/nand_0/a_7_n40# 2 4 841 -275
+n sm_0/and_4/a_20_32# sm_0/and_4/nand_0/a_7_n40# sm_0/and_4/a_48_48# 2 4 857 -275
+p sm_0/and_4/a_20_32# sm_0/and_4/a_48_48# vdd 2 4 857 -204
+n s0 gnd transmission4_0/m1_n48_n368# 2 4 829 321
+p s0 vdd transmission4_0/m1_n48_n368# 2 4 829 392
+n s1 gnd transmission4_0/m1_64_n368# 2 4 941 321
+p s1 vdd transmission4_0/m1_64_n368# 2 4 941 392
+n transmission4_0/m1_n48_n368# m1_n380_2628# transmission4_0/m1_20_n52# 2 4 906 741
+p s0 m1_n380_2628# transmission4_0/m1_20_n52# 2 4 906 812
+n s0 m1_n380_2628# transmission4_0/m1_20_n52# 2 4 906 637
+p transmission4_0/m1_n48_n368# m1_n380_2628# transmission4_0/m1_20_n52# 2 4 906 708
+n transmission4_0/m1_n48_n368# transmission4_0/transmission_2/a_n12_n20# transmission4_0/m1_20_n260# 2 4 906 533
+p s0 transmission4_0/transmission_2/a_n12_n20# transmission4_0/m1_20_n260# 2 4 906 604
+n s0 m1_368_48# transmission4_0/m1_20_n260# 2 4 906 429
+p transmission4_0/m1_n48_n368# m1_368_48# transmission4_0/m1_20_n260# 2 4 906 500
+n transmission4_0/m1_64_n368# transmission4_0/m1_20_n52# o4 2 4 998 637
+p s1 transmission4_0/m1_20_n52# o4 2 4 998 708
+n s1 transmission4_0/m1_20_n260# o4 2 4 998 533
+p transmission4_0/m1_64_n368# transmission4_0/m1_20_n260# o4 2 4 998 604
+n a4 gnd m1_368_48# 2 4 17 86
+p a4 vdd m1_368_48# 2 4 17 15
+n a3 gnd m1_376_144# 2 4 17 109
+p a3 vdd m1_376_144# 2 4 17 180
+n a2 gnd m1_384_172# 2 4 17 278
+p a2 vdd m1_384_172# 2 4 17 207
+n a1 gnd m1_752_336# 2 4 17 301
+p a1 vdd m1_752_336# 2 4 17 372
+n a0 gnd m1_744_432# 2 4 17 470
+p a0 vdd m1_744_432# 2 4 17 399
+p m1_384_172# notnor_0/nor_0/a_n13_24# notnor_0/nor_0/a_3_24# 2 4 141 207
+n m1_376_144# gnd notnor_0/nor_0/a_n40_n48# 2 4 126 278
+p m1_368_48# notnor_0/nor_0/a_n40_n48# notnor_0/nor_0/a_n29_24# 2 4 110 207
+p m1_744_432# notnor_0/nor_0/a_19_24# vdd 2 4 173 207
+n m1_752_336# gnd notnor_0/nor_0/a_n40_n48# 2 4 157 278
+p m1_376_144# notnor_0/nor_0/a_n29_24# notnor_0/nor_0/a_n13_24# 2 4 126 207
+p m1_752_336# notnor_0/nor_0/a_3_24# notnor_0/nor_0/a_19_24# 2 4 157 207
+n m1_384_172# notnor_0/nor_0/a_n40_n48# gnd 2 4 141 278
+n m1_368_48# notnor_0/nor_0/a_n40_n48# gnd 2 4 110 278
+n m1_744_432# notnor_0/nor_0/a_n40_n48# gnd 2 4 173 278
+n s0 gnd transmission4_1/m1_n48_n368# 2 4 829 857
+p s0 vdd transmission4_1/m1_n48_n368# 2 4 829 928
+n s1 gnd transmission4_1/m1_64_n368# 2 4 941 857
+p s1 vdd transmission4_1/m1_64_n368# 2 4 941 928
+n transmission4_1/m1_n48_n368# m1_n376_3108# transmission4_1/m1_20_n52# 2 4 906 1277
+p s0 m1_n376_3108# transmission4_1/m1_20_n52# 2 4 906 1348
+n s0 m1_n376_3108# transmission4_1/m1_20_n52# 2 4 906 1173
+p transmission4_1/m1_n48_n368# m1_n376_3108# transmission4_1/m1_20_n52# 2 4 906 1244
+n transmission4_1/m1_n48_n368# transmission4_1/transmission_2/a_n12_n20# transmission4_1/m1_20_n260# 2 4 906 1069
+p s0 transmission4_1/transmission_2/a_n12_n20# transmission4_1/m1_20_n260# 2 4 906 1140
+n s0 m1_376_144# transmission4_1/m1_20_n260# 2 4 906 965
+p transmission4_1/m1_n48_n368# m1_376_144# transmission4_1/m1_20_n260# 2 4 906 1036
+n transmission4_1/m1_64_n368# transmission4_1/m1_20_n52# o3 2 4 998 1173
+p s1 transmission4_1/m1_20_n52# o3 2 4 998 1244
+n s1 transmission4_1/m1_20_n260# o3 2 4 998 1069
+p transmission4_1/m1_64_n368# transmission4_1/m1_20_n260# o3 2 4 998 1140
+n s0 gnd transmission4_2/m1_n48_n368# 2 4 829 1393
+p s0 vdd transmission4_2/m1_n48_n368# 2 4 829 1464
+n s1 gnd transmission4_2/m1_64_n368# 2 4 941 1393
+p s1 vdd transmission4_2/m1_64_n368# 2 4 941 1464
+n transmission4_2/m1_n48_n368# m1_n376_3136# transmission4_2/m1_20_n52# 2 4 906 1813
+p s0 m1_n376_3136# transmission4_2/m1_20_n52# 2 4 906 1884
+n s0 m1_n376_3136# transmission4_2/m1_20_n52# 2 4 906 1709
+p transmission4_2/m1_n48_n368# m1_n376_3136# transmission4_2/m1_20_n52# 2 4 906 1780
+n transmission4_2/m1_n48_n368# transmission4_2/transmission_2/a_n12_n20# transmission4_2/m1_20_n260# 2 4 906 1605
+p s0 transmission4_2/transmission_2/a_n12_n20# transmission4_2/m1_20_n260# 2 4 906 1676
+n s0 m1_384_172# transmission4_2/m1_20_n260# 2 4 906 1501
+p transmission4_2/m1_n48_n368# m1_384_172# transmission4_2/m1_20_n260# 2 4 906 1572
+n transmission4_2/m1_64_n368# transmission4_2/m1_20_n52# o2 2 4 998 1709
+p s1 transmission4_2/m1_20_n52# o2 2 4 998 1780
+n s1 transmission4_2/m1_20_n260# o2 2 4 998 1605
+p transmission4_2/m1_64_n368# transmission4_2/m1_20_n260# o2 2 4 998 1676
+n s0 gnd transmission4_4/m1_n48_n368# 2 4 829 2465
+p s0 vdd transmission4_4/m1_n48_n368# 2 4 829 2536
+n s1 gnd transmission4_4/m1_64_n368# 2 4 941 2465
+p s1 vdd transmission4_4/m1_64_n368# 2 4 941 2536
+n transmission4_4/m1_n48_n368# m1_n404_3644# transmission4_4/m1_20_n52# 2 4 906 2885
+p s0 m1_n404_3644# transmission4_4/m1_20_n52# 2 4 906 2956
+n s0 m1_n404_3644# transmission4_4/m1_20_n52# 2 4 906 2781
+p transmission4_4/m1_n48_n368# m1_n404_3644# transmission4_4/m1_20_n52# 2 4 906 2852
+n transmission4_4/m1_n48_n368# transmission4_4/transmission_2/a_n12_n20# transmission4_4/m1_20_n260# 2 4 906 2677
+p s0 transmission4_4/transmission_2/a_n12_n20# transmission4_4/m1_20_n260# 2 4 906 2748
+n s0 m1_744_432# transmission4_4/m1_20_n260# 2 4 906 2573
+p transmission4_4/m1_n48_n368# m1_744_432# transmission4_4/m1_20_n260# 2 4 906 2644
+n transmission4_4/m1_64_n368# transmission4_4/m1_20_n52# o0 2 4 998 2781
+p s1 transmission4_4/m1_20_n52# o0 2 4 998 2852
+n s1 transmission4_4/m1_20_n260# o0 2 4 998 2677
+p transmission4_4/m1_64_n368# transmission4_4/m1_20_n260# o0 2 4 998 2748
+n s0 gnd transmission4_3/m1_n48_n368# 2 4 829 1929
+p s0 vdd transmission4_3/m1_n48_n368# 2 4 829 2000
+n s1 gnd transmission4_3/m1_64_n368# 2 4 941 1929
+p s1 vdd transmission4_3/m1_64_n368# 2 4 941 2000
+n transmission4_3/m1_n48_n368# m1_n404_3616# transmission4_3/m1_20_n52# 2 4 906 2349
+p s0 m1_n404_3616# transmission4_3/m1_20_n52# 2 4 906 2420
+n s0 m1_n404_3616# transmission4_3/m1_20_n52# 2 4 906 2245
+p transmission4_3/m1_n48_n368# m1_n404_3616# transmission4_3/m1_20_n52# 2 4 906 2316
+n transmission4_3/m1_n48_n368# transmission4_3/transmission_2/a_n12_n20# transmission4_3/m1_20_n260# 2 4 906 2141
+p s0 transmission4_3/transmission_2/a_n12_n20# transmission4_3/m1_20_n260# 2 4 906 2212
+n s0 m1_752_336# transmission4_3/m1_20_n260# 2 4 906 2037
+p transmission4_3/m1_n48_n368# m1_752_336# transmission4_3/m1_20_n260# 2 4 906 2108
+n transmission4_3/m1_64_n368# transmission4_3/m1_20_n52# o1 2 4 998 2245
+p s1 transmission4_3/m1_20_n52# o1 2 4 998 2316
+n s1 transmission4_3/m1_20_n260# o1 2 4 998 2141
+p transmission4_3/m1_64_n368# transmission4_3/m1_20_n260# o1 2 4 998 2212
+n adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# gnd adder5bit_0/m1_1324_0# 2 4 -163 3862
+p adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# vdd adder5bit_0/m1_1324_0# 2 4 -163 3791
+n adder5bit_0/addsub_0/adder2_0/a_512_128# gnd adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# 2 4 -211 3862
+n adder5bit_0/addsub_0/adder2_0/a_528_88# adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# gnd 2 4 -195 3862
+p adder5bit_0/addsub_0/adder2_0/a_528_88# adder5bit_0/addsub_0/adder2_0/or_0/nor1_0/a_19_32# adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# 2 4 -195 3791
+p adder5bit_0/addsub_0/adder2_0/a_512_128# vdd adder5bit_0/addsub_0/adder2_0/or_0/nor1_0/a_19_32# 2 4 -211 3791
+p adder5bit_0/addsub_0/m1_21_155# vdd adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# 2 4 -706 3760
+n adder5bit_0/addsub_0/m1_21_155# gnd adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# 2 4 -706 3697
+p a0 vdd adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# 2 4 -550 3760
+n a0 gnd adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# 2 4 -550 3697
+p adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_0/adder2_0/xor3_0/a_35_76# 2 4 -615 3760
+p adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_0/adder2_0/m1_76_8# adder5bit_0/addsub_0/adder2_0/xor3_0/a_n5_76# 2 4 -654 3760
+p a0 adder5bit_0/addsub_0/adder2_0/xor3_0/a_n5_76# vdd 2 4 -639 3760
+n adder5bit_0/addsub_0/m1_21_155# gnd adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# 2 4 -599 3696
+n adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# gnd 2 4 -615 3696
+n adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# adder5bit_0/addsub_0/adder2_0/m1_76_8# 2 4 -654 3696
+n a0 adder5bit_0/addsub_0/adder2_0/m1_76_8# adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# 2 4 -639 3696
+p adder5bit_0/addsub_0/m1_21_155# adder5bit_0/addsub_0/adder2_0/xor3_0/a_35_76# adder5bit_0/addsub_0/adder2_0/m1_76_8# 2 4 -599 3760
+p adder5bit_0/addsub_0/adder2_0/m1_76_8# vdd adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# 2 4 -462 3760
+n adder5bit_0/addsub_0/adder2_0/m1_76_8# gnd adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# 2 4 -462 3697
+p m1_n1048_n12# vdd adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# 2 4 -306 3760
+n m1_n1048_n12# gnd adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# 2 4 -306 3697
+p adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# vdd adder5bit_0/addsub_0/adder2_0/xor3_1/a_35_76# 2 4 -371 3760
+p adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# m1_n404_3644# adder5bit_0/addsub_0/adder2_0/xor3_1/a_n5_76# 2 4 -410 3760
+p m1_n1048_n12# adder5bit_0/addsub_0/adder2_0/xor3_1/a_n5_76# vdd 2 4 -395 3760
+n adder5bit_0/addsub_0/adder2_0/m1_76_8# gnd adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# 2 4 -355 3696
+n adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# gnd 2 4 -371 3696
+n adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# m1_n404_3644# 2 4 -410 3696
+n m1_n1048_n12# m1_n404_3644# adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# 2 4 -395 3696
+p adder5bit_0/addsub_0/adder2_0/m1_76_8# adder5bit_0/addsub_0/adder2_0/xor3_1/a_35_76# m1_n404_3644# 2 4 -355 3760
+n adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# gnd adder5bit_0/addsub_0/adder2_0/a_512_128# 2 4 -503 3862
+p adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# vdd adder5bit_0/addsub_0/adder2_0/a_512_128# 2 4 -503 3791
+p a0 vdd adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# 2 4 -547 3791
+n a0 gnd adder5bit_0/addsub_0/adder2_0/and_0/nand_0/a_7_n40# 2 4 -547 3862
+n adder5bit_0/addsub_0/m1_21_155# adder5bit_0/addsub_0/adder2_0/and_0/nand_0/a_7_n40# adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# 2 4 -531 3862
+p adder5bit_0/addsub_0/m1_21_155# adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# vdd 2 4 -531 3791
+n adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# gnd adder5bit_0/addsub_0/adder2_0/a_528_88# 2 4 -259 3862
+p adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# vdd adder5bit_0/addsub_0/adder2_0/a_528_88# 2 4 -259 3791
+p m1_n1048_n12# vdd adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# 2 4 -303 3791
+n m1_n1048_n12# gnd adder5bit_0/addsub_0/adder2_0/and_1/nand_0/a_7_n40# 2 4 -303 3862
+n adder5bit_0/addsub_0/adder2_0/m1_76_8# adder5bit_0/addsub_0/adder2_0/and_1/nand_0/a_7_n40# adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# 2 4 -287 3862
+p adder5bit_0/addsub_0/adder2_0/m1_76_8# adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# vdd 2 4 -287 3791
+p b0 vdd adder5bit_0/addsub_0/m1_n152_64# 2 4 -946 3760
+n b0 gnd adder5bit_0/addsub_0/m1_n152_64# 2 4 -946 3697
+p m1_n1048_n12# vdd adder5bit_0/addsub_0/xor3_0/a_32_44# 2 4 -790 3760
+n m1_n1048_n12# gnd adder5bit_0/addsub_0/xor3_0/a_32_44# 2 4 -790 3697
+p adder5bit_0/addsub_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_0/xor3_0/a_35_76# 2 4 -855 3760
+p adder5bit_0/addsub_0/m1_n152_64# adder5bit_0/addsub_0/m1_21_155# adder5bit_0/addsub_0/xor3_0/a_n5_76# 2 4 -894 3760
+p m1_n1048_n12# adder5bit_0/addsub_0/xor3_0/a_n5_76# vdd 2 4 -879 3760
+n b0 gnd adder5bit_0/addsub_0/xor3_0/a_n20_12# 2 4 -839 3696
+n adder5bit_0/addsub_0/xor3_0/a_32_44# adder5bit_0/addsub_0/xor3_0/a_n20_12# gnd 2 4 -855 3696
+n adder5bit_0/addsub_0/m1_n152_64# adder5bit_0/addsub_0/xor3_0/a_n20_12# adder5bit_0/addsub_0/m1_21_155# 2 4 -894 3696
+n m1_n1048_n12# adder5bit_0/addsub_0/m1_21_155# adder5bit_0/addsub_0/xor3_0/a_n20_12# 2 4 -879 3696
+p b0 adder5bit_0/addsub_0/xor3_0/a_35_76# adder5bit_0/addsub_0/m1_21_155# 2 4 -839 3760
+n adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# gnd adder5bit_0/m1_1356_n264# 2 4 -163 3401
+p adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# vdd adder5bit_0/m1_1356_n264# 2 4 -163 3472
+n adder5bit_0/addsub_1/adder2_0/a_512_128# gnd adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# 2 4 -211 3401
+n adder5bit_0/addsub_1/adder2_0/a_528_88# adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# gnd 2 4 -195 3401
+p adder5bit_0/addsub_1/adder2_0/a_528_88# adder5bit_0/addsub_1/adder2_0/or_0/nor1_0/a_19_32# adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# 2 4 -195 3472
+p adder5bit_0/addsub_1/adder2_0/a_512_128# vdd adder5bit_0/addsub_1/adder2_0/or_0/nor1_0/a_19_32# 2 4 -211 3472
+p adder5bit_0/addsub_1/m1_21_155# vdd adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# 2 4 -706 3503
+n adder5bit_0/addsub_1/m1_21_155# gnd adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# 2 4 -706 3566
+p a1 vdd adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# 2 4 -550 3503
+n a1 gnd adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# 2 4 -550 3566
+p adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_1/adder2_0/xor3_0/a_35_76# 2 4 -615 3503
+p adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_1/adder2_0/m1_76_8# adder5bit_0/addsub_1/adder2_0/xor3_0/a_n5_76# 2 4 -654 3503
+p a1 adder5bit_0/addsub_1/adder2_0/xor3_0/a_n5_76# vdd 2 4 -639 3503
+n adder5bit_0/addsub_1/m1_21_155# gnd adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# 2 4 -599 3567
+n adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# gnd 2 4 -615 3567
+n adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# adder5bit_0/addsub_1/adder2_0/m1_76_8# 2 4 -654 3567
+n a1 adder5bit_0/addsub_1/adder2_0/m1_76_8# adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# 2 4 -639 3567
+p adder5bit_0/addsub_1/m1_21_155# adder5bit_0/addsub_1/adder2_0/xor3_0/a_35_76# adder5bit_0/addsub_1/adder2_0/m1_76_8# 2 4 -599 3503
+p adder5bit_0/addsub_1/adder2_0/m1_76_8# vdd adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# 2 4 -462 3503
+n adder5bit_0/addsub_1/adder2_0/m1_76_8# gnd adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# 2 4 -462 3566
+p adder5bit_0/m1_1324_0# vdd adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# 2 4 -306 3503
+n adder5bit_0/m1_1324_0# gnd adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# 2 4 -306 3566
+p adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# vdd adder5bit_0/addsub_1/adder2_0/xor3_1/a_35_76# 2 4 -371 3503
+p adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# m1_n404_3616# adder5bit_0/addsub_1/adder2_0/xor3_1/a_n5_76# 2 4 -410 3503
+p adder5bit_0/m1_1324_0# adder5bit_0/addsub_1/adder2_0/xor3_1/a_n5_76# vdd 2 4 -395 3503
+n adder5bit_0/addsub_1/adder2_0/m1_76_8# gnd adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# 2 4 -355 3567
+n adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# gnd 2 4 -371 3567
+n adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# m1_n404_3616# 2 4 -410 3567
+n adder5bit_0/m1_1324_0# m1_n404_3616# adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# 2 4 -395 3567
+p adder5bit_0/addsub_1/adder2_0/m1_76_8# adder5bit_0/addsub_1/adder2_0/xor3_1/a_35_76# m1_n404_3616# 2 4 -355 3503
+n adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# gnd adder5bit_0/addsub_1/adder2_0/a_512_128# 2 4 -503 3401
+p adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# vdd adder5bit_0/addsub_1/adder2_0/a_512_128# 2 4 -503 3472
+p a1 vdd adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# 2 4 -547 3472
+n a1 gnd adder5bit_0/addsub_1/adder2_0/and_0/nand_0/a_7_n40# 2 4 -547 3401
+n adder5bit_0/addsub_1/m1_21_155# adder5bit_0/addsub_1/adder2_0/and_0/nand_0/a_7_n40# adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# 2 4 -531 3401
+p adder5bit_0/addsub_1/m1_21_155# adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# vdd 2 4 -531 3472
+n adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# gnd adder5bit_0/addsub_1/adder2_0/a_528_88# 2 4 -259 3401
+p adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# vdd adder5bit_0/addsub_1/adder2_0/a_528_88# 2 4 -259 3472
+p adder5bit_0/m1_1324_0# vdd adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# 2 4 -303 3472
+n adder5bit_0/m1_1324_0# gnd adder5bit_0/addsub_1/adder2_0/and_1/nand_0/a_7_n40# 2 4 -303 3401
+n adder5bit_0/addsub_1/adder2_0/m1_76_8# adder5bit_0/addsub_1/adder2_0/and_1/nand_0/a_7_n40# adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# 2 4 -287 3401
+p adder5bit_0/addsub_1/adder2_0/m1_76_8# adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# vdd 2 4 -287 3472
+p b1 vdd adder5bit_0/addsub_1/m1_n152_64# 2 4 -946 3503
+n b1 gnd adder5bit_0/addsub_1/m1_n152_64# 2 4 -946 3566
+p m1_n1048_n12# vdd adder5bit_0/addsub_1/xor3_0/a_32_44# 2 4 -790 3503
+n m1_n1048_n12# gnd adder5bit_0/addsub_1/xor3_0/a_32_44# 2 4 -790 3566
+p adder5bit_0/addsub_1/xor3_0/a_32_44# vdd adder5bit_0/addsub_1/xor3_0/a_35_76# 2 4 -855 3503
+p adder5bit_0/addsub_1/m1_n152_64# adder5bit_0/addsub_1/m1_21_155# adder5bit_0/addsub_1/xor3_0/a_n5_76# 2 4 -894 3503
+p m1_n1048_n12# adder5bit_0/addsub_1/xor3_0/a_n5_76# vdd 2 4 -879 3503
+n b1 gnd adder5bit_0/addsub_1/xor3_0/a_n20_12# 2 4 -839 3567
+n adder5bit_0/addsub_1/xor3_0/a_32_44# adder5bit_0/addsub_1/xor3_0/a_n20_12# gnd 2 4 -855 3567
+n adder5bit_0/addsub_1/m1_n152_64# adder5bit_0/addsub_1/xor3_0/a_n20_12# adder5bit_0/addsub_1/m1_21_155# 2 4 -894 3567
+n m1_n1048_n12# adder5bit_0/addsub_1/m1_21_155# adder5bit_0/addsub_1/xor3_0/a_n20_12# 2 4 -879 3567
+p b1 adder5bit_0/addsub_1/xor3_0/a_35_76# adder5bit_0/addsub_1/m1_21_155# 2 4 -839 3503
+n adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# gnd adder5bit_0/m1_1344_n512# 2 4 -135 3354
+p adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# vdd adder5bit_0/m1_1344_n512# 2 4 -135 3283
+n adder5bit_0/addsub_2/adder2_0/a_512_128# gnd adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# 2 4 -183 3354
+n adder5bit_0/addsub_2/adder2_0/a_528_88# adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# gnd 2 4 -167 3354
+p adder5bit_0/addsub_2/adder2_0/a_528_88# adder5bit_0/addsub_2/adder2_0/or_0/nor1_0/a_19_32# adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# 2 4 -167 3283
+p adder5bit_0/addsub_2/adder2_0/a_512_128# vdd adder5bit_0/addsub_2/adder2_0/or_0/nor1_0/a_19_32# 2 4 -183 3283
+p adder5bit_0/addsub_2/m1_21_155# vdd adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# 2 4 -678 3252
+n adder5bit_0/addsub_2/m1_21_155# gnd adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# 2 4 -678 3189
+p a2 vdd adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# 2 4 -522 3252
+n a2 gnd adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# 2 4 -522 3189
+p adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_2/adder2_0/xor3_0/a_35_76# 2 4 -587 3252
+p adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_2/adder2_0/m1_76_8# adder5bit_0/addsub_2/adder2_0/xor3_0/a_n5_76# 2 4 -626 3252
+p a2 adder5bit_0/addsub_2/adder2_0/xor3_0/a_n5_76# vdd 2 4 -611 3252
+n adder5bit_0/addsub_2/m1_21_155# gnd adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# 2 4 -571 3188
+n adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# gnd 2 4 -587 3188
+n adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# adder5bit_0/addsub_2/adder2_0/m1_76_8# 2 4 -626 3188
+n a2 adder5bit_0/addsub_2/adder2_0/m1_76_8# adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# 2 4 -611 3188
+p adder5bit_0/addsub_2/m1_21_155# adder5bit_0/addsub_2/adder2_0/xor3_0/a_35_76# adder5bit_0/addsub_2/adder2_0/m1_76_8# 2 4 -571 3252
+p adder5bit_0/addsub_2/adder2_0/m1_76_8# vdd adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# 2 4 -434 3252
+n adder5bit_0/addsub_2/adder2_0/m1_76_8# gnd adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# 2 4 -434 3189
+p adder5bit_0/m1_1356_n264# vdd adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# 2 4 -278 3252
+n adder5bit_0/m1_1356_n264# gnd adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# 2 4 -278 3189
+p adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# vdd adder5bit_0/addsub_2/adder2_0/xor3_1/a_35_76# 2 4 -343 3252
+p adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# m1_n376_3136# adder5bit_0/addsub_2/adder2_0/xor3_1/a_n5_76# 2 4 -382 3252
+p adder5bit_0/m1_1356_n264# adder5bit_0/addsub_2/adder2_0/xor3_1/a_n5_76# vdd 2 4 -367 3252
+n adder5bit_0/addsub_2/adder2_0/m1_76_8# gnd adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# 2 4 -327 3188
+n adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# gnd 2 4 -343 3188
+n adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# m1_n376_3136# 2 4 -382 3188
+n adder5bit_0/m1_1356_n264# m1_n376_3136# adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# 2 4 -367 3188
+p adder5bit_0/addsub_2/adder2_0/m1_76_8# adder5bit_0/addsub_2/adder2_0/xor3_1/a_35_76# m1_n376_3136# 2 4 -327 3252
+n adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# gnd adder5bit_0/addsub_2/adder2_0/a_512_128# 2 4 -475 3354
+p adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# vdd adder5bit_0/addsub_2/adder2_0/a_512_128# 2 4 -475 3283
+p a2 vdd adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# 2 4 -519 3283
+n a2 gnd adder5bit_0/addsub_2/adder2_0/and_0/nand_0/a_7_n40# 2 4 -519 3354
+n adder5bit_0/addsub_2/m1_21_155# adder5bit_0/addsub_2/adder2_0/and_0/nand_0/a_7_n40# adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# 2 4 -503 3354
+p adder5bit_0/addsub_2/m1_21_155# adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# vdd 2 4 -503 3283
+n adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# gnd adder5bit_0/addsub_2/adder2_0/a_528_88# 2 4 -231 3354
+p adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# vdd adder5bit_0/addsub_2/adder2_0/a_528_88# 2 4 -231 3283
+p adder5bit_0/m1_1356_n264# vdd adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# 2 4 -275 3283
+n adder5bit_0/m1_1356_n264# gnd adder5bit_0/addsub_2/adder2_0/and_1/nand_0/a_7_n40# 2 4 -275 3354
+n adder5bit_0/addsub_2/adder2_0/m1_76_8# adder5bit_0/addsub_2/adder2_0/and_1/nand_0/a_7_n40# adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# 2 4 -259 3354
+p adder5bit_0/addsub_2/adder2_0/m1_76_8# adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# vdd 2 4 -259 3283
+p b2 vdd adder5bit_0/addsub_2/m1_n152_64# 2 4 -918 3252
+n b2 gnd adder5bit_0/addsub_2/m1_n152_64# 2 4 -918 3189
+p m1_n1048_n12# vdd adder5bit_0/addsub_2/xor3_0/a_32_44# 2 4 -762 3252
+n m1_n1048_n12# gnd adder5bit_0/addsub_2/xor3_0/a_32_44# 2 4 -762 3189
+p adder5bit_0/addsub_2/xor3_0/a_32_44# vdd adder5bit_0/addsub_2/xor3_0/a_35_76# 2 4 -827 3252
+p adder5bit_0/addsub_2/m1_n152_64# adder5bit_0/addsub_2/m1_21_155# adder5bit_0/addsub_2/xor3_0/a_n5_76# 2 4 -866 3252
+p m1_n1048_n12# adder5bit_0/addsub_2/xor3_0/a_n5_76# vdd 2 4 -851 3252
+n b2 gnd adder5bit_0/addsub_2/xor3_0/a_n20_12# 2 4 -811 3188
+n adder5bit_0/addsub_2/xor3_0/a_32_44# adder5bit_0/addsub_2/xor3_0/a_n20_12# gnd 2 4 -827 3188
+n adder5bit_0/addsub_2/m1_n152_64# adder5bit_0/addsub_2/xor3_0/a_n20_12# adder5bit_0/addsub_2/m1_21_155# 2 4 -866 3188
+n m1_n1048_n12# adder5bit_0/addsub_2/m1_21_155# adder5bit_0/addsub_2/xor3_0/a_n20_12# 2 4 -851 3188
+p b2 adder5bit_0/addsub_2/xor3_0/a_35_76# adder5bit_0/addsub_2/m1_21_155# 2 4 -811 3252
+n adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# gnd cout 2 4 -139 2846
+p adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# vdd cout 2 4 -139 2775
+n adder5bit_0/addsub_4/adder2_0/a_512_128# gnd adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# 2 4 -187 2846
+n adder5bit_0/addsub_4/adder2_0/a_528_88# adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# gnd 2 4 -171 2846
+p adder5bit_0/addsub_4/adder2_0/a_528_88# adder5bit_0/addsub_4/adder2_0/or_0/nor1_0/a_19_32# adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# 2 4 -171 2775
+p adder5bit_0/addsub_4/adder2_0/a_512_128# vdd adder5bit_0/addsub_4/adder2_0/or_0/nor1_0/a_19_32# 2 4 -187 2775
+p adder5bit_0/addsub_4/m1_21_155# vdd adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# 2 4 -682 2744
+n adder5bit_0/addsub_4/m1_21_155# gnd adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# 2 4 -682 2681
+p a4 vdd adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# 2 4 -526 2744
+n a4 gnd adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# 2 4 -526 2681
+p adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_4/adder2_0/xor3_0/a_35_76# 2 4 -591 2744
+p adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_4/adder2_0/m1_76_8# adder5bit_0/addsub_4/adder2_0/xor3_0/a_n5_76# 2 4 -630 2744
+p a4 adder5bit_0/addsub_4/adder2_0/xor3_0/a_n5_76# vdd 2 4 -615 2744
+n adder5bit_0/addsub_4/m1_21_155# gnd adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# 2 4 -575 2680
+n adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# gnd 2 4 -591 2680
+n adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# adder5bit_0/addsub_4/adder2_0/m1_76_8# 2 4 -630 2680
+n a4 adder5bit_0/addsub_4/adder2_0/m1_76_8# adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# 2 4 -615 2680
+p adder5bit_0/addsub_4/m1_21_155# adder5bit_0/addsub_4/adder2_0/xor3_0/a_35_76# adder5bit_0/addsub_4/adder2_0/m1_76_8# 2 4 -575 2744
+p adder5bit_0/addsub_4/adder2_0/m1_76_8# vdd adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# 2 4 -438 2744
+n adder5bit_0/addsub_4/adder2_0/m1_76_8# gnd adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# 2 4 -438 2681
+p adder5bit_0/m1_1352_n768# vdd adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# 2 4 -282 2744
+n adder5bit_0/m1_1352_n768# gnd adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# 2 4 -282 2681
+p adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# vdd adder5bit_0/addsub_4/adder2_0/xor3_1/a_35_76# 2 4 -347 2744
+p adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# m1_n380_2628# adder5bit_0/addsub_4/adder2_0/xor3_1/a_n5_76# 2 4 -386 2744
+p adder5bit_0/m1_1352_n768# adder5bit_0/addsub_4/adder2_0/xor3_1/a_n5_76# vdd 2 4 -371 2744
+n adder5bit_0/addsub_4/adder2_0/m1_76_8# gnd adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# 2 4 -331 2680
+n adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# gnd 2 4 -347 2680
+n adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# m1_n380_2628# 2 4 -386 2680
+n adder5bit_0/m1_1352_n768# m1_n380_2628# adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# 2 4 -371 2680
+p adder5bit_0/addsub_4/adder2_0/m1_76_8# adder5bit_0/addsub_4/adder2_0/xor3_1/a_35_76# m1_n380_2628# 2 4 -331 2744
+n adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# gnd adder5bit_0/addsub_4/adder2_0/a_512_128# 2 4 -479 2846
+p adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# vdd adder5bit_0/addsub_4/adder2_0/a_512_128# 2 4 -479 2775
+p a4 vdd adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# 2 4 -523 2775
+n a4 gnd adder5bit_0/addsub_4/adder2_0/and_0/nand_0/a_7_n40# 2 4 -523 2846
+n adder5bit_0/addsub_4/m1_21_155# adder5bit_0/addsub_4/adder2_0/and_0/nand_0/a_7_n40# adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# 2 4 -507 2846
+p adder5bit_0/addsub_4/m1_21_155# adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# vdd 2 4 -507 2775
+n adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# gnd adder5bit_0/addsub_4/adder2_0/a_528_88# 2 4 -235 2846
+p adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# vdd adder5bit_0/addsub_4/adder2_0/a_528_88# 2 4 -235 2775
+p adder5bit_0/m1_1352_n768# vdd adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# 2 4 -279 2775
+n adder5bit_0/m1_1352_n768# gnd adder5bit_0/addsub_4/adder2_0/and_1/nand_0/a_7_n40# 2 4 -279 2846
+n adder5bit_0/addsub_4/adder2_0/m1_76_8# adder5bit_0/addsub_4/adder2_0/and_1/nand_0/a_7_n40# adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# 2 4 -263 2846
+p adder5bit_0/addsub_4/adder2_0/m1_76_8# adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# vdd 2 4 -263 2775
+p b4 vdd adder5bit_0/addsub_4/m1_n152_64# 2 4 -922 2744
+n b4 gnd adder5bit_0/addsub_4/m1_n152_64# 2 4 -922 2681
+p m1_n1048_n12# vdd adder5bit_0/addsub_4/xor3_0/a_32_44# 2 4 -766 2744
+n m1_n1048_n12# gnd adder5bit_0/addsub_4/xor3_0/a_32_44# 2 4 -766 2681
+p adder5bit_0/addsub_4/xor3_0/a_32_44# vdd adder5bit_0/addsub_4/xor3_0/a_35_76# 2 4 -831 2744
+p adder5bit_0/addsub_4/m1_n152_64# adder5bit_0/addsub_4/m1_21_155# adder5bit_0/addsub_4/xor3_0/a_n5_76# 2 4 -870 2744
+p m1_n1048_n12# adder5bit_0/addsub_4/xor3_0/a_n5_76# vdd 2 4 -855 2744
+n b4 gnd adder5bit_0/addsub_4/xor3_0/a_n20_12# 2 4 -815 2680
+n adder5bit_0/addsub_4/xor3_0/a_32_44# adder5bit_0/addsub_4/xor3_0/a_n20_12# gnd 2 4 -831 2680
+n adder5bit_0/addsub_4/m1_n152_64# adder5bit_0/addsub_4/xor3_0/a_n20_12# adder5bit_0/addsub_4/m1_21_155# 2 4 -870 2680
+n m1_n1048_n12# adder5bit_0/addsub_4/m1_21_155# adder5bit_0/addsub_4/xor3_0/a_n20_12# 2 4 -855 2680
+p b4 adder5bit_0/addsub_4/xor3_0/a_35_76# adder5bit_0/addsub_4/m1_21_155# 2 4 -815 2744
+n adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# gnd adder5bit_0/m1_1352_n768# 2 4 -135 2893
+p adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# vdd adder5bit_0/m1_1352_n768# 2 4 -135 2964
+n adder5bit_0/addsub_3/adder2_0/a_512_128# gnd adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# 2 4 -183 2893
+n adder5bit_0/addsub_3/adder2_0/a_528_88# adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# gnd 2 4 -167 2893
+p adder5bit_0/addsub_3/adder2_0/a_528_88# adder5bit_0/addsub_3/adder2_0/or_0/nor1_0/a_19_32# adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# 2 4 -167 2964
+p adder5bit_0/addsub_3/adder2_0/a_512_128# vdd adder5bit_0/addsub_3/adder2_0/or_0/nor1_0/a_19_32# 2 4 -183 2964
+p adder5bit_0/addsub_3/m1_21_155# vdd adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# 2 4 -678 2995
+n adder5bit_0/addsub_3/m1_21_155# gnd adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# 2 4 -678 3058
+p a3 vdd adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# 2 4 -522 2995
+n a3 gnd adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# 2 4 -522 3058
+p adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# vdd adder5bit_0/addsub_3/adder2_0/xor3_0/a_35_76# 2 4 -587 2995
+p adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_3/adder2_0/m1_76_8# adder5bit_0/addsub_3/adder2_0/xor3_0/a_n5_76# 2 4 -626 2995
+p a3 adder5bit_0/addsub_3/adder2_0/xor3_0/a_n5_76# vdd 2 4 -611 2995
+n adder5bit_0/addsub_3/m1_21_155# gnd adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# 2 4 -571 3059
+n adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# gnd 2 4 -587 3059
+n adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# adder5bit_0/addsub_3/adder2_0/m1_76_8# 2 4 -626 3059
+n a3 adder5bit_0/addsub_3/adder2_0/m1_76_8# adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# 2 4 -611 3059
+p adder5bit_0/addsub_3/m1_21_155# adder5bit_0/addsub_3/adder2_0/xor3_0/a_35_76# adder5bit_0/addsub_3/adder2_0/m1_76_8# 2 4 -571 2995
+p adder5bit_0/addsub_3/adder2_0/m1_76_8# vdd adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# 2 4 -434 2995
+n adder5bit_0/addsub_3/adder2_0/m1_76_8# gnd adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# 2 4 -434 3058
+p adder5bit_0/m1_1344_n512# vdd adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# 2 4 -278 2995
+n adder5bit_0/m1_1344_n512# gnd adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# 2 4 -278 3058
+p adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# vdd adder5bit_0/addsub_3/adder2_0/xor3_1/a_35_76# 2 4 -343 2995
+p adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# m1_n376_3108# adder5bit_0/addsub_3/adder2_0/xor3_1/a_n5_76# 2 4 -382 2995
+p adder5bit_0/m1_1344_n512# adder5bit_0/addsub_3/adder2_0/xor3_1/a_n5_76# vdd 2 4 -367 2995
+n adder5bit_0/addsub_3/adder2_0/m1_76_8# gnd adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# 2 4 -327 3059
+n adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# gnd 2 4 -343 3059
+n adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# m1_n376_3108# 2 4 -382 3059
+n adder5bit_0/m1_1344_n512# m1_n376_3108# adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# 2 4 -367 3059
+p adder5bit_0/addsub_3/adder2_0/m1_76_8# adder5bit_0/addsub_3/adder2_0/xor3_1/a_35_76# m1_n376_3108# 2 4 -327 2995
+n adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# gnd adder5bit_0/addsub_3/adder2_0/a_512_128# 2 4 -475 2893
+p adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# vdd adder5bit_0/addsub_3/adder2_0/a_512_128# 2 4 -475 2964
+p a3 vdd adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# 2 4 -519 2964
+n a3 gnd adder5bit_0/addsub_3/adder2_0/and_0/nand_0/a_7_n40# 2 4 -519 2893
+n adder5bit_0/addsub_3/m1_21_155# adder5bit_0/addsub_3/adder2_0/and_0/nand_0/a_7_n40# adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# 2 4 -503 2893
+p adder5bit_0/addsub_3/m1_21_155# adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# vdd 2 4 -503 2964
+n adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# gnd adder5bit_0/addsub_3/adder2_0/a_528_88# 2 4 -231 2893
+p adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# vdd adder5bit_0/addsub_3/adder2_0/a_528_88# 2 4 -231 2964
+p adder5bit_0/m1_1344_n512# vdd adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# 2 4 -275 2964
+n adder5bit_0/m1_1344_n512# gnd adder5bit_0/addsub_3/adder2_0/and_1/nand_0/a_7_n40# 2 4 -275 2893
+n adder5bit_0/addsub_3/adder2_0/m1_76_8# adder5bit_0/addsub_3/adder2_0/and_1/nand_0/a_7_n40# adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# 2 4 -259 2893
+p adder5bit_0/addsub_3/adder2_0/m1_76_8# adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# vdd 2 4 -259 2964
+p b3 vdd adder5bit_0/addsub_3/m1_n152_64# 2 4 -918 2995
+n b3 gnd adder5bit_0/addsub_3/m1_n152_64# 2 4 -918 3058
+p m1_n1048_n12# vdd adder5bit_0/addsub_3/xor3_0/a_32_44# 2 4 -762 2995
+n m1_n1048_n12# gnd adder5bit_0/addsub_3/xor3_0/a_32_44# 2 4 -762 3058
+p adder5bit_0/addsub_3/xor3_0/a_32_44# vdd adder5bit_0/addsub_3/xor3_0/a_35_76# 2 4 -827 2995
+p adder5bit_0/addsub_3/m1_n152_64# adder5bit_0/addsub_3/m1_21_155# adder5bit_0/addsub_3/xor3_0/a_n5_76# 2 4 -866 2995
+p m1_n1048_n12# adder5bit_0/addsub_3/xor3_0/a_n5_76# vdd 2 4 -851 2995
+n b3 gnd adder5bit_0/addsub_3/xor3_0/a_n20_12# 2 4 -811 3059
+n adder5bit_0/addsub_3/xor3_0/a_32_44# adder5bit_0/addsub_3/xor3_0/a_n20_12# gnd 2 4 -827 3059
+n adder5bit_0/addsub_3/m1_n152_64# adder5bit_0/addsub_3/xor3_0/a_n20_12# adder5bit_0/addsub_3/m1_21_155# 2 4 -866 3059
+n m1_n1048_n12# adder5bit_0/addsub_3/m1_21_155# adder5bit_0/addsub_3/xor3_0/a_n20_12# 2 4 -851 3059
+p b3 adder5bit_0/addsub_3/xor3_0/a_35_76# adder5bit_0/addsub_3/m1_21_155# 2 4 -811 2995
+C vdd m1_n376_3136# 2.16
+C m1_n1048_n12# vdd 10.08
+C s0 m1_n380_2628# 2.88
+C s1 transmission4_2/m1_20_n260# 2.16
+C transmission4_2/m1_20_n52# s1 2.16
+C m1_384_172# m1_368_48# 2.40
+C s0 m1_384_172# 2.88
+C transmission4_3/m1_20_n52# s1 2.16
+C transmission4_1/m1_20_n52# s1 2.16
+C gnd m1_n376_3108# 2.88
+C s0 m1_n376_3136# 2.88
+C m1_368_48# vdd 2.88
+C s0 vdd 11.52
+C vdd a3 2.16
+C s1 vdd 4.32
+C a4 vdd 2.16
+C m1_n380_2628# gnd 2.16
+C adder5bit_0/m1_1324_0# m1_n1048_n12# 3.03
+C s0 m1_n404_3616# 2.16
+C transmission4_0/m1_20_n260# s1 2.16
+C s0 m1_368_48# 2.88
+C m1_n1048_n12# adder5bit_0/m1_1344_n512# 3.03
+C adder5bit_0/addsub_1/m1_21_155# vdd 2.40
+C s1 transmission4_4/m1_20_n260# 2.16
+C m1_n376_3136# gnd 2.16
+C vdd gnd 12.24
+C m1_n1048_n12# gnd 5.76
+C m1_384_172# m1_376_144# 2.40
+C a2 vdd 2.16
+C m1_376_144# vdd 2.88
+C m1_n1048_n12# adder5bit_0/m1_1352_n768# 2.31
+C vdd m1_n376_3108# 2.88
+C a1 vdd 2.16
+C m1_368_48# gnd 2.88
+C s0 gnd 15.12
+C adder5bit_0/m1_1356_n264# m1_n1048_n12# 3.03
+C m1_376_144# m1_368_48# 2.40
+C s0 m1_376_144# 2.88
+C s1 transmission4_3/m1_20_n260# 2.16
+C s1 gnd 4.32
+C transmission4_0/m1_20_n52# s1 2.16
+C transmission4_1/m1_20_n260# s1 2.16
+C s0 m1_n376_3108# 3.60
+C m1_816_n248# vdd 2.16
+C m1_384_172# vdd 2.88
+C adder5bit_0/addsub_3/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_3/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_3/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_3/xor3_0/a_n5_76# 208
+C b3 GND 57.83
+R b3 2608
+C adder5bit_0/addsub_3/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_3/xor3_0/a_32_44# 1337
+C adder5bit_0/addsub_3/m1_n152_64# GND 35.35
+R adder5bit_0/addsub_3/m1_n152_64# 1336
+C m1_n376_3108# GND 64.59
+R m1_n376_3108# 1556
+C adder5bit_0/addsub_3/adder2_0/a_528_88# GND 44.95
+R adder5bit_0/addsub_3/adder2_0/a_528_88# 1203
+R adder5bit_0/addsub_3/adder2_0/and_1/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# GND 38.89
+R adder5bit_0/addsub_3/adder2_0/and_1/a_48_48# 1277
+R adder5bit_0/addsub_3/adder2_0/and_0/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_3/adder2_0/a_512_128# GND 51.05
+R adder5bit_0/addsub_3/adder2_0/a_512_128# 1998
+C adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# GND 38.89
+R adder5bit_0/addsub_3/adder2_0/and_0/a_48_48# 1277
+C adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder5bit_0/addsub_3/adder2_0/xor3_1/a_n20_12# 497
+R adder5bit_0/addsub_3/adder2_0/xor3_1/a_35_76# 208
+R adder5bit_0/addsub_3/adder2_0/xor3_1/a_n5_76# 208
+C adder5bit_0/addsub_3/adder2_0/m1_76_8# GND 128.56
+R adder5bit_0/addsub_3/adder2_0/m1_76_8# 4411
+C adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# GND 43.24
+R adder5bit_0/addsub_3/adder2_0/xor3_1/a_32_44# 1337
+C adder5bit_0/m1_1344_n512# GND 143.35
+R adder5bit_0/m1_1344_n512# 3079
+C adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder5bit_0/addsub_3/adder2_0/xor3_1/a_n8_44# 1336
+C adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_3/adder2_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_3/adder2_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_3/adder2_0/xor3_0/a_n5_76# 208
+C adder5bit_0/addsub_3/m1_21_155# GND 198.67
+R adder5bit_0/addsub_3/m1_21_155# 4413
+C adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_3/adder2_0/xor3_0/a_32_44# 1337
+C a3 GND 763.62
+R a3 3971
+C gnd GND 1737.50
+R gnd 16241
+C adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder5bit_0/addsub_3/adder2_0/xor3_0/a_n8_44# 1336
+R adder5bit_0/addsub_3/adder2_0/or_0/nor1_0/a_19_32# 208
+C adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# GND 38.34
+R adder5bit_0/addsub_3/adder2_0/or_0/m1_44_48# 1231
+C adder5bit_0/addsub_4/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_4/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_4/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_4/xor3_0/a_n5_76# 208
+C b4 GND 57.08
+R b4 2608
+C adder5bit_0/addsub_4/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_4/xor3_0/a_32_44# 1337
+C m1_n1048_n12# GND 1504.01
+R m1_n1048_n12# 12500
+C adder5bit_0/addsub_4/m1_n152_64# GND 35.35
+R adder5bit_0/addsub_4/m1_n152_64# 1336
+C m1_n380_2628# GND 64.90
+R m1_n380_2628# 1587
+C adder5bit_0/addsub_4/adder2_0/a_528_88# GND 44.95
+R adder5bit_0/addsub_4/adder2_0/a_528_88# 1203
+R adder5bit_0/addsub_4/adder2_0/and_1/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# GND 38.89
+R adder5bit_0/addsub_4/adder2_0/and_1/a_48_48# 1277
+R adder5bit_0/addsub_4/adder2_0/and_0/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_4/adder2_0/a_512_128# GND 51.05
+R adder5bit_0/addsub_4/adder2_0/a_512_128# 1998
+C adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# GND 38.89
+R adder5bit_0/addsub_4/adder2_0/and_0/a_48_48# 1277
+C adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder5bit_0/addsub_4/adder2_0/xor3_1/a_n20_12# 497
+R adder5bit_0/addsub_4/adder2_0/xor3_1/a_35_76# 208
+R adder5bit_0/addsub_4/adder2_0/xor3_1/a_n5_76# 208
+C adder5bit_0/addsub_4/adder2_0/m1_76_8# GND 128.56
+R adder5bit_0/addsub_4/adder2_0/m1_76_8# 4411
+C adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# GND 43.24
+R adder5bit_0/addsub_4/adder2_0/xor3_1/a_32_44# 1337
+C adder5bit_0/m1_1352_n768# GND 155.64
+R adder5bit_0/m1_1352_n768# 3076
+C adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder5bit_0/addsub_4/adder2_0/xor3_1/a_n8_44# 1336
+C adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_4/adder2_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_4/adder2_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_4/adder2_0/xor3_0/a_n5_76# 208
+C adder5bit_0/addsub_4/m1_21_155# GND 198.67
+R adder5bit_0/addsub_4/m1_21_155# 4413
+C adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_4/adder2_0/xor3_0/a_32_44# 1337
+C a4 GND 772.18
+R a4 3971
+C adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder5bit_0/addsub_4/adder2_0/xor3_0/a_n8_44# 1336
+R adder5bit_0/addsub_4/adder2_0/or_0/nor1_0/a_19_32# 208
+C cout GND 15.06
+R cout 195
+C adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# GND 38.34
+R adder5bit_0/addsub_4/adder2_0/or_0/m1_44_48# 1231
+C adder5bit_0/addsub_2/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_2/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_2/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_2/xor3_0/a_n5_76# 208
+C b2 GND 57.83
+R b2 2608
+C adder5bit_0/addsub_2/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_2/xor3_0/a_32_44# 1337
+C adder5bit_0/addsub_2/m1_n152_64# GND 35.35
+R adder5bit_0/addsub_2/m1_n152_64# 1336
+C m1_n376_3136# GND 64.59
+R m1_n376_3136# 1567
+C adder5bit_0/addsub_2/adder2_0/a_528_88# GND 44.95
+R adder5bit_0/addsub_2/adder2_0/a_528_88# 1203
+C vdd GND 2116.54
+R vdd 40270
+R adder5bit_0/addsub_2/adder2_0/and_1/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# GND 38.89
+R adder5bit_0/addsub_2/adder2_0/and_1/a_48_48# 1277
+R adder5bit_0/addsub_2/adder2_0/and_0/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_2/adder2_0/a_512_128# GND 51.05
+R adder5bit_0/addsub_2/adder2_0/a_512_128# 1998
+C adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# GND 38.89
+R adder5bit_0/addsub_2/adder2_0/and_0/a_48_48# 1277
+C adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder5bit_0/addsub_2/adder2_0/xor3_1/a_n20_12# 497
+R adder5bit_0/addsub_2/adder2_0/xor3_1/a_35_76# 208
+R adder5bit_0/addsub_2/adder2_0/xor3_1/a_n5_76# 208
+C adder5bit_0/addsub_2/adder2_0/m1_76_8# GND 128.56
+R adder5bit_0/addsub_2/adder2_0/m1_76_8# 4411
+C adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# GND 43.24
+R adder5bit_0/addsub_2/adder2_0/xor3_1/a_32_44# 1337
+C adder5bit_0/m1_1356_n264# GND 158.20
+R adder5bit_0/m1_1356_n264# 3076
+C adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder5bit_0/addsub_2/adder2_0/xor3_1/a_n8_44# 1336
+C adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_2/adder2_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_2/adder2_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_2/adder2_0/xor3_0/a_n5_76# 208
+C adder5bit_0/addsub_2/m1_21_155# GND 198.67
+R adder5bit_0/addsub_2/m1_21_155# 4413
+C adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_2/adder2_0/xor3_0/a_32_44# 1337
+C a2 GND 835.22
+R a2 3975
+C adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder5bit_0/addsub_2/adder2_0/xor3_0/a_n8_44# 1336
+R adder5bit_0/addsub_2/adder2_0/or_0/nor1_0/a_19_32# 208
+C adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# GND 38.34
+R adder5bit_0/addsub_2/adder2_0/or_0/m1_44_48# 1231
+C adder5bit_0/addsub_1/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_1/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_1/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_1/xor3_0/a_n5_76# 208
+C b1 GND 57.83
+R b1 2608
+C adder5bit_0/addsub_1/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_1/xor3_0/a_32_44# 1337
+C adder5bit_0/addsub_1/m1_n152_64# GND 35.35
+R adder5bit_0/addsub_1/m1_n152_64# 1336
+C m1_n404_3616# GND 66.72
+R m1_n404_3616# 1573
+C adder5bit_0/addsub_1/adder2_0/a_528_88# GND 44.95
+R adder5bit_0/addsub_1/adder2_0/a_528_88# 1203
+R adder5bit_0/addsub_1/adder2_0/and_1/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# GND 38.89
+R adder5bit_0/addsub_1/adder2_0/and_1/a_48_48# 1277
+R adder5bit_0/addsub_1/adder2_0/and_0/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_1/adder2_0/a_512_128# GND 51.05
+R adder5bit_0/addsub_1/adder2_0/a_512_128# 1998
+C adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# GND 38.89
+R adder5bit_0/addsub_1/adder2_0/and_0/a_48_48# 1277
+C adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder5bit_0/addsub_1/adder2_0/xor3_1/a_n20_12# 497
+R adder5bit_0/addsub_1/adder2_0/xor3_1/a_35_76# 208
+R adder5bit_0/addsub_1/adder2_0/xor3_1/a_n5_76# 208
+C adder5bit_0/addsub_1/adder2_0/m1_76_8# GND 128.56
+R adder5bit_0/addsub_1/adder2_0/m1_76_8# 4411
+C adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# GND 43.24
+R adder5bit_0/addsub_1/adder2_0/xor3_1/a_32_44# 1337
+C adder5bit_0/m1_1324_0# GND 142.10
+R adder5bit_0/m1_1324_0# 3078
+C adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder5bit_0/addsub_1/adder2_0/xor3_1/a_n8_44# 1336
+C adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_1/adder2_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_1/adder2_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_1/adder2_0/xor3_0/a_n5_76# 208
+C adder5bit_0/addsub_1/m1_21_155# GND 198.67
+R adder5bit_0/addsub_1/m1_21_155# 4413
+C adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_1/adder2_0/xor3_0/a_32_44# 1337
+C a1 GND 823.48
+R a1 3975
+C adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder5bit_0/addsub_1/adder2_0/xor3_0/a_n8_44# 1336
+R adder5bit_0/addsub_1/adder2_0/or_0/nor1_0/a_19_32# 208
+C adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# GND 38.34
+R adder5bit_0/addsub_1/adder2_0/or_0/m1_44_48# 1231
+C adder5bit_0/addsub_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_0/xor3_0/a_n5_76# 208
+C b0 GND 57.83
+R b0 2608
+C adder5bit_0/addsub_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_0/xor3_0/a_32_44# 1337
+C adder5bit_0/addsub_0/m1_n152_64# GND 35.35
+R adder5bit_0/addsub_0/m1_n152_64# 1336
+C m1_n404_3644# GND 66.72
+R m1_n404_3644# 1570
+C adder5bit_0/addsub_0/adder2_0/a_528_88# GND 44.95
+R adder5bit_0/addsub_0/adder2_0/a_528_88# 1203
+R adder5bit_0/addsub_0/adder2_0/and_1/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# GND 38.89
+R adder5bit_0/addsub_0/adder2_0/and_1/a_48_48# 1277
+R adder5bit_0/addsub_0/adder2_0/and_0/nand_0/a_7_n40# 93
+C adder5bit_0/addsub_0/adder2_0/a_512_128# GND 51.05
+R adder5bit_0/addsub_0/adder2_0/a_512_128# 1998
+C adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# GND 38.89
+R adder5bit_0/addsub_0/adder2_0/and_0/a_48_48# 1277
+C adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# GND 12.38
+R adder5bit_0/addsub_0/adder2_0/xor3_1/a_n20_12# 497
+R adder5bit_0/addsub_0/adder2_0/xor3_1/a_35_76# 208
+R adder5bit_0/addsub_0/adder2_0/xor3_1/a_n5_76# 208
+C adder5bit_0/addsub_0/adder2_0/m1_76_8# GND 128.56
+R adder5bit_0/addsub_0/adder2_0/m1_76_8# 4411
+C adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# GND 43.24
+R adder5bit_0/addsub_0/adder2_0/xor3_1/a_32_44# 1337
+C adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# GND 34.60
+R adder5bit_0/addsub_0/adder2_0/xor3_1/a_n8_44# 1336
+C adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# GND 12.38
+R adder5bit_0/addsub_0/adder2_0/xor3_0/a_n20_12# 497
+R adder5bit_0/addsub_0/adder2_0/xor3_0/a_35_76# 208
+R adder5bit_0/addsub_0/adder2_0/xor3_0/a_n5_76# 208
+C adder5bit_0/addsub_0/m1_21_155# GND 198.67
+R adder5bit_0/addsub_0/m1_21_155# 4413
+C adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# GND 43.24
+R adder5bit_0/addsub_0/adder2_0/xor3_0/a_32_44# 1337
+C a0 GND 894.02
+R a0 3980
+C adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# GND 34.60
+R adder5bit_0/addsub_0/adder2_0/xor3_0/a_n8_44# 1336
+R adder5bit_0/addsub_0/adder2_0/or_0/nor1_0/a_19_32# 208
+C adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# GND 38.34
+R adder5bit_0/addsub_0/adder2_0/or_0/m1_44_48# 1231
+C o1 GND 34.33
+R o1 629
+C transmission4_3/m1_20_n260# GND 16.90
+R transmission4_3/m1_20_n260# 1040
+C transmission4_3/transmission_2/a_n12_n20# GND 12.78
+R transmission4_3/transmission_2/a_n12_n20# 195
+C transmission4_3/m1_20_n52# GND 32.42
+R transmission4_3/m1_20_n52# 1040
+C transmission4_3/m1_64_n368# GND 49.66
+R transmission4_3/m1_64_n368# 626
+C transmission4_3/m1_n48_n368# GND 64.58
+R transmission4_3/m1_n48_n368# 1107
+C o0 GND 34.33
+R o0 629
+C transmission4_4/m1_20_n260# GND 16.90
+R transmission4_4/m1_20_n260# 1040
+C transmission4_4/transmission_2/a_n12_n20# GND 12.78
+R transmission4_4/transmission_2/a_n12_n20# 195
+C transmission4_4/m1_20_n52# GND 32.42
+R transmission4_4/m1_20_n52# 1040
+C transmission4_4/m1_64_n368# GND 49.66
+R transmission4_4/m1_64_n368# 626
+C transmission4_4/m1_n48_n368# GND 64.58
+R transmission4_4/m1_n48_n368# 1107
+C o2 GND 34.33
+R o2 629
+C transmission4_2/m1_20_n260# GND 16.90
+R transmission4_2/m1_20_n260# 1040
+C transmission4_2/transmission_2/a_n12_n20# GND 12.78
+R transmission4_2/transmission_2/a_n12_n20# 195
+C transmission4_2/m1_20_n52# GND 32.42
+R transmission4_2/m1_20_n52# 1040
+C transmission4_2/m1_64_n368# GND 49.66
+R transmission4_2/m1_64_n368# 626
+C s1 GND 486.83
+R s1 9730
+C transmission4_2/m1_n48_n368# GND 64.58
+R transmission4_2/m1_n48_n368# 1107
+C o3 GND 34.33
+R o3 629
+C transmission4_1/m1_20_n260# GND 16.90
+R transmission4_1/m1_20_n260# 1040
+C transmission4_1/transmission_2/a_n12_n20# GND 12.78
+R transmission4_1/transmission_2/a_n12_n20# 195
+C transmission4_1/m1_20_n52# GND 32.42
+R transmission4_1/m1_20_n52# 1040
+C transmission4_1/m1_64_n368# GND 49.66
+R transmission4_1/m1_64_n368# 626
+C transmission4_1/m1_n48_n368# GND 64.58
+R transmission4_1/m1_n48_n368# 1107
+R notnor_0/nor_0/a_19_24# 208
+R notnor_0/nor_0/a_3_24# 208
+R notnor_0/nor_0/a_n13_24# 208
+R notnor_0/nor_0/a_n29_24# 208
+C notnor_0/nor_0/a_n40_n48# GND 41.66
+R notnor_0/nor_0/a_n40_n48# 516
+C m1_376_144# GND 292.94
+R m1_376_144# 1646
+C m1_368_48# GND 192.42
+R m1_368_48# 1642
+C m1_744_432# GND 568.11
+R m1_744_432# 1663
+C m1_752_336# GND 465.30
+R m1_752_336# 1658
+C m1_384_172# GND 379.30
+R m1_384_172# 1652
+C o4 GND 34.33
+R o4 629
+C transmission4_0/m1_20_n260# GND 16.90
+R transmission4_0/m1_20_n260# 1040
+C transmission4_0/transmission_2/a_n12_n20# GND 12.78
+R transmission4_0/transmission_2/a_n12_n20# 195
+C transmission4_0/m1_20_n52# GND 32.42
+R transmission4_0/m1_20_n52# 1040
+C transmission4_0/m1_64_n368# GND 49.66
+R transmission4_0/m1_64_n368# 626
+C transmission4_0/m1_n48_n368# GND 64.58
+R transmission4_0/m1_n48_n368# 1107
+C s0 GND 1016.01
+R s0 12166
+R sm_0/and_4/nand_0/a_7_n40# 93
+C sm_0/and_4/a_20_32# GND 26.97
+R sm_0/and_4/a_20_32# 1008
+C m1_816_n248# GND 242.02
+R m1_816_n248# 5435
+C o9 GND 13.70
+R o9 195
+C sm_0/and_4/a_48_48# GND 38.89
+R sm_0/and_4/a_48_48# 1277
+R sm_0/and_3/nand_0/a_7_n40# 93
+C sm_0/and_3/a_4_40# GND 23.96
+R sm_0/and_3/a_4_40# 1008
+C o8 GND 13.70
+R o8 195
+C sm_0/and_3/a_48_48# GND 38.89
+R sm_0/and_3/a_48_48# 1277
+R sm_0/and_2/nand_0/a_7_n40# 93
+C sm_0/and_2/a_20_32# GND 26.97
+R sm_0/and_2/a_20_32# 1008
+C o7 GND 13.70
+R o7 195
+C sm_0/and_2/a_48_48# GND 38.89
+R sm_0/and_2/a_48_48# 1277
+R sm_0/and_1/nand_0/a_7_n40# 93
+C sm_0/and_1/a_4_40# GND 23.96
+R sm_0/and_1/a_4_40# 1008
+C o6 GND 13.70
+R o6 195
+C sm_0/and_1/a_48_48# GND 38.89
+R sm_0/and_1/a_48_48# 1277
+R sm_0/and_0/nand_0/a_7_n40# 93
+C sm_0/and_0/a_20_32# GND 26.97
+R sm_0/and_0/a_20_32# 1008
+C o5 GND 13.70
+R o5 195
+C sm_0/and_0/a_48_48# GND 38.89
+R sm_0/and_0/a_48_48# 1277
+R sd_0/and_1/nand_0/a_7_n40# 93
+C sd_0/m1_0_n48# GND 39.61
+R sd_0/m1_0_n48# 1203
+C sd_0/and_1/a_48_48# GND 38.89
+R sd_0/and_1/a_48_48# 1277
+R sd_0/and_0/nand_0/a_7_n40# 93
+C sd_0/m1_0_40# GND 39.61
+R sd_0/m1_0_40# 1203
+C sd_0/and_0/a_48_48# GND 38.89
+R sd_0/and_0/a_48_48# 1277

@@ -1,0 +1,69 @@
+magic
+tech scmos
+timestamp 1607107347
+<< metal1 >>
+rect 152 268 156 272
+rect 232 268 236 272
+rect 732 268 736 272
+rect 744 268 748 272
+rect 992 268 996 272
+rect 1492 268 1496 272
+rect 1504 268 1508 272
+rect 1752 268 1756 272
+rect 2252 268 2256 272
+rect 2264 268 2268 272
+rect 2508 268 2512 272
+rect 3008 268 3012 272
+rect 3020 268 3024 272
+rect 3264 268 3268 272
+rect 3764 268 3768 272
+rect 3776 268 3780 272
+rect -4 68 4 72
+rect 152 -4 156 0
+rect 2668 -8 2672 -3
+rect 2720 -8 2724 -3
+rect 3476 -8 3480 -3
+rect 3264 -24 3268 -19
+rect 3764 -24 3768 -20
+rect 3776 -24 3780 -20
+<< metal2 >>
+rect 694 132 805 136
+rect 1454 132 1565 136
+rect 2215 132 2326 136
+rect 2970 132 3081 136
+rect 728 36 780 40
+rect 1488 36 1540 40
+rect 2248 36 2296 40
+rect 3004 36 3052 40
+use addbox  addbox_4
+timestamp 1607105874
+transform 1 0 3124 0 1 4
+box -92 -44 668 264
+use addbox  addbox_3
+timestamp 1607105874
+transform 1 0 2368 0 1 4
+box -92 -44 668 264
+use addbox  addbox_2
+timestamp 1607105874
+transform 1 0 1612 0 1 4
+box -92 -44 668 264
+use addbox  addbox_1
+timestamp 1607105874
+transform 1 0 852 0 1 4
+box -92 -44 668 264
+use addbox  addbox_0
+timestamp 1607105874
+transform 1 0 92 0 1 4
+box -92 -44 668 264
+<< labels >>
+rlabel metal1 -2 70 -2 70 3 b0
+rlabel metal1 154 270 154 270 5 vdd
+rlabel metal1 734 270 734 270 5 a5
+rlabel metal1 1493 269 1493 269 5 a4
+rlabel metal1 2254 270 2254 270 5 a3
+rlabel metal1 3010 270 3010 270 5 a2
+rlabel metal1 3766 271 3766 271 5 a1
+rlabel metal1 153 -2 153 -2 1 gnd
+rlabel metal1 3266 270 3266 270 5 sin1
+rlabel metal1 3778 270 3778 270 5 cin
+<< end >>

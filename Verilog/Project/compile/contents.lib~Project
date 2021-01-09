@@ -1,0 +1,17 @@
+126
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "../src/ALU_5_bit.v" 2 ALU_5_bit
+~A 1 "../src/ALU_5_bit.v" 2 ALU_5_bit
+~M 1 "../src/Adder.v" 1 Adder
+~A 1 "../src/Adder.v" 1 Adder
+~M 1 "../src/Multiplication.v" 1 Mul_Adder
+~A 1 "../src/Multiplication.v" 1 Mul_Adder
+~M 1 "../src/Mul_test.v" 17 Mul_test
+~A 1 "../src/Mul_test.v" 17 Mul_test
+~M 1 "../src/Multiplication.v" 15 Multiplication
+~A 1 "../src/Multiplication.v" 15 Multiplication
+~M 1 "../src/addersubtractor.v" 3 addersubtractor
+~A 1 "../src/addersubtractor.v" 3 addersubtractor
+~M 1 "../src/Mul_test.v" 17 fAdder
+~A 1 "../src/Mul_test.v" 17 fAdder

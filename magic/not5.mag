@@ -1,0 +1,24 @@
+magic
+tech scmos
+timestamp 1605464132
+use not  not_4
+timestamp 1605462765
+transform 1 0 -4 0 1 -332
+box 4 -52 36 48
+use not  not_3
+timestamp 1605462765
+transform 1 0 -4 0 -1 -240
+box 4 -52 36 48
+use not  not_2
+timestamp 1605462765
+transform 1 0 -4 0 1 -140
+box 4 -52 36 48
+use not  not_1
+timestamp 1605462765
+transform 1 0 -4 0 -1 -48
+box 4 -52 36 48
+use not  not_0
+timestamp 1605462765
+transform 1 0 -4 0 1 52
+box 4 -52 36 48
+<< end >>

@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1605567036
+<< polysilicon >>
+rect -31 28 -29 32
+rect -15 28 -13 32
+rect 1 28 3 32
+rect 17 28 19 32
+rect 33 28 35 32
+rect -31 12 -29 24
+rect -31 -44 -29 8
+rect -15 4 -13 24
+rect -15 -44 -13 0
+rect 1 -4 3 24
+rect 1 -44 3 -8
+rect 17 -12 19 24
+rect 17 -44 19 -16
+rect 33 -20 35 24
+rect 33 -44 35 -24
+rect -31 -52 -29 -48
+rect -15 -52 -13 -48
+rect 1 -52 3 -48
+rect 17 -52 19 -48
+rect 33 -52 35 -48
+<< ndiffusion >>
+rect -36 -48 -31 -44
+rect -29 -48 -24 -44
+rect -20 -48 -15 -44
+rect -13 -48 -8 -44
+rect -4 -48 1 -44
+rect 3 -48 8 -44
+rect 12 -48 17 -44
+rect 19 -48 24 -44
+rect 28 -48 33 -44
+rect 35 -48 40 -44
+<< pdiffusion >>
+rect -36 24 -31 28
+rect -29 24 -15 28
+rect -13 24 1 28
+rect 3 24 17 28
+rect 19 24 33 28
+rect 35 24 40 28
+<< metal1 >>
+rect 40 28 44 36
+rect -40 20 -36 24
+rect -36 16 40 20
+rect -48 8 -32 12
+rect -48 0 -16 4
+rect -48 -8 0 -4
+rect 40 -8 44 16
+rect 44 -12 48 -8
+rect -48 -16 16 -12
+rect -48 -24 32 -20
+rect 40 -36 44 -12
+rect -36 -40 40 -36
+rect -40 -44 -36 -40
+rect -8 -44 -4 -40
+rect 24 -44 28 -40
+rect -24 -56 -20 -48
+rect 8 -56 12 -48
+rect 40 -56 44 -48
+<< metal2 >>
+rect -44 36 40 40
+rect 44 36 48 40
+rect -36 16 40 20
+rect 44 -12 52 -8
+rect -36 -40 40 -36
+rect -44 -60 -24 -56
+rect -20 -60 8 -56
+rect 12 -60 40 -56
+rect 44 -60 48 -56
+<< ntransistor >>
+rect -31 -48 -29 -44
+rect -15 -48 -13 -44
+rect 1 -48 3 -44
+rect 17 -48 19 -44
+rect 33 -48 35 -44
+<< ptransistor >>
+rect -31 24 -29 28
+rect -15 24 -13 28
+rect 1 24 3 28
+rect 17 24 19 28
+rect 33 24 35 28
+<< polycontact >>
+rect -32 8 -28 12
+rect -16 0 -12 4
+rect 0 -8 4 -4
+rect 16 -16 20 -12
+rect 32 -24 36 -20
+<< ndcontact >>
+rect -40 -48 -36 -44
+rect -24 -48 -20 -44
+rect -8 -48 -4 -44
+rect 8 -48 12 -44
+rect 24 -48 28 -44
+rect 40 -48 44 -44
+<< pdcontact >>
+rect -40 24 -36 28
+rect 40 24 44 28
+<< m2contact >>
+rect 40 36 44 40
+rect -40 16 -36 20
+rect 40 16 44 20
+rect 40 -12 44 -8
+rect -40 -40 -36 -36
+rect 40 -40 44 -36
+rect -24 -60 -20 -56
+rect 8 -60 12 -56
+rect 40 -60 44 -56
+<< end >>

@@ -1,0 +1,15 @@
+timestamp 1607195843
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use and and_4 1 0 12 0 1 -384
+use and and_3 1 0 12 0 -1 -188
+use and and_2 1 0 12 0 1 -192
+use and and_1 1 0 12 0 -1 4
+use and and_0 1 0 12 0 1 0
+merge "and_0/nand_0/a_n4_n40#" "and_1/nand_0/a_n4_n40#" -6368 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -288 -152 0 0
+merge "and_1/nand_0/a_n4_32#" "and_2/nand_0/a_n4_32#" -6816 0 0 0 0 0 0 0 0 0 0 0 0 -48 -48 -288 -152 0 0
+merge "and_2/nand_0/a_n4_n40#" "and_3/nand_0/a_n4_n40#" -6368 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 -288 -152 0 0
+merge "and_3/nand_0/a_n4_32#" "and_4/nand_0/a_n4_32#" -6816 0 0 0 0 0 0 0 0 0 0 0 0 -48 -60 -288 -224 0 0

@@ -1,0 +1,11 @@
+| units: 100 tech: scmos format: MIT
+n a_n4_n28# a_n12_n20# a_n1_n20# 2 4 -2 -19
+p a_n4_60# a_n12_n20# a_n1_n20# 2 4 -2 52
+C a_n4_n28# GND 7.46
+R a_n4_n28# 188
+C a_n1_n20# GND 12.78
+R a_n1_n20# 195
+C a_n12_n20# GND 12.78
+R a_n12_n20# 195
+C a_n4_60# GND 7.46
+R a_n4_60# 188

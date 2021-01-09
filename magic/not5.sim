@@ -1,0 +1,43 @@
+| units: 100 tech: scmos format: MIT
+n not_0/a_20_n4# not_1/a_12_n40# not_0/a_23_n40# 2 4 17 13
+p not_0/a_20_n4# not_0/a_12_32# not_0/a_23_n40# 2 4 17 84
+n not_1/a_20_n4# not_1/a_12_n40# not_1/a_23_n40# 2 4 17 -10
+p not_1/a_20_n4# not_2/a_12_32# not_1/a_23_n40# 2 4 17 -81
+n not_2/a_20_n4# not_3/a_12_n40# not_2/a_23_n40# 2 4 17 -179
+p not_2/a_20_n4# not_2/a_12_32# not_2/a_23_n40# 2 4 17 -108
+n not_3/a_20_n4# not_3/a_12_n40# not_3/a_23_n40# 2 4 17 -202
+p not_3/a_20_n4# not_4/a_12_32# not_3/a_23_n40# 2 4 17 -273
+n not_4/a_20_n4# not_4/a_12_n40# not_4/a_23_n40# 2 4 17 -371
+p not_4/a_20_n4# not_4/a_12_32# not_4/a_23_n40# 2 4 17 -300
+C not_4/a_12_n40# GND 4.08
+R not_4/a_12_n40# 60
+C not_4/a_23_n40# GND 12.78
+R not_4/a_23_n40# 195
+C not_4/a_20_n4# GND 22.69
+R not_4/a_20_n4# 1002
+C not_3/a_23_n40# GND 12.78
+R not_3/a_23_n40# 195
+C not_4/a_12_32# GND 8.16
+R not_4/a_12_32# 432
+C not_3/a_20_n4# GND 22.69
+R not_3/a_20_n4# 1002
+C not_3/a_12_n40# GND 8.16
+R not_3/a_12_n40# 194
+C not_2/a_23_n40# GND 12.78
+R not_2/a_23_n40# 195
+C not_2/a_20_n4# GND 22.69
+R not_2/a_20_n4# 1002
+C not_1/a_23_n40# GND 12.78
+R not_1/a_23_n40# 195
+C not_2/a_12_32# GND 8.16
+R not_2/a_12_32# 432
+C not_1/a_20_n4# GND 22.69
+R not_1/a_20_n4# 1002
+C not_1/a_12_n40# GND 8.16
+R not_1/a_12_n40# 194
+C not_0/a_23_n40# GND 12.78
+R not_0/a_23_n40# 195
+C not_0/a_12_32# GND 4.08
+R not_0/a_12_32# 134
+C not_0/a_20_n4# GND 22.69
+R not_0/a_20_n4# 1002

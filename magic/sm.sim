@@ -1,0 +1,88 @@
+| units: 100 tech: scmos format: MIT
+n and_0/a_48_48# and_1/not_0/a_12_n40# and_0/not_0/a_23_n40# 2 4 61 13
+p and_0/a_48_48# and_0/m2_20_96# and_0/not_0/a_23_n40# 2 4 61 84
+p and_0/a_4_40# and_0/m2_20_96# and_0/a_48_48# 2 4 17 84
+n and_0/a_4_40# and_1/not_0/a_12_n40# and_0/nand_0/a_7_n40# 2 4 17 13
+n and_0/a_20_32# and_0/nand_0/a_7_n40# and_0/a_48_48# 2 4 33 13
+p and_0/a_20_32# and_0/a_48_48# and_0/m2_20_96# 2 4 33 84
+n and_1/a_48_48# and_1/not_0/a_12_n40# and_1/not_0/a_23_n40# 2 4 61 -10
+p and_1/a_48_48# and_2/m2_20_96# and_1/not_0/a_23_n40# 2 4 61 -81
+p and_1/a_4_40# and_2/m2_20_96# and_1/a_48_48# 2 4 17 -81
+n and_1/a_4_40# and_1/not_0/a_12_n40# and_1/nand_0/a_7_n40# 2 4 17 -10
+n and_1/a_20_32# and_1/nand_0/a_7_n40# and_1/a_48_48# 2 4 33 -10
+p and_1/a_20_32# and_1/a_48_48# and_2/m2_20_96# 2 4 33 -81
+n and_2/a_48_48# and_3/not_0/a_12_n40# and_2/not_0/a_23_n40# 2 4 61 -179
+p and_2/a_48_48# and_2/m2_20_96# and_2/not_0/a_23_n40# 2 4 61 -108
+p and_2/a_4_40# and_2/m2_20_96# and_2/a_48_48# 2 4 17 -108
+n and_2/a_4_40# and_3/not_0/a_12_n40# and_2/nand_0/a_7_n40# 2 4 17 -179
+n and_2/a_20_32# and_2/nand_0/a_7_n40# and_2/a_48_48# 2 4 33 -179
+p and_2/a_20_32# and_2/a_48_48# and_2/m2_20_96# 2 4 33 -108
+n and_3/a_48_48# and_3/not_0/a_12_n40# and_3/not_0/a_23_n40# 2 4 61 -202
+p and_3/a_48_48# and_4/m2_20_96# and_3/not_0/a_23_n40# 2 4 61 -273
+p and_3/a_4_40# and_4/m2_20_96# and_3/a_48_48# 2 4 17 -273
+n and_3/a_4_40# and_3/not_0/a_12_n40# and_3/nand_0/a_7_n40# 2 4 17 -202
+n and_3/a_20_32# and_3/nand_0/a_7_n40# and_3/a_48_48# 2 4 33 -202
+p and_3/a_20_32# and_3/a_48_48# and_4/m2_20_96# 2 4 33 -273
+n and_4/a_48_48# and_4/not_0/a_12_n40# and_4/not_0/a_23_n40# 2 4 61 -371
+p and_4/a_48_48# and_4/m2_20_96# and_4/not_0/a_23_n40# 2 4 61 -300
+p and_4/a_4_40# and_4/m2_20_96# and_4/a_48_48# 2 4 17 -300
+n and_4/a_4_40# and_4/not_0/a_12_n40# and_4/nand_0/a_7_n40# 2 4 17 -371
+n and_4/a_20_32# and_4/nand_0/a_7_n40# and_4/a_48_48# 2 4 33 -371
+p and_4/a_20_32# and_4/a_48_48# and_4/m2_20_96# 2 4 33 -300
+C and_4/a_48_48# GND 38.89
+R and_4/a_48_48# 1277
+R and_4/nand_0/a_7_n40# 93
+C and_4/a_20_32# GND 26.97
+R and_4/a_20_32# 1008
+C and_4/a_4_40# GND 23.96
+R and_4/a_4_40# 1008
+C and_4/not_0/a_12_n40# GND 9.38
+R and_4/not_0/a_12_n40# 194
+C and_4/not_0/a_23_n40# GND 13.39
+R and_4/not_0/a_23_n40# 195
+C and_3/a_48_48# GND 38.89
+R and_3/a_48_48# 1277
+R and_3/nand_0/a_7_n40# 93
+C and_4/m2_20_96# GND 23.26
+R and_4/m2_20_96# 1557
+C and_3/a_20_32# GND 26.97
+R and_3/a_20_32# 1008
+C and_3/a_4_40# GND 23.96
+R and_3/a_4_40# 1008
+C and_3/not_0/a_23_n40# GND 13.39
+R and_3/not_0/a_23_n40# 195
+C and_2/a_48_48# GND 38.89
+R and_2/a_48_48# 1277
+R and_2/nand_0/a_7_n40# 93
+C and_2/a_20_32# GND 26.97
+R and_2/a_20_32# 1008
+C and_2/a_4_40# GND 23.96
+R and_2/a_4_40# 1008
+C and_3/not_0/a_12_n40# GND 18.75
+R and_3/not_0/a_12_n40# 447
+C and_2/not_0/a_23_n40# GND 13.39
+R and_2/not_0/a_23_n40# 195
+C and_1/a_48_48# GND 38.89
+R and_1/a_48_48# 1277
+R and_1/nand_0/a_7_n40# 93
+C and_2/m2_20_96# GND 23.26
+R and_2/m2_20_96# 1558
+C and_1/a_20_32# GND 26.97
+R and_1/a_20_32# 1008
+C and_1/a_4_40# GND 23.96
+R and_1/a_4_40# 1008
+C and_1/not_0/a_23_n40# GND 13.39
+R and_1/not_0/a_23_n40# 195
+C and_0/a_48_48# GND 38.89
+R and_0/a_48_48# 1277
+R and_0/nand_0/a_7_n40# 93
+C and_0/m2_20_96# GND 11.63
+R and_0/m2_20_96# 716
+C and_0/a_20_32# GND 26.97
+R and_0/a_20_32# 1008
+C and_0/a_4_40# GND 23.96
+R and_0/a_4_40# 1008
+C and_1/not_0/a_12_n40# GND 18.75
+R and_1/not_0/a_12_n40# 447
+C and_0/not_0/a_23_n40# GND 13.39
+R and_0/not_0/a_23_n40# 195

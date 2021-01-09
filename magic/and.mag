@@ -1,0 +1,21 @@
+magic
+tech scmos
+timestamp 1606070402
+<< metal1 >>
+rect -12 40 4 44
+rect -12 32 20 36
+<< metal2 >>
+rect 20 96 24 100
+<< polycontact >>
+rect 48 48 52 52
+rect 4 40 8 44
+rect 20 32 24 36
+use not  not_0
+timestamp 1605560378
+transform 1 0 28 0 1 52
+box 4 -52 40 48
+use nand  nand_0
+timestamp 1606063147
+transform 1 0 0 0 1 52
+box -8 -52 36 48
+<< end >>

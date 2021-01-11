@@ -1,4 +1,4 @@
-# 5-bits-input-ALU-
+# 5-bits-input-ALU
 
 | Selectors | Operation |
 | ------------- | ------------- |

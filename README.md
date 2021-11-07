@@ -1,4 +1,10 @@
+
 # 5-bits-input-ALU
+
+By: </br>
+Mohammed Almansour </br>
+Yazeed Almusallam </br>
+Abdulrahman Almazroa </br>
 
 | Selectors | Operation |
 | ------------- | ------------- |

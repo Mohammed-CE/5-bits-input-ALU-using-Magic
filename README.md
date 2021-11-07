@@ -4,7 +4,6 @@
 By: </br>
 Mohammed Almansour </br>
 Yazeed Almusallam </br>
-Abdulrahman Almazroa </br>
 
 | Selectors | Operation |
 | ------------- | ------------- |
